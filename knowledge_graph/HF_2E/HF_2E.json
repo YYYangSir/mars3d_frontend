@@ -1,0 +1,1685 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "导弹"
+        ],
+        "properties": {
+          "弹径": "0.5米",
+          "重量": "980千克",
+          "命中精度": "12米",
+          "长度": "6.0米",
+          "name": "雄风-2E",
+          "射程": "1000公里",
+          "类型": "巡航导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+      },
+      "end": {
+        "identity": 5,
+        "labels": [
+          "导弹"
+        ],
+        "properties": {
+          "name": "台军传统反舰导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "导弹"
+            ],
+            "properties": {
+              "弹径": "0.5米",
+              "重量": "980千克",
+              "命中精度": "12米",
+              "长度": "6.0米",
+              "name": "雄风-2E",
+              "射程": "1000公里",
+              "类型": "巡航导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          },
+          "relationship": {
+            "identity": 0,
+            "start": 0,
+            "end": 5,
+            "type": "取代",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+          },
+          "end": {
+            "identity": 5,
+            "labels": [
+              "导弹"
+            ],
+            "properties": {
+              "name": "台军传统反舰导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "导弹"
+        ],
+        "properties": {
+          "弹径": "0.5米",
+          "重量": "980千克",
+          "命中精度": "12米",
+          "长度": "6.0米",
+          "name": "雄风-2E",
+          "射程": "1000公里",
+          "类型": "巡航导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+      },
+      "end": {
+        "identity": 1,
+        "labels": [
+          "导弹"
+        ],
+        "properties": {
+          "重量": "1440千克",
+          "命中精度": "10-15",
+          "长度": "6.25米",
+          "name": "雄风-2ER",
+          "射程": "1200公里到1250公里",
+          "类型": "增程型巡航导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "导弹"
+            ],
+            "properties": {
+              "弹径": "0.5米",
+              "重量": "980千克",
+              "命中精度": "12米",
+              "长度": "6.0米",
+              "name": "雄风-2E",
+              "射程": "1000公里",
+              "类型": "巡航导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          },
+          "relationship": {
+            "identity": 1,
+            "start": 0,
+            "end": 1,
+            "type": "增程型",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1"
+          },
+          "end": {
+            "identity": 1,
+            "labels": [
+              "导弹"
+            ],
+            "properties": {
+              "重量": "1440千克",
+              "命中精度": "10-15",
+              "长度": "6.25米",
+              "name": "雄风-2ER",
+              "射程": "1200公里到1250公里",
+              "类型": "增程型巡航导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "导弹"
+        ],
+        "properties": {
+          "弹径": "0.5米",
+          "重量": "980千克",
+          "命中精度": "12米",
+          "长度": "6.0米",
+          "name": "雄风-2E",
+          "射程": "1000公里",
+          "类型": "巡航导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+      },
+      "end": {
+        "identity": 6,
+        "labels": [
+          "发动机"
+        ],
+        "properties": {
+          "时期": "前期",
+          "来源": "外购",
+          "name": "Microturbo 078涡喷发动机",
+          "类型": "涡喷"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "导弹"
+            ],
+            "properties": {
+              "弹径": "0.5米",
+              "重量": "980千克",
+              "命中精度": "12米",
+              "长度": "6.0米",
+              "name": "雄风-2E",
+              "射程": "1000公里",
+              "类型": "巡航导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          },
+          "relationship": {
+            "identity": 2,
+            "start": 0,
+            "end": 6,
+            "type": "使用发动机",
+            "properties": {
+              "阶段": "初期"
+            },
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:2",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6"
+          },
+          "end": {
+            "identity": 6,
+            "labels": [
+              "发动机"
+            ],
+            "properties": {
+              "时期": "前期",
+              "来源": "外购",
+              "name": "Microturbo 078涡喷发动机",
+              "类型": "涡喷"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "导弹"
+        ],
+        "properties": {
+          "弹径": "0.5米",
+          "重量": "980千克",
+          "命中精度": "12米",
+          "长度": "6.0米",
+          "name": "雄风-2E",
+          "射程": "1000公里",
+          "类型": "巡航导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+      },
+      "end": {
+        "identity": 7,
+        "labels": [
+          "发动机"
+        ],
+        "properties": {
+          "时期": "后期",
+          "来源": "自主研发",
+          "name": "SW涡扇发动机",
+          "类型": "涡扇"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "导弹"
+            ],
+            "properties": {
+              "弹径": "0.5米",
+              "重量": "980千克",
+              "命中精度": "12米",
+              "长度": "6.0米",
+              "name": "雄风-2E",
+              "射程": "1000公里",
+              "类型": "巡航导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          },
+          "relationship": {
+            "identity": 3,
+            "start": 0,
+            "end": 7,
+            "type": "使用发动机",
+            "properties": {
+              "阶段": "后期"
+            },
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+          },
+          "end": {
+            "identity": 7,
+            "labels": [
+              "发动机"
+            ],
+            "properties": {
+              "时期": "后期",
+              "来源": "自主研发",
+              "name": "SW涡扇发动机",
+              "类型": "涡扇"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "导弹"
+        ],
+        "properties": {
+          "弹径": "0.5米",
+          "重量": "980千克",
+          "命中精度": "12米",
+          "长度": "6.0米",
+          "name": "雄风-2E",
+          "射程": "1000公里",
+          "类型": "巡航导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+      },
+      "end": {
+        "identity": 8,
+        "labels": [
+          "弹头"
+        ],
+        "properties": {
+          "name": "200千克高爆弹/子母弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "导弹"
+            ],
+            "properties": {
+              "弹径": "0.5米",
+              "重量": "980千克",
+              "命中精度": "12米",
+              "长度": "6.0米",
+              "name": "雄风-2E",
+              "射程": "1000公里",
+              "类型": "巡航导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          },
+          "relationship": {
+            "identity": 4,
+            "start": 0,
+            "end": 8,
+            "type": "可携带弹头",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          },
+          "end": {
+            "identity": 8,
+            "labels": [
+              "弹头"
+            ],
+            "properties": {
+              "name": "200千克高爆弹/子母弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "导弹"
+        ],
+        "properties": {
+          "弹径": "0.5米",
+          "重量": "980千克",
+          "命中精度": "12米",
+          "长度": "6.0米",
+          "name": "雄风-2E",
+          "射程": "1000公里",
+          "类型": "巡航导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+      },
+      "end": {
+        "identity": 3,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "海军司令部-海峰大队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "导弹"
+            ],
+            "properties": {
+              "弹径": "0.5米",
+              "重量": "980千克",
+              "命中精度": "12米",
+              "长度": "6.0米",
+              "name": "雄风-2E",
+              "射程": "1000公里",
+              "类型": "巡航导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          },
+          "relationship": {
+            "identity": 5,
+            "start": 0,
+            "end": 3,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+          },
+          "end": {
+            "identity": 3,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "海军司令部-海峰大队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "海军司令部-海峰大队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+      },
+      "end": {
+        "identity": 9,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "4个发射口，每个4具导弹发射器",
+          "地点": "基隆港入口处的和平岛",
+          "name": "海峰1中队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "海军司令部-海峰大队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+          },
+          "relationship": {
+            "identity": 6,
+            "start": 3,
+            "end": 9,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9"
+          },
+          "end": {
+            "identity": 9,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "4个发射口，每个4具导弹发射器",
+              "地点": "基隆港入口处的和平岛",
+              "name": "海峰1中队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "海军司令部-海峰大队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+      },
+      "end": {
+        "identity": 10,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "4个发射口，每个4具导弹发射器",
+          "地点": "沙伦湖阵地",
+          "name": "海峰3中队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "海军司令部-海峰大队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+          },
+          "relationship": {
+            "identity": 7,
+            "start": 3,
+            "end": 10,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+          },
+          "end": {
+            "identity": 10,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "4个发射口，每个4具导弹发射器",
+              "地点": "沙伦湖阵地",
+              "name": "海峰3中队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "海军司令部-海峰大队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+      },
+      "end": {
+        "identity": 11,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "4个发射口，每个4具导弹发射器",
+          "地点": "东引岛",
+          "name": "海峰5中队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "海军司令部-海峰大队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+          },
+          "relationship": {
+            "identity": 8,
+            "start": 3,
+            "end": 11,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11"
+          },
+          "end": {
+            "identity": 11,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "4个发射口，每个4具导弹发射器",
+              "地点": "东引岛",
+              "name": "海峰5中队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "海军司令部-海峰大队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+      },
+      "end": {
+        "identity": 12,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "4个发射口，每个4具导弹发射器",
+          "地点": "澎湖",
+          "name": "海峰6中队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "海军司令部-海峰大队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+          },
+          "relationship": {
+            "identity": 9,
+            "start": 3,
+            "end": 12,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+          },
+          "end": {
+            "identity": 12,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "4个发射口，每个4具导弹发射器",
+              "地点": "澎湖",
+              "name": "海峰6中队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "海军司令部-海峰大队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+      },
+      "end": {
+        "identity": 13,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "4个发射口，每个4具导弹发射器",
+          "地点": "高雄市的寿山山顶",
+          "name": "海峰4中队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "海军司令部-海峰大队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+          },
+          "relationship": {
+            "identity": 10,
+            "start": 3,
+            "end": 13,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13"
+          },
+          "end": {
+            "identity": 13,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "4个发射口，每个4具导弹发射器",
+              "地点": "高雄市的寿山山顶",
+              "name": "海峰4中队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "海军司令部-海峰大队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+      },
+      "end": {
+        "identity": 14,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "4个发射口，每个4具导弹发射器",
+          "地点": "小琉球岛",
+          "name": "海峰2中队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "海军司令部-海峰大队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+          },
+          "relationship": {
+            "identity": 11,
+            "start": 3,
+            "end": 14,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14"
+          },
+          "end": {
+            "identity": 14,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "4个发射口，每个4具导弹发射器",
+              "地点": "小琉球岛",
+              "name": "海峰2中队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "海军司令部-海峰大队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+      },
+      "end": {
+        "identity": 15,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "4个发射口，每个4具导弹发射器",
+          "地点": "花莲远雄海洋公园山顶",
+          "name": "海峰7中队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:15"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "海军司令部-海峰大队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+          },
+          "relationship": {
+            "identity": 12,
+            "start": 3,
+            "end": 15,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:15"
+          },
+          "end": {
+            "identity": 15,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "4个发射口，每个4具导弹发射器",
+              "地点": "花莲远雄海洋公园山顶",
+              "name": "海峰7中队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:15"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "海军司令部-海峰大队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+      },
+      "end": {
+        "identity": 16,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "1辆雄风3指挥控制车，4辆雄风3导弹发射器",
+          "name": "海峰机动1-4中队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "海军司令部-海峰大队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+          },
+          "relationship": {
+            "identity": 13,
+            "start": 3,
+            "end": 16,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16"
+          },
+          "end": {
+            "identity": 16,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "1辆雄风3指挥控制车，4辆雄风3导弹发射器",
+              "name": "海峰机动1-4中队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "导弹"
+        ],
+        "properties": {
+          "弹径": "0.5米",
+          "重量": "980千克",
+          "命中精度": "12米",
+          "长度": "6.0米",
+          "name": "雄风-2E",
+          "射程": "1000公里",
+          "类型": "巡航导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+      },
+      "end": {
+        "identity": 4,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "导弹"
+            ],
+            "properties": {
+              "弹径": "0.5米",
+              "重量": "980千克",
+              "命中精度": "12米",
+              "长度": "6.0米",
+              "name": "雄风-2E",
+              "射程": "1000公里",
+              "类型": "巡航导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          },
+          "relationship": {
+            "identity": 14,
+            "start": 0,
+            "end": 4,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+          },
+          "end": {
+            "identity": 4,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+      },
+      "end": {
+        "identity": 17,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "1辆雄风2E指挥控制车，3辆雄风2E导弹发射器",
+          "name": "791飞弹旅641营1连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+          },
+          "relationship": {
+            "identity": 15,
+            "start": 4,
+            "end": 17,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:15",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+          },
+          "end": {
+            "identity": 17,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "1辆雄风2E指挥控制车，3辆雄风2E导弹发射器",
+              "name": "791飞弹旅641营1连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+      },
+      "end": {
+        "identity": 18,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "1辆雄风2E指挥控制车，3辆雄风2E导弹发射器",
+          "name": "791飞弹旅641营2连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+          },
+          "relationship": {
+            "identity": 16,
+            "start": 4,
+            "end": 18,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+          },
+          "end": {
+            "identity": 18,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "1辆雄风2E指挥控制车，3辆雄风2E导弹发射器",
+              "name": "791飞弹旅641营2连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+      },
+      "end": {
+        "identity": 19,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "1辆雄风2E指挥控制车，3辆雄风2E导弹发射器",
+          "name": "791飞弹旅641营3连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+          },
+          "relationship": {
+            "identity": 17,
+            "start": 4,
+            "end": 19,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+          },
+          "end": {
+            "identity": 19,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "1辆雄风2E指挥控制车，3辆雄风2E导弹发射器",
+              "name": "791飞弹旅641营3连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+      },
+      "end": {
+        "identity": 20,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "1辆雄风2E指挥控制车，3辆雄风2E导弹发射器",
+          "name": "791飞弹旅642营1连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+          },
+          "relationship": {
+            "identity": 18,
+            "start": 4,
+            "end": 20,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20"
+          },
+          "end": {
+            "identity": 20,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "1辆雄风2E指挥控制车，3辆雄风2E导弹发射器",
+              "name": "791飞弹旅642营1连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+      },
+      "end": {
+        "identity": 21,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "1辆雄风2E指挥控制车，3辆雄风2E导弹发射器",
+          "name": "791飞弹旅642营2连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:21"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+          },
+          "relationship": {
+            "identity": 19,
+            "start": 4,
+            "end": 21,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:21"
+          },
+          "end": {
+            "identity": 21,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "1辆雄风2E指挥控制车，3辆雄风2E导弹发射器",
+              "name": "791飞弹旅642营2连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:21"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+      },
+      "end": {
+        "identity": 22,
+        "labels": [
+          "作战部队"
+        ],
+        "properties": {
+          "装备": "1辆雄风2E指挥控制车，3辆雄风2E导弹发射器",
+          "name": "791飞弹旅642营3连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+          },
+          "relationship": {
+            "identity": 20,
+            "start": 4,
+            "end": 22,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+          },
+          "end": {
+            "identity": 22,
+            "labels": [
+              "作战部队"
+            ],
+            "properties": {
+              "装备": "1辆雄风2E指挥控制车，3辆雄风2E导弹发射器",
+              "name": "791飞弹旅642营3连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 23,
+        "labels": [
+          "军事项目"
+        ],
+        "properties": {
+          "目标": "建立战略打击能力",
+          "name": "毒蝎计划",
+          "核心武器": "雄风-2E"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23"
+      },
+      "end": {
+        "identity": 0,
+        "labels": [
+          "导弹"
+        ],
+        "properties": {
+          "弹径": "0.5米",
+          "重量": "980千克",
+          "命中精度": "12米",
+          "长度": "6.0米",
+          "name": "雄风-2E",
+          "射程": "1000公里",
+          "类型": "巡航导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 23,
+            "labels": [
+              "军事项目"
+            ],
+            "properties": {
+              "目标": "建立战略打击能力",
+              "name": "毒蝎计划",
+              "核心武器": "雄风-2E"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23"
+          },
+          "relationship": {
+            "identity": 21,
+            "start": 23,
+            "end": 0,
+            "type": "包含武器",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:21",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          },
+          "end": {
+            "identity": 0,
+            "labels": [
+              "导弹"
+            ],
+            "properties": {
+              "弹径": "0.5米",
+              "重量": "980千克",
+              "命中精度": "12米",
+              "长度": "6.0米",
+              "name": "雄风-2E",
+              "射程": "1000公里",
+              "类型": "巡航导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "导弹"
+        ],
+        "properties": {
+          "弹径": "0.5米",
+          "重量": "980千克",
+          "命中精度": "12米",
+          "长度": "6.0米",
+          "name": "雄风-2E",
+          "射程": "1000公里",
+          "类型": "巡航导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+      },
+      "end": {
+        "identity": 24,
+        "labels": [
+          "项目"
+        ],
+        "properties": {
+          "预算": "340亿新台币",
+          "name": "戟隼专案"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "导弹"
+            ],
+            "properties": {
+              "弹径": "0.5米",
+              "重量": "980千克",
+              "命中精度": "12米",
+              "长度": "6.0米",
+              "name": "雄风-2E",
+              "射程": "1000公里",
+              "类型": "巡航导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          },
+          "relationship": {
+            "identity": 22,
+            "start": 0,
+            "end": 24,
+            "type": "生产项目",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24"
+          },
+          "end": {
+            "identity": 24,
+            "labels": [
+              "项目"
+            ],
+            "properties": {
+              "预算": "340亿新台币",
+              "name": "戟隼专案"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "导弹"
+        ],
+        "properties": {
+          "重量": "1440千克",
+          "命中精度": "10-15",
+          "长度": "6.25米",
+          "name": "雄风-2ER",
+          "射程": "1200公里到1250公里",
+          "类型": "增程型巡航导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1"
+      },
+      "end": {
+        "identity": 25,
+        "labels": [
+          "项目"
+        ],
+        "properties": {
+          "预算": "330亿新台币",
+          "name": "雄升计划"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "导弹"
+            ],
+            "properties": {
+              "重量": "1440千克",
+              "命中精度": "10-15",
+              "长度": "6.25米",
+              "name": "雄风-2ER",
+              "射程": "1200公里到1250公里",
+              "类型": "增程型巡航导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1"
+          },
+          "relationship": {
+            "identity": 23,
+            "start": 1,
+            "end": 25,
+            "type": "生产项目",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25"
+          },
+          "end": {
+            "identity": 25,
+            "labels": [
+              "项目"
+            ],
+            "properties": {
+              "预算": "330亿新台币",
+              "name": "雄升计划"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 2,
+        "labels": [
+          "研发机构"
+        ],
+        "properties": {
+          "name": "台湾中山科学研究院"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:2"
+      },
+      "end": {
+        "identity": 0,
+        "labels": [
+          "导弹"
+        ],
+        "properties": {
+          "弹径": "0.5米",
+          "重量": "980千克",
+          "命中精度": "12米",
+          "长度": "6.0米",
+          "name": "雄风-2E",
+          "射程": "1000公里",
+          "类型": "巡航导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 2,
+            "labels": [
+              "研发机构"
+            ],
+            "properties": {
+              "name": "台湾中山科学研究院"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:2"
+          },
+          "relationship": {
+            "identity": 24,
+            "start": 2,
+            "end": 0,
+            "type": "研发",
+            "properties": {
+              "正式立项时间": 2000
+            },
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:2",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          },
+          "end": {
+            "identity": 0,
+            "labels": [
+              "导弹"
+            ],
+            "properties": {
+              "弹径": "0.5米",
+              "重量": "980千克",
+              "命中精度": "12米",
+              "长度": "6.0米",
+              "name": "雄风-2E",
+              "射程": "1000公里",
+              "类型": "巡航导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

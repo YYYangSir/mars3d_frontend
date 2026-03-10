@@ -1,0 +1,2909 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 48,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "中东地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48"
+      },
+      "end": {
+        "identity": 37,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "科威特"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 48,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "中东地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48"
+          },
+          "relationship": {
+            "identity": 25,
+            "start": 48,
+            "end": 37,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+          },
+          "end": {
+            "identity": 37,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "科威特"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 36,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "东亚及西太平洋地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+      },
+      "end": {
+        "identity": 50,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "地点": "横须贺海军基地、佐世保海军基地、横田空军基地、三泽空军基地、普天间空军基地、嘉手纳空军基地",
+          "目的": "防范弹道导弹和巡航导弹威胁",
+          "name": "日本"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:50"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 36,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "东亚及西太平洋地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+          },
+          "relationship": {
+            "identity": 26,
+            "start": 36,
+            "end": 50,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:50"
+          },
+          "end": {
+            "identity": 50,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "地点": "横须贺海军基地、佐世保海军基地、横田空军基地、三泽空军基地、普天间空军基地、嘉手纳空军基地",
+              "目的": "防范弹道导弹和巡航导弹威胁",
+              "name": "日本"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:50"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 42,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "欧洲地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+      },
+      "end": {
+        "identity": 35,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "地点": "与乌克兰边境附近",
+          "name": "波兰",
+          "目的": "防范俄罗斯扩军威胁"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:35"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 42,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "欧洲地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+          },
+          "relationship": {
+            "identity": 27,
+            "start": 42,
+            "end": 35,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:27",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:35"
+          },
+          "end": {
+            "identity": 35,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "地点": "与乌克兰边境附近",
+              "name": "波兰",
+              "目的": "防范俄罗斯扩军威胁"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:35"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 48,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "中东地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48"
+      },
+      "end": {
+        "identity": 51,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "地点": "与叙利亚接壤的边境地区",
+          "name": "土耳其",
+          "目的": "防范叙利亚导弹威胁"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:51"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 48,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "中东地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48"
+          },
+          "relationship": {
+            "identity": 28,
+            "start": 48,
+            "end": 51,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:51"
+          },
+          "end": {
+            "identity": 51,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "地点": "与叙利亚接壤的边境地区",
+              "name": "土耳其",
+              "目的": "防范叙利亚导弹威胁"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:51"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 36,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "东亚及西太平洋地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+      },
+      "end": {
+        "identity": 41,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "地点": "首尔、仁川、釜山、大邱等大城市周边",
+          "目的": "应对朝鲜的中短程弹道导弹威胁",
+          "name": "韩国"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:41"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 36,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "东亚及西太平洋地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+          },
+          "relationship": {
+            "identity": 29,
+            "start": 36,
+            "end": 41,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:41"
+          },
+          "end": {
+            "identity": 41,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "地点": "首尔、仁川、釜山、大邱等大城市周边",
+              "目的": "应对朝鲜的中短程弹道导弹威胁",
+              "name": "韩国"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:41"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 48,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "中东地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48"
+      },
+      "end": {
+        "identity": 46,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "卡塔尔"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:46"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 48,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "中东地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48"
+          },
+          "relationship": {
+            "identity": 30,
+            "start": 48,
+            "end": 46,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:30",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:46"
+          },
+          "end": {
+            "identity": 46,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "卡塔尔"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:46"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 42,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "欧洲地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+      },
+      "end": {
+        "identity": 52,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "乌克兰",
+          "目的": "拦截俄军导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:52"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 42,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "欧洲地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+          },
+          "relationship": {
+            "identity": 31,
+            "start": 42,
+            "end": 52,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:31",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:52"
+          },
+          "end": {
+            "identity": 52,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "乌克兰",
+              "目的": "拦截俄军导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:52"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 45,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "全球"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45"
+      },
+      "end": {
+        "identity": 48,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "中东地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 45,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "全球"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45"
+          },
+          "relationship": {
+            "identity": 32,
+            "start": 45,
+            "end": 48,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:32",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48"
+          },
+          "end": {
+            "identity": 48,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "中东地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 42,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "欧洲地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+      },
+      "end": {
+        "identity": 47,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "目的": "北约成员国，参与区域防空网络",
+          "name": "瑞典"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:47"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 42,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "欧洲地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+          },
+          "relationship": {
+            "identity": 33,
+            "start": 42,
+            "end": 47,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:47"
+          },
+          "end": {
+            "identity": 47,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "目的": "北约成员国，参与区域防空网络",
+              "name": "瑞典"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:47"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 48,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "中东地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48"
+      },
+      "end": {
+        "identity": 32,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "地点": "核反应堆及战略要地周边",
+          "目的": "拦截叙利亚、伊朗等国的导弹威胁",
+          "name": "以色列"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:32"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 48,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "中东地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48"
+          },
+          "relationship": {
+            "identity": 34,
+            "start": 48,
+            "end": 32,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:32"
+          },
+          "end": {
+            "identity": 32,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "地点": "核反应堆及战略要地周边",
+              "目的": "拦截叙利亚、伊朗等国的导弹威胁",
+              "name": "以色列"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:32"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 45,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "全球"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45"
+      },
+      "end": {
+        "identity": 42,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "欧洲地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 45,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "全球"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45"
+          },
+          "relationship": {
+            "identity": 35,
+            "start": 45,
+            "end": 42,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:35",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+          },
+          "end": {
+            "identity": 42,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "欧洲地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 42,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "欧洲地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+      },
+      "end": {
+        "identity": 38,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "罗马尼亚",
+          "目的": "加强北约东翼防御"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:38"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 42,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "欧洲地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+          },
+          "relationship": {
+            "identity": 36,
+            "start": 42,
+            "end": 38,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:38"
+          },
+          "end": {
+            "identity": 38,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "罗马尼亚",
+              "目的": "加强北约东翼防御"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:38"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 42,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "欧洲地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+      },
+      "end": {
+        "identity": 33,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "目的": "北约成员国，参与区域防空网络",
+          "name": "西班牙"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 42,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "欧洲地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+          },
+          "relationship": {
+            "identity": 37,
+            "start": 42,
+            "end": 33,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          },
+          "end": {
+            "identity": 33,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "目的": "北约成员国，参与区域防空网络",
+              "name": "西班牙"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 45,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "全球"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45"
+      },
+      "end": {
+        "identity": 44,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "美国本土及海外基地",
+          "目的": "强化西太平洋反导演练，应对中国导弹威胁"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:44"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 45,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "全球"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45"
+          },
+          "relationship": {
+            "identity": 38,
+            "start": 45,
+            "end": 44,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:38",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:44"
+          },
+          "end": {
+            "identity": 44,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "美国本土及海外基地",
+              "目的": "强化西太平洋反导演练，应对中国导弹威胁"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:44"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 42,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "欧洲地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+      },
+      "end": {
+        "identity": 43,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "德国",
+          "目的": "本土防御及北约任务"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:43"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 42,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "欧洲地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+          },
+          "relationship": {
+            "identity": 39,
+            "start": 42,
+            "end": 43,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:39",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:43"
+          },
+          "end": {
+            "identity": 43,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "德国",
+              "目的": "本土防御及北约任务"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:43"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 42,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "欧洲地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+      },
+      "end": {
+        "identity": 49,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "目的": "雅典奥运会期间防范空中恐怖袭击",
+          "name": "希腊"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:49"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 42,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "欧洲地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+          },
+          "relationship": {
+            "identity": 40,
+            "start": 42,
+            "end": 49,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:40",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:49"
+          },
+          "end": {
+            "identity": 49,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "目的": "雅典奥运会期间防范空中恐怖袭击",
+              "name": "希腊"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:49"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 48,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "中东地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48"
+      },
+      "end": {
+        "identity": 39,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "沙特阿拉伯"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:39"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 48,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "中东地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48"
+          },
+          "relationship": {
+            "identity": 41,
+            "start": 48,
+            "end": 39,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:41",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:39"
+          },
+          "end": {
+            "identity": 39,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "沙特阿拉伯"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:39"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 36,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "东亚及西太平洋地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+      },
+      "end": {
+        "identity": 34,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "地点": "花莲、屏东等地",
+          "name": "​台湾地区",
+          "目的": "针对解放军导弹威胁"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 36,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "东亚及西太平洋地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+          },
+          "relationship": {
+            "identity": 42,
+            "start": 36,
+            "end": 34,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34"
+          },
+          "end": {
+            "identity": 34,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "地点": "花莲、屏东等地",
+              "name": "​台湾地区",
+              "目的": "针对解放军导弹威胁"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 45,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "全球"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45"
+      },
+      "end": {
+        "identity": 36,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "东亚及西太平洋地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 45,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "全球"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45"
+          },
+          "relationship": {
+            "identity": 43,
+            "start": 45,
+            "end": 36,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:43",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+          },
+          "end": {
+            "identity": 36,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "东亚及西太平洋地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 42,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "欧洲地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+      },
+      "end": {
+        "identity": 40,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "目的": "北约成员国，参与区域防空网络",
+          "name": "荷兰"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:40"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 42,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "欧洲地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42"
+          },
+          "relationship": {
+            "identity": 44,
+            "start": 42,
+            "end": 40,
+            "type": "部署地包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:44",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:42",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:40"
+          },
+          "end": {
+            "identity": 40,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "目的": "北约成员国，参与区域防空网络",
+              "name": "荷兰"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:40"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 71,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+      },
+      "end": {
+        "identity": 53,
+        "labels": [
+          "作战连"
+        ],
+        "properties": {
+          "装备": "2个PAC3，6个PAC2",
+          "地点": "台中市东侧",
+          "name": "795旅633营2连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:53"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 71,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+          },
+          "relationship": {
+            "identity": 45,
+            "start": 71,
+            "end": 53,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:53"
+          },
+          "end": {
+            "identity": 53,
+            "labels": [
+              "作战连"
+            ],
+            "properties": {
+              "装备": "2个PAC3，6个PAC2",
+              "地点": "台中市东侧",
+              "name": "795旅633营2连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:53"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 71,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+      },
+      "end": {
+        "identity": 60,
+        "labels": [
+          "作战连"
+        ],
+        "properties": {
+          "装备": "2个PAC3，6个PAC2",
+          "地点": "新北市神雕营区",
+          "name": "793旅631营2连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:60"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 71,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+          },
+          "relationship": {
+            "identity": 46,
+            "start": 71,
+            "end": 60,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:46",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:60"
+          },
+          "end": {
+            "identity": 60,
+            "labels": [
+              "作战连"
+            ],
+            "properties": {
+              "装备": "2个PAC3，6个PAC2",
+              "地点": "新北市神雕营区",
+              "name": "793旅631营2连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:60"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 71,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+      },
+      "end": {
+        "identity": 54,
+        "labels": [
+          "作战连"
+        ],
+        "properties": {
+          "装备": "2个PAC3，6个PAC2",
+          "地点": "基隆河谷和雪山隧道入口处",
+          "name": "793旅631营3连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:54"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 71,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+          },
+          "relationship": {
+            "identity": 47,
+            "start": 71,
+            "end": 54,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:47",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:54"
+          },
+          "end": {
+            "identity": 54,
+            "labels": [
+              "作战连"
+            ],
+            "properties": {
+              "装备": "2个PAC3，6个PAC2",
+              "地点": "基隆河谷和雪山隧道入口处",
+              "name": "793旅631营3连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:54"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 71,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+      },
+      "end": {
+        "identity": 58,
+        "labels": [
+          "作战连"
+        ],
+        "properties": {
+          "装备": "2个PAC3，6个PAC2",
+          "地点": "屏东机场",
+          "name": "794旅632营2连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:58"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 71,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+          },
+          "relationship": {
+            "identity": 48,
+            "start": 71,
+            "end": 58,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:48",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:58"
+          },
+          "end": {
+            "identity": 58,
+            "labels": [
+              "作战连"
+            ],
+            "properties": {
+              "装备": "2个PAC3，6个PAC2",
+              "地点": "屏东机场",
+              "name": "794旅632营2连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:58"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 71,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+      },
+      "end": {
+        "identity": 55,
+        "labels": [
+          "作战连"
+        ],
+        "properties": {
+          "装备": "2个PAC3，6个PAC2",
+          "地点": "台南机场西北15公里处",
+          "name": "794旅632营3连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:55"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 71,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+          },
+          "relationship": {
+            "identity": 49,
+            "start": 71,
+            "end": 55,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:49",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:55"
+          },
+          "end": {
+            "identity": 55,
+            "labels": [
+              "作战连"
+            ],
+            "properties": {
+              "装备": "2个PAC3，6个PAC2",
+              "地点": "台南机场西北15公里处",
+              "name": "794旅632营3连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:55"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 71,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+      },
+      "end": {
+        "identity": 59,
+        "labels": [
+          "作战连"
+        ],
+        "properties": {
+          "装备": "2个PAC3，6个PAC2",
+          "地点": "嘉义基地",
+          "name": "795旅633营3连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:59"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 71,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+          },
+          "relationship": {
+            "identity": 50,
+            "start": 71,
+            "end": 59,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:50",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:59"
+          },
+          "end": {
+            "identity": 59,
+            "labels": [
+              "作战连"
+            ],
+            "properties": {
+              "装备": "2个PAC3，6个PAC2",
+              "地点": "嘉义基地",
+              "name": "795旅633营3连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:59"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 71,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+      },
+      "end": {
+        "identity": 56,
+        "labels": [
+          "作战连"
+        ],
+        "properties": {
+          "装备": "2个PAC3，6个PAC2",
+          "地点": "沿清泉岗基地和大肚山一线",
+          "name": "795旅633营1连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:56"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 71,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+          },
+          "relationship": {
+            "identity": 51,
+            "start": 71,
+            "end": 56,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:51",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:56"
+          },
+          "end": {
+            "identity": 56,
+            "labels": [
+              "作战连"
+            ],
+            "properties": {
+              "装备": "2个PAC3，6个PAC2",
+              "地点": "沿清泉岗基地和大肚山一线",
+              "name": "795旅633营1连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:56"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 71,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+      },
+      "end": {
+        "identity": 57,
+        "labels": [
+          "作战连"
+        ],
+        "properties": {
+          "装备": "2个PAC3，6个PAC2",
+          "地点": "中幅子山阵地",
+          "name": "793旅631营1连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:57"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 71,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+          },
+          "relationship": {
+            "identity": 52,
+            "start": 71,
+            "end": 57,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:52",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:57"
+          },
+          "end": {
+            "identity": 57,
+            "labels": [
+              "作战连"
+            ],
+            "properties": {
+              "装备": "2个PAC3，6个PAC2",
+              "地点": "中幅子山阵地",
+              "name": "793旅631营1连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:57"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 71,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+      },
+      "end": {
+        "identity": 61,
+        "labels": [
+          "作战连"
+        ],
+        "properties": {
+          "装备": "2个PAC3，6个PAC2",
+          "地点": "考潭营区",
+          "name": "794旅632营1连"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:61"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 71,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+          },
+          "relationship": {
+            "identity": 53,
+            "start": 71,
+            "end": 61,
+            "type": "下辖",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:53",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:61"
+          },
+          "end": {
+            "identity": 61,
+            "labels": [
+              "作战连"
+            ],
+            "properties": {
+              "装备": "2个PAC3，6个PAC2",
+              "地点": "考潭营区",
+              "name": "794旅632营1连"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:61"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 62,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "启动年份": 1965,
+          "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+          "name": "爱国者导弹系统(MIM-104 Patriot)",
+          "服役年份": 1984,
+          "类型": "防空导弹系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+      },
+      "end": {
+        "identity": 65,
+        "labels": [
+          "系统组件"
+        ],
+        "properties": {
+          "设计": "模块化",
+          "载弹量": "16枚PAC-3",
+          "name": "M901发射车"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:65"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 62,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "启动年份": 1965,
+              "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+              "name": "爱国者导弹系统(MIM-104 Patriot)",
+              "服役年份": 1984,
+              "类型": "防空导弹系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+          },
+          "relationship": {
+            "identity": 54,
+            "start": 62,
+            "end": 65,
+            "type": "系统组成",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:54",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:65"
+          },
+          "end": {
+            "identity": 65,
+            "labels": [
+              "系统组件"
+            ],
+            "properties": {
+              "设计": "模块化",
+              "载弹量": "16枚PAC-3",
+              "name": "M901发射车"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:65"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 62,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "启动年份": 1965,
+          "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+          "name": "爱国者导弹系统(MIM-104 Patriot)",
+          "服役年份": 1984,
+          "类型": "防空导弹系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+      },
+      "end": {
+        "identity": 67,
+        "labels": [
+          "系统组件"
+        ],
+        "properties": {
+          "功能": "自动化火控系统",
+          "流程": "探测-决策-打击-评估闭环",
+          "name": "MSQ-104指挥站"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:67"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 62,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "启动年份": 1965,
+              "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+              "name": "爱国者导弹系统(MIM-104 Patriot)",
+              "服役年份": 1984,
+              "类型": "防空导弹系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+          },
+          "relationship": {
+            "identity": 55,
+            "start": 62,
+            "end": 67,
+            "type": "系统组成",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:55",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:67"
+          },
+          "end": {
+            "identity": 67,
+            "labels": [
+              "系统组件"
+            ],
+            "properties": {
+              "功能": "自动化火控系统",
+              "流程": "探测-决策-打击-评估闭环",
+              "name": "MSQ-104指挥站"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:67"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 62,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "启动年份": 1965,
+          "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+          "name": "爱国者导弹系统(MIM-104 Patriot)",
+          "服役年份": 1984,
+          "类型": "防空导弹系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+      },
+      "end": {
+        "identity": 66,
+        "labels": [
+          "系统组件"
+        ],
+        "properties": {
+          "能力": "追踪100目标/引导8导弹",
+          "name": "MPQ-53相控阵雷达",
+          "移相器数量": 5161
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:66"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 62,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "启动年份": 1965,
+              "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+              "name": "爱国者导弹系统(MIM-104 Patriot)",
+              "服役年份": 1984,
+              "类型": "防空导弹系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+          },
+          "relationship": {
+            "identity": 56,
+            "start": 62,
+            "end": 66,
+            "type": "系统组成",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:56",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:66"
+          },
+          "end": {
+            "identity": 66,
+            "labels": [
+              "系统组件"
+            ],
+            "properties": {
+              "能力": "追踪100目标/引导8导弹",
+              "name": "MPQ-53相控阵雷达",
+              "移相器数量": 5161
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:66"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 34,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "地点": "花莲、屏东等地",
+          "name": "​台湾地区",
+          "目的": "针对解放军导弹威胁"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34"
+      },
+      "end": {
+        "identity": 71,
+        "labels": [
+          "军事部队"
+        ],
+        "properties": {
+          "name": "空军司令部-防空暨飞弹指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 34,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "地点": "花莲、屏东等地",
+              "name": "​台湾地区",
+              "目的": "针对解放军导弹威胁"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34"
+          },
+          "relationship": {
+            "identity": 57,
+            "start": 34,
+            "end": 71,
+            "type": "建立",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:57",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+          },
+          "end": {
+            "identity": 71,
+            "labels": [
+              "军事部队"
+            ],
+            "properties": {
+              "name": "空军司令部-防空暨飞弹指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:71"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 27,
+        "labels": [
+          "技术迭代"
+        ],
+        "properties": {
+          "能力": "对抗高超音速武器",
+          "技术": "双脉冲发动机",
+          "name": "PAC-3 MSE",
+          "射程": "35公里",
+          "推出时间": 2013
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:27"
+      },
+      "end": {
+        "identity": 30,
+        "labels": [
+          "战役记录"
+        ],
+        "properties": {
+          "时间": 2023,
+          "意义": "全球首次实战记录",
+          "name": "2023俄乌冲突",
+          "拦截目标": "匕首高超音速导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:30"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 27,
+            "labels": [
+              "技术迭代"
+            ],
+            "properties": {
+              "能力": "对抗高超音速武器",
+              "技术": "双脉冲发动机",
+              "name": "PAC-3 MSE",
+              "射程": "35公里",
+              "推出时间": 2013
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:27"
+          },
+          "relationship": {
+            "identity": 58,
+            "start": 27,
+            "end": 30,
+            "type": "参与战役",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:58",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:27",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:30"
+          },
+          "end": {
+            "identity": 30,
+            "labels": [
+              "战役记录"
+            ],
+            "properties": {
+              "时间": 2023,
+              "意义": "全球首次实战记录",
+              "name": "2023俄乌冲突",
+              "拦截目标": "匕首高超音速导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:30"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 26,
+        "labels": [
+          "技术迭代"
+        ],
+        "properties": {
+          "实战成功率": "40%~60%",
+          "技术": "TVM制导技术",
+          "name": "PAC-2",
+          "推出时间": "1990年代",
+          "理论成功率": "80%"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+      },
+      "end": {
+        "identity": 31,
+        "labels": [
+          "战役记录"
+        ],
+        "properties": {
+          "时间": 1991,
+          "官方成功率": "80%",
+          "实际成功率": "40%~60%",
+          "name": "海湾战争",
+          "拦截目标": "飞毛腿导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:31"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 26,
+            "labels": [
+              "技术迭代"
+            ],
+            "properties": {
+              "实战成功率": "40%~60%",
+              "技术": "TVM制导技术",
+              "name": "PAC-2",
+              "推出时间": "1990年代",
+              "理论成功率": "80%"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+          },
+          "relationship": {
+            "identity": 59,
+            "start": 26,
+            "end": 31,
+            "type": "参与战役",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:59",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:31"
+          },
+          "end": {
+            "identity": 31,
+            "labels": [
+              "战役记录"
+            ],
+            "properties": {
+              "时间": 1991,
+              "官方成功率": "80%",
+              "实际成功率": "40%~60%",
+              "name": "海湾战争",
+              "拦截目标": "飞毛腿导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:31"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 26,
+        "labels": [
+          "技术迭代"
+        ],
+        "properties": {
+          "实战成功率": "40%~60%",
+          "技术": "TVM制导技术",
+          "name": "PAC-2",
+          "推出时间": "1990年代",
+          "理论成功率": "80%"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+      },
+      "end": {
+        "identity": 69,
+        "labels": [
+          "战斗部"
+        ],
+        "properties": {
+          "name": "高爆破片战斗部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:69"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 26,
+            "labels": [
+              "技术迭代"
+            ],
+            "properties": {
+              "实战成功率": "40%~60%",
+              "技术": "TVM制导技术",
+              "name": "PAC-2",
+              "推出时间": "1990年代",
+              "理论成功率": "80%"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+          },
+          "relationship": {
+            "identity": 60,
+            "start": 26,
+            "end": 69,
+            "type": "配备",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:60",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:69"
+          },
+          "end": {
+            "identity": 69,
+            "labels": [
+              "战斗部"
+            ],
+            "properties": {
+              "name": "高爆破片战斗部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:69"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 29,
+        "labels": [
+          "技术迭代"
+        ],
+        "properties": {
+          "技术": "动能拦截技术(Hit-to-Kill)",
+          "name": "PAC-3",
+          "射程": "20公里",
+          "拦截速度": "7公里/秒",
+          "推出时间": 2003
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+      },
+      "end": {
+        "identity": 68,
+        "labels": [
+          "战斗部"
+        ],
+        "properties": {
+          "name": "动能撞击杀伤"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:68"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 29,
+            "labels": [
+              "技术迭代"
+            ],
+            "properties": {
+              "技术": "动能拦截技术(Hit-to-Kill)",
+              "name": "PAC-3",
+              "射程": "20公里",
+              "拦截速度": "7公里/秒",
+              "推出时间": 2003
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+          },
+          "relationship": {
+            "identity": 61,
+            "start": 29,
+            "end": 68,
+            "type": "配备",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:61",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:68"
+          },
+          "end": {
+            "identity": 68,
+            "labels": [
+              "战斗部"
+            ],
+            "properties": {
+              "name": "动能撞击杀伤"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:68"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 29,
+        "labels": [
+          "技术迭代"
+        ],
+        "properties": {
+          "技术": "动能拦截技术(Hit-to-Kill)",
+          "name": "PAC-3",
+          "射程": "20公里",
+          "拦截速度": "7公里/秒",
+          "推出时间": 2003
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+      },
+      "end": {
+        "identity": 27,
+        "labels": [
+          "技术迭代"
+        ],
+        "properties": {
+          "能力": "对抗高超音速武器",
+          "技术": "双脉冲发动机",
+          "name": "PAC-3 MSE",
+          "射程": "35公里",
+          "推出时间": 2013
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:27"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 29,
+            "labels": [
+              "技术迭代"
+            ],
+            "properties": {
+              "技术": "动能拦截技术(Hit-to-Kill)",
+              "name": "PAC-3",
+              "射程": "20公里",
+              "拦截速度": "7公里/秒",
+              "推出时间": 2003
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+          },
+          "relationship": {
+            "identity": 62,
+            "start": 29,
+            "end": 27,
+            "type": "技术迭代",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:27"
+          },
+          "end": {
+            "identity": 27,
+            "labels": [
+              "技术迭代"
+            ],
+            "properties": {
+              "能力": "对抗高超音速武器",
+              "技术": "双脉冲发动机",
+              "name": "PAC-3 MSE",
+              "射程": "35公里",
+              "推出时间": 2013
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:27"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 26,
+        "labels": [
+          "技术迭代"
+        ],
+        "properties": {
+          "实战成功率": "40%~60%",
+          "技术": "TVM制导技术",
+          "name": "PAC-2",
+          "推出时间": "1990年代",
+          "理论成功率": "80%"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+      },
+      "end": {
+        "identity": 29,
+        "labels": [
+          "技术迭代"
+        ],
+        "properties": {
+          "技术": "动能拦截技术(Hit-to-Kill)",
+          "name": "PAC-3",
+          "射程": "20公里",
+          "拦截速度": "7公里/秒",
+          "推出时间": 2003
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 26,
+            "labels": [
+              "技术迭代"
+            ],
+            "properties": {
+              "实战成功率": "40%~60%",
+              "技术": "TVM制导技术",
+              "name": "PAC-2",
+              "推出时间": "1990年代",
+              "理论成功率": "80%"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+          },
+          "relationship": {
+            "identity": 63,
+            "start": 26,
+            "end": 29,
+            "type": "技术迭代",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:63",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+          },
+          "end": {
+            "identity": 29,
+            "labels": [
+              "技术迭代"
+            ],
+            "properties": {
+              "技术": "动能拦截技术(Hit-to-Kill)",
+              "name": "PAC-3",
+              "射程": "20公里",
+              "拦截速度": "7公里/秒",
+              "推出时间": 2003
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 28,
+        "labels": [
+          "技术迭代"
+        ],
+        "properties": {
+          "能力": "仅能拦截飞机",
+          "name": "PAC-1",
+          "类型": "基础型"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+      },
+      "end": {
+        "identity": 26,
+        "labels": [
+          "技术迭代"
+        ],
+        "properties": {
+          "实战成功率": "40%~60%",
+          "技术": "TVM制导技术",
+          "name": "PAC-2",
+          "推出时间": "1990年代",
+          "理论成功率": "80%"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 28,
+            "labels": [
+              "技术迭代"
+            ],
+            "properties": {
+              "能力": "仅能拦截飞机",
+              "name": "PAC-1",
+              "类型": "基础型"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+          },
+          "relationship": {
+            "identity": 64,
+            "start": 28,
+            "end": 26,
+            "type": "技术迭代",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:64",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+          },
+          "end": {
+            "identity": 26,
+            "labels": [
+              "技术迭代"
+            ],
+            "properties": {
+              "实战成功率": "40%~60%",
+              "技术": "TVM制导技术",
+              "name": "PAC-2",
+              "推出时间": "1990年代",
+              "理论成功率": "80%"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 62,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "启动年份": 1965,
+          "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+          "name": "爱国者导弹系统(MIM-104 Patriot)",
+          "服役年份": 1984,
+          "类型": "防空导弹系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+      },
+      "end": {
+        "identity": 28,
+        "labels": [
+          "技术迭代"
+        ],
+        "properties": {
+          "能力": "仅能拦截飞机",
+          "name": "PAC-1",
+          "类型": "基础型"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 62,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "启动年份": 1965,
+              "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+              "name": "爱国者导弹系统(MIM-104 Patriot)",
+              "服役年份": 1984,
+              "类型": "防空导弹系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+          },
+          "relationship": {
+            "identity": 65,
+            "start": 62,
+            "end": 28,
+            "type": "初代",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:65",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+          },
+          "end": {
+            "identity": 28,
+            "labels": [
+              "技术迭代"
+            ],
+            "properties": {
+              "能力": "仅能拦截飞机",
+              "name": "PAC-1",
+              "类型": "基础型"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 62,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "启动年份": 1965,
+          "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+          "name": "爱国者导弹系统(MIM-104 Patriot)",
+          "服役年份": 1984,
+          "类型": "防空导弹系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+      },
+      "end": {
+        "identity": 63,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "MIM-14防空导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:63"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 62,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "启动年份": 1965,
+              "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+              "name": "爱国者导弹系统(MIM-104 Patriot)",
+              "服役年份": 1984,
+              "类型": "防空导弹系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+          },
+          "relationship": {
+            "identity": 66,
+            "start": 62,
+            "end": 63,
+            "type": "替代",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:66",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:63"
+          },
+          "end": {
+            "identity": 63,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "MIM-14防空导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:63"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 70,
+        "labels": [
+          "研发机构"
+        ],
+        "properties": {
+          "name": "雷神公司(美国)"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:70"
+      },
+      "end": {
+        "identity": 62,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "启动年份": 1965,
+          "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+          "name": "爱国者导弹系统(MIM-104 Patriot)",
+          "服役年份": 1984,
+          "类型": "防空导弹系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 70,
+            "labels": [
+              "研发机构"
+            ],
+            "properties": {
+              "name": "雷神公司(美国)"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:70"
+          },
+          "relationship": {
+            "identity": 67,
+            "start": 70,
+            "end": 62,
+            "type": "研发",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:67",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:70",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+          },
+          "end": {
+            "identity": 62,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "启动年份": 1965,
+              "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+              "name": "爱国者导弹系统(MIM-104 Patriot)",
+              "服役年份": 1984,
+              "类型": "防空导弹系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 62,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "启动年份": 1965,
+          "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+          "name": "爱国者导弹系统(MIM-104 Patriot)",
+          "服役年份": 1984,
+          "类型": "防空导弹系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+      },
+      "end": {
+        "identity": 45,
+        "labels": [
+          "部署地点"
+        ],
+        "properties": {
+          "name": "全球"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 62,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "启动年份": 1965,
+              "目标": "拦截飞机、巡航导弹及战术弹道导弹",
+              "name": "爱国者导弹系统(MIM-104 Patriot)",
+              "服役年份": 1984,
+              "类型": "防空导弹系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62"
+          },
+          "relationship": {
+            "identity": 68,
+            "start": 62,
+            "end": 45,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:68",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:62",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45"
+          },
+          "end": {
+            "identity": 45,
+            "labels": [
+              "部署地点"
+            ],
+            "properties": {
+              "name": "全球"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:45"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 29,
+        "labels": [
+          "技术迭代"
+        ],
+        "properties": {
+          "技术": "动能拦截技术(Hit-to-Kill)",
+          "name": "PAC-3",
+          "射程": "20公里",
+          "拦截速度": "7公里/秒",
+          "推出时间": 2003
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+      },
+      "end": {
+        "identity": 64,
+        "labels": [
+          "制导系统"
+        ],
+        "properties": {
+          "精度": "CEP<10米",
+          "name": "惯性导航+主动雷达制导"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:64"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 29,
+            "labels": [
+              "技术迭代"
+            ],
+            "properties": {
+              "技术": "动能拦截技术(Hit-to-Kill)",
+              "name": "PAC-3",
+              "射程": "20公里",
+              "拦截速度": "7公里/秒",
+              "推出时间": 2003
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+          },
+          "relationship": {
+            "identity": 69,
+            "start": 29,
+            "end": 64,
+            "type": "采用",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:69",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:64"
+          },
+          "end": {
+            "identity": 64,
+            "labels": [
+              "制导系统"
+            ],
+            "properties": {
+              "精度": "CEP<10米",
+              "name": "惯性导航+主动雷达制导"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:64"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

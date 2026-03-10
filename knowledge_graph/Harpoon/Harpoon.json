@@ -1,0 +1,6669 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 18,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "性能"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+      },
+      "end": {
+        "identity": 190,
+        "labels": [
+          "发射平台"
+        ],
+        "properties": {
+          "name": "多平台"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:190"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 18,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "性能"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+          },
+          "relationship": {
+            "identity": 0,
+            "start": 18,
+            "end": 190,
+            "type": "发射平台",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:190"
+          },
+          "end": {
+            "identity": 190,
+            "labels": [
+              "发射平台"
+            ],
+            "properties": {
+              "name": "多平台"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:190"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 140,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "俄乌冲突"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:140"
+      },
+      "end": {
+        "identity": 154,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "AGM-84(具体型号未公开)"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:154"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 140,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "俄乌冲突"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:140"
+          },
+          "relationship": {
+            "identity": 1,
+            "start": 140,
+            "end": 154,
+            "type": "乌克兰发射",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:140",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:154"
+          },
+          "end": {
+            "identity": 154,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "AGM-84(具体型号未公开)"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:154"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 141,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "美利冲突"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:141"
+      },
+      "end": {
+        "identity": 157,
+        "labels": [
+          "时间"
+        ],
+        "properties": {
+          "name": "1986年3月24日"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:157"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 141,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "美利冲突"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:141"
+          },
+          "relationship": {
+            "identity": 2,
+            "start": 141,
+            "end": 157,
+            "type": "时间",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:2",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:141",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:157"
+          },
+          "end": {
+            "identity": 157,
+            "labels": [
+              "时间"
+            ],
+            "properties": {
+              "name": "1986年3月24日"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:157"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 144,
+        "labels": [
+          "演习"
+        ],
+        "properties": {
+          "name": "美军欧洲战场演习"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:144"
+      },
+      "end": {
+        "identity": 159,
+        "labels": [
+          "时间"
+        ],
+        "properties": {
+          "name": "2021年6月2日"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:159"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 144,
+            "labels": [
+              "演习"
+            ],
+            "properties": {
+              "name": "美军欧洲战场演习"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:144"
+          },
+          "relationship": {
+            "identity": 3,
+            "start": 144,
+            "end": 159,
+            "type": "时间",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:144",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:159"
+          },
+          "end": {
+            "identity": 159,
+            "labels": [
+              "时间"
+            ],
+            "properties": {
+              "name": "2021年6月2日"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:159"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 140,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "俄乌冲突"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:140"
+      },
+      "end": {
+        "identity": 161,
+        "labels": [
+          "时间"
+        ],
+        "properties": {
+          "name": "2022年6月17日"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:161"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 140,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "俄乌冲突"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:140"
+          },
+          "relationship": {
+            "identity": 4,
+            "start": 140,
+            "end": 161,
+            "type": "时间",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:140",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:161"
+          },
+          "end": {
+            "identity": 161,
+            "labels": [
+              "时间"
+            ],
+            "properties": {
+              "name": "2022年6月17日"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:161"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 142,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "两伊战争_螳螂行动"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142"
+      },
+      "end": {
+        "identity": 158,
+        "labels": [
+          "时间"
+        ],
+        "properties": {
+          "name": "1988年4月18日"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:158"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 142,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "两伊战争_螳螂行动"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142"
+          },
+          "relationship": {
+            "identity": 5,
+            "start": 142,
+            "end": 158,
+            "type": "时间",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:158"
+          },
+          "end": {
+            "identity": 158,
+            "labels": [
+              "时间"
+            ],
+            "properties": {
+              "name": "1988年4月18日"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:158"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 139,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "两伊战争"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:139"
+      },
+      "end": {
+        "identity": 160,
+        "labels": [
+          "时间"
+        ],
+        "properties": {
+          "name": "1980年11月"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:160"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 139,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "两伊战争"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:139"
+          },
+          "relationship": {
+            "identity": 6,
+            "start": 139,
+            "end": 160,
+            "type": "时间",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:139",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:160"
+          },
+          "end": {
+            "identity": 160,
+            "labels": [
+              "时间"
+            ],
+            "properties": {
+              "name": "1980年11月"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:160"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 143,
+        "labels": [
+          "演习"
+        ],
+        "properties": {
+          "name": "夏威夷海域联合演习"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:143"
+      },
+      "end": {
+        "identity": 162,
+        "labels": [
+          "时间"
+        ],
+        "properties": {
+          "name": "1988年12月"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:162"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 143,
+            "labels": [
+              "演习"
+            ],
+            "properties": {
+              "name": "夏威夷海域联合演习"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:143"
+          },
+          "relationship": {
+            "identity": 7,
+            "start": 143,
+            "end": 162,
+            "type": "时间",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:143",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:162"
+          },
+          "end": {
+            "identity": 162,
+            "labels": [
+              "时间"
+            ],
+            "properties": {
+              "name": "1988年12月"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:162"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 12,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+      },
+      "end": {
+        "identity": 16,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "制导与控制系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+          },
+          "relationship": {
+            "identity": 8,
+            "start": 12,
+            "end": 16,
+            "type": "制导与控制",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16"
+          },
+          "end": {
+            "identity": 16,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "制导与控制系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 214,
+        "labels": [
+          "研发机构"
+        ],
+        "properties": {
+          "name": "麦克唐纳-道格拉斯公司"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:214"
+      },
+      "end": {
+        "identity": 12,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 214,
+            "labels": [
+              "研发机构"
+            ],
+            "properties": {
+              "name": "麦克唐纳-道格拉斯公司"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:214"
+          },
+          "relationship": {
+            "identity": 9,
+            "start": 214,
+            "end": 12,
+            "type": "研发",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:214",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+          },
+          "end": {
+            "identity": 12,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1A"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+      },
+      "end": {
+        "identity": 173,
+        "labels": [
+          "寻标器"
+        ],
+        "properties": {
+          "name": "寻标器"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:173"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1A"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          },
+          "relationship": {
+            "identity": 10,
+            "start": 8,
+            "end": 173,
+            "type": "改良",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:173"
+          },
+          "end": {
+            "identity": 173,
+            "labels": [
+              "寻标器"
+            ],
+            "properties": {
+              "name": "寻标器"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:173"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 152,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "RGM-84D"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:152"
+      },
+      "end": {
+        "identity": 223,
+        "labels": [
+          "未命中原因"
+        ],
+        "properties": {
+          "name": "目标舰体下沉，干舷过低"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:223"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 152,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "RGM-84D"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:152"
+          },
+          "relationship": {
+            "identity": 11,
+            "start": 152,
+            "end": 223,
+            "type": "未命中原因",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:152",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:223"
+          },
+          "end": {
+            "identity": 223,
+            "labels": [
+              "未命中原因"
+            ],
+            "properties": {
+              "name": "目标舰体下沉，干舷过低"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:223"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 148,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "RGM-84A"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:148"
+      },
+      "end": {
+        "identity": 224,
+        "labels": [
+          "未命中原因"
+        ],
+        "properties": {
+          "name": "寻标器失效"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:224"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 148,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "RGM-84A"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:148"
+          },
+          "relationship": {
+            "identity": 12,
+            "start": 148,
+            "end": 224,
+            "type": "未命中原因",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:148",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:224"
+          },
+          "end": {
+            "identity": 224,
+            "labels": [
+              "未命中原因"
+            ],
+            "properties": {
+              "name": "寻标器失效"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:224"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 16,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "制导与控制系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16"
+      },
+      "end": {
+        "identity": 219,
+        "labels": [
+          "制导系统"
+        ],
+        "properties": {
+          "name": "惯性导航"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:219"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 16,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "制导与控制系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16"
+          },
+          "relationship": {
+            "identity": 13,
+            "start": 16,
+            "end": 219,
+            "type": "中段",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:219"
+          },
+          "end": {
+            "identity": 219,
+            "labels": [
+              "制导系统"
+            ],
+            "properties": {
+              "name": "惯性导航"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:219"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 141,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "美利冲突"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:141"
+      },
+      "end": {
+        "identity": 149,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "AGM-84A"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:149"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 141,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "美利冲突"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:141"
+          },
+          "relationship": {
+            "identity": 14,
+            "start": 141,
+            "end": 149,
+            "type": "美国发射",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:141",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:149"
+          },
+          "end": {
+            "identity": 149,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "AGM-84A"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:149"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 141,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "美利冲突"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:141"
+      },
+      "end": {
+        "identity": 153,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "RGM-84C"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:153"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 141,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "美利冲突"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:141"
+          },
+          "relationship": {
+            "identity": 15,
+            "start": 141,
+            "end": 153,
+            "type": "美国发射",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:15",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:141",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:153"
+          },
+          "end": {
+            "identity": 153,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "RGM-84C"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:153"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 142,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "两伊战争_螳螂行动"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142"
+      },
+      "end": {
+        "identity": 155,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "RGM-84D"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:155"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 142,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "两伊战争_螳螂行动"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142"
+          },
+          "relationship": {
+            "identity": 16,
+            "start": 142,
+            "end": 155,
+            "type": "美国发射",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:155"
+          },
+          "end": {
+            "identity": 155,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "RGM-84D"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:155"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 142,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "两伊战争_螳螂行动"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142"
+      },
+      "end": {
+        "identity": 152,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "RGM-84D"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:152"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 142,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "两伊战争_螳螂行动"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142"
+          },
+          "relationship": {
+            "identity": 17,
+            "start": 142,
+            "end": 152,
+            "type": "美国发射",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:152"
+          },
+          "end": {
+            "identity": 152,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "RGM-84D"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:152"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 143,
+        "labels": [
+          "演习"
+        ],
+        "properties": {
+          "name": "夏威夷海域联合演习"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:143"
+      },
+      "end": {
+        "identity": 151,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "AGM-84(训练弹)"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:151"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 143,
+            "labels": [
+              "演习"
+            ],
+            "properties": {
+              "name": "夏威夷海域联合演习"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:143"
+          },
+          "relationship": {
+            "identity": 18,
+            "start": 143,
+            "end": 151,
+            "type": "美国发射",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:143",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:151"
+          },
+          "end": {
+            "identity": 151,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "AGM-84(训练弹)"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:151"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 144,
+        "labels": [
+          "演习"
+        ],
+        "properties": {
+          "name": "美军欧洲战场演习"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:144"
+      },
+      "end": {
+        "identity": 156,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "AGM-84D"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:156"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 144,
+            "labels": [
+              "演习"
+            ],
+            "properties": {
+              "name": "美军欧洲战场演习"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:144"
+          },
+          "relationship": {
+            "identity": 19,
+            "start": 144,
+            "end": 156,
+            "type": "美国发射",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:144",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:156"
+          },
+          "end": {
+            "identity": 156,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "AGM-84D"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:156"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 139,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "两伊战争"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:139"
+      },
+      "end": {
+        "identity": 150,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "RGM-84A"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:150"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 139,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "两伊战争"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:139"
+          },
+          "relationship": {
+            "identity": 20,
+            "start": 139,
+            "end": 150,
+            "type": "伊朗发射",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:139",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:150"
+          },
+          "end": {
+            "identity": 150,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "RGM-84A"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:150"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 142,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "两伊战争_螳螂行动"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142"
+      },
+      "end": {
+        "identity": 148,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "RGM-84A"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:148"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 142,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "两伊战争_螳螂行动"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142"
+          },
+          "relationship": {
+            "identity": 21,
+            "start": 142,
+            "end": 148,
+            "type": "伊朗发射",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:21",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:148"
+          },
+          "end": {
+            "identity": 148,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "RGM-84A"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:148"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 13,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "动力系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13"
+      },
+      "end": {
+        "identity": 215,
+        "labels": [
+          "主发动机​"
+        ],
+        "properties": {
+          "name": "J402-CA-400单轴涡轮喷气发动机"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:215"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 13,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "动力系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13"
+          },
+          "relationship": {
+            "identity": 22,
+            "start": 13,
+            "end": 215,
+            "type": "包括",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:215"
+          },
+          "end": {
+            "identity": 215,
+            "labels": [
+              "主发动机​"
+            ],
+            "properties": {
+              "name": "J402-CA-400单轴涡轮喷气发动机"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:215"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 217,
+        "labels": [
+          "阵地"
+        ],
+        "properties": {
+          "name": "岸置鱼叉导弹阵地"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+      },
+      "end": {
+        "identity": 202,
+        "labels": [
+          "位置"
+        ],
+        "properties": {
+          "name": "云林虎尾"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:202"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 217,
+            "labels": [
+              "阵地"
+            ],
+            "properties": {
+              "name": "岸置鱼叉导弹阵地"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+          },
+          "relationship": {
+            "identity": 136,
+            "start": 217,
+            "end": 202,
+            "type": "位置",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:136",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:202"
+          },
+          "end": {
+            "identity": 202,
+            "labels": [
+              "位置"
+            ],
+            "properties": {
+              "name": "云林虎尾"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:202"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 217,
+        "labels": [
+          "阵地"
+        ],
+        "properties": {
+          "name": "岸置鱼叉导弹阵地"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+      },
+      "end": {
+        "identity": 201,
+        "labels": [
+          "位置"
+        ],
+        "properties": {
+          "name": "台南新中"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:201"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 217,
+            "labels": [
+              "阵地"
+            ],
+            "properties": {
+              "name": "岸置鱼叉导弹阵地"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+          },
+          "relationship": {
+            "identity": 137,
+            "start": 217,
+            "end": 201,
+            "type": "位置",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:137",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:201"
+          },
+          "end": {
+            "identity": 201,
+            "labels": [
+              "位置"
+            ],
+            "properties": {
+              "name": "台南新中"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:201"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 217,
+        "labels": [
+          "阵地"
+        ],
+        "properties": {
+          "name": "岸置鱼叉导弹阵地"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+      },
+      "end": {
+        "identity": 203,
+        "labels": [
+          "位置"
+        ],
+        "properties": {
+          "name": "屏东埔墘"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:203"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 217,
+            "labels": [
+              "阵地"
+            ],
+            "properties": {
+              "name": "岸置鱼叉导弹阵地"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+          },
+          "relationship": {
+            "identity": 138,
+            "start": 217,
+            "end": 203,
+            "type": "位置",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:138",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:203"
+          },
+          "end": {
+            "identity": 203,
+            "labels": [
+              "位置"
+            ],
+            "properties": {
+              "name": "屏东埔墘"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:203"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 217,
+        "labels": [
+          "阵地"
+        ],
+        "properties": {
+          "name": "岸置鱼叉导弹阵地"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+      },
+      "end": {
+        "identity": 200,
+        "labels": [
+          "位置"
+        ],
+        "properties": {
+          "name": "屏东东岸"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:200"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 217,
+            "labels": [
+              "阵地"
+            ],
+            "properties": {
+              "name": "岸置鱼叉导弹阵地"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+          },
+          "relationship": {
+            "identity": 139,
+            "start": 217,
+            "end": 200,
+            "type": "位置",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:139",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:200"
+          },
+          "end": {
+            "identity": 200,
+            "labels": [
+              "位置"
+            ],
+            "properties": {
+              "name": "屏东东岸"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:200"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 217,
+        "labels": [
+          "阵地"
+        ],
+        "properties": {
+          "name": "岸置鱼叉导弹阵地"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+      },
+      "end": {
+        "identity": 204,
+        "labels": [
+          "位置"
+        ],
+        "properties": {
+          "name": "左营军港"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:204"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 217,
+            "labels": [
+              "阵地"
+            ],
+            "properties": {
+              "name": "岸置鱼叉导弹阵地"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+          },
+          "relationship": {
+            "identity": 140,
+            "start": 217,
+            "end": 204,
+            "type": "位置",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:140",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:204"
+          },
+          "end": {
+            "identity": 204,
+            "labels": [
+              "位置"
+            ],
+            "properties": {
+              "name": "左营军港"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:204"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 217,
+        "labels": [
+          "阵地"
+        ],
+        "properties": {
+          "name": "岸置鱼叉导弹阵地"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+      },
+      "end": {
+        "identity": 199,
+        "labels": [
+          "位置"
+        ],
+        "properties": {
+          "name": "台东太平"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:199"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 217,
+            "labels": [
+              "阵地"
+            ],
+            "properties": {
+              "name": "岸置鱼叉导弹阵地"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+          },
+          "relationship": {
+            "identity": 141,
+            "start": 217,
+            "end": 199,
+            "type": "位置",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:141",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:199"
+          },
+          "end": {
+            "identity": 199,
+            "labels": [
+              "位置"
+            ],
+            "properties": {
+              "name": "台东太平"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:199"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 12,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+      },
+      "end": {
+        "identity": 14,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "分类"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+          },
+          "relationship": {
+            "identity": 142,
+            "start": 12,
+            "end": 14,
+            "type": "包含",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14"
+          },
+          "end": {
+            "identity": 14,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "分类"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1C"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+      },
+      "end": {
+        "identity": 178,
+        "labels": [
+          "射控系统"
+        ],
+        "properties": {
+          "name": "AN/SWG-1A(V)"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:178"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1C"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+          },
+          "relationship": {
+            "identity": 143,
+            "start": 5,
+            "end": 178,
+            "type": "射控系统改用",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:143",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:178"
+          },
+          "end": {
+            "identity": 178,
+            "labels": [
+              "射控系统"
+            ],
+            "properties": {
+              "name": "AN/SWG-1A(V)"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:178"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 19,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "部署关系"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+      },
+      "end": {
+        "identity": 20,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "美国"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 19,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "部署关系"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+          },
+          "relationship": {
+            "identity": 144,
+            "start": 19,
+            "end": 20,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:144",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20"
+          },
+          "end": {
+            "identity": 20,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "美国"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 19,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "部署关系"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+      },
+      "end": {
+        "identity": 24,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "乌克兰"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 19,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "部署关系"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+          },
+          "relationship": {
+            "identity": 145,
+            "start": 19,
+            "end": 24,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:145",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24"
+          },
+          "end": {
+            "identity": 24,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "乌克兰"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 19,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "部署关系"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+      },
+      "end": {
+        "identity": 21,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "日本"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:21"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 19,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "部署关系"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+          },
+          "relationship": {
+            "identity": 146,
+            "start": 19,
+            "end": 21,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:146",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:21"
+          },
+          "end": {
+            "identity": 21,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "日本"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:21"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 19,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "部署关系"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+      },
+      "end": {
+        "identity": 177,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "印度"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:177"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 19,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "部署关系"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+          },
+          "relationship": {
+            "identity": 147,
+            "start": 19,
+            "end": 177,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:147",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:177"
+          },
+          "end": {
+            "identity": 177,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "印度"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:177"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 19,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "部署关系"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+      },
+      "end": {
+        "identity": 23,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "韩国"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 19,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "部署关系"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+          },
+          "relationship": {
+            "identity": 148,
+            "start": 19,
+            "end": 23,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:148",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23"
+          },
+          "end": {
+            "identity": 23,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "韩国"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 19,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "部署关系"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+      },
+      "end": {
+        "identity": 183,
+        "labels": [
+          "地区"
+        ],
+        "properties": {
+          "name": "台湾地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:183"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 19,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "部署关系"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+          },
+          "relationship": {
+            "identity": 149,
+            "start": 19,
+            "end": 183,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:149",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:183"
+          },
+          "end": {
+            "identity": 183,
+            "labels": [
+              "地区"
+            ],
+            "properties": {
+              "name": "台湾地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:183"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 19,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "部署关系"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+      },
+      "end": {
+        "identity": 22,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "北约盟国(丹麦、西班牙、英国等)"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 19,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "部署关系"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+          },
+          "relationship": {
+            "identity": 150,
+            "start": 19,
+            "end": 22,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:150",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+          },
+          "end": {
+            "identity": 22,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "北约盟国(丹麦、西班牙、英国等)"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 21,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "日本"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:21"
+      },
+      "end": {
+        "identity": 166,
+        "labels": [
+          "目的"
+        ],
+        "properties": {
+          "name": "应对中俄舰艇"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:166"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 21,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "日本"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:21"
+          },
+          "relationship": {
+            "identity": 151,
+            "start": 21,
+            "end": 166,
+            "type": "目的",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:151",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:21",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:166"
+          },
+          "end": {
+            "identity": 166,
+            "labels": [
+              "目的"
+            ],
+            "properties": {
+              "name": "应对中俄舰艇"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:166"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 20,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "美国"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20"
+      },
+      "end": {
+        "identity": 165,
+        "labels": [
+          "目的"
+        ],
+        "properties": {
+          "name": "维持全球制海权"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:165"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 20,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "美国"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20"
+          },
+          "relationship": {
+            "identity": 152,
+            "start": 20,
+            "end": 165,
+            "type": "目的",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:152",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:165"
+          },
+          "end": {
+            "identity": 165,
+            "labels": [
+              "目的"
+            ],
+            "properties": {
+              "name": "维持全球制海权"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:165"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 23,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "韩国"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23"
+      },
+      "end": {
+        "identity": 167,
+        "labels": [
+          "目的"
+        ],
+        "properties": {
+          "name": "应对朝鲜快艇威胁"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:167"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 23,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "韩国"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23"
+          },
+          "relationship": {
+            "identity": 153,
+            "start": 23,
+            "end": 167,
+            "type": "目的",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:153",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:167"
+          },
+          "end": {
+            "identity": 167,
+            "labels": [
+              "目的"
+            ],
+            "properties": {
+              "name": "应对朝鲜快艇威胁"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:167"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 22,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "北约盟国(丹麦、西班牙、英国等)"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+      },
+      "end": {
+        "identity": 169,
+        "labels": [
+          "目的"
+        ],
+        "properties": {
+          "name": "强化岸舰防御"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:169"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 22,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "北约盟国(丹麦、西班牙、英国等)"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+          },
+          "relationship": {
+            "identity": 154,
+            "start": 22,
+            "end": 169,
+            "type": "目的",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:154",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:169"
+          },
+          "end": {
+            "identity": 169,
+            "labels": [
+              "目的"
+            ],
+            "properties": {
+              "name": "强化岸舰防御"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:169"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 177,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "印度"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:177"
+      },
+      "end": {
+        "identity": 168,
+        "labels": [
+          "目的"
+        ],
+        "properties": {
+          "name": "遏制巴基斯坦海军及中国印度洋舰队"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:168"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 177,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "印度"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:177"
+          },
+          "relationship": {
+            "identity": 155,
+            "start": 177,
+            "end": 168,
+            "type": "目的",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:155",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:177",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:168"
+          },
+          "end": {
+            "identity": 168,
+            "labels": [
+              "目的"
+            ],
+            "properties": {
+              "name": "遏制巴基斯坦海军及中国印度洋舰队"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:168"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 24,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "乌克兰"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24"
+      },
+      "end": {
+        "identity": 170,
+        "labels": [
+          "目的"
+        ],
+        "properties": {
+          "name": "封锁黑海西北部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:170"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 24,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "乌克兰"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24"
+          },
+          "relationship": {
+            "identity": 156,
+            "start": 24,
+            "end": 170,
+            "type": "目的",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:156",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:170"
+          },
+          "end": {
+            "identity": 170,
+            "labels": [
+              "目的"
+            ],
+            "properties": {
+              "name": "封锁黑海西北部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:170"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 9,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "AGM-84H SLAM-ER"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9"
+      },
+      "end": {
+        "identity": 175,
+        "labels": [
+          "能力"
+        ],
+        "properties": {
+          "name": "停止运动瞄准点修正(SMAU)"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:175"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 9,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "AGM-84H SLAM-ER"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9"
+          },
+          "relationship": {
+            "identity": 157,
+            "start": 9,
+            "end": 175,
+            "type": "能够",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:157",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:175"
+          },
+          "end": {
+            "identity": 175,
+            "labels": [
+              "能力"
+            ],
+            "properties": {
+              "name": "停止运动瞄准点修正(SMAU)"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:175"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 9,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "AGM-84H SLAM-ER"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9"
+      },
+      "end": {
+        "identity": 2,
+        "labels": [
+          "能力"
+        ],
+        "properties": {
+          "name": "临时更换攻击目标"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:2"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 9,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "AGM-84H SLAM-ER"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9"
+          },
+          "relationship": {
+            "identity": 158,
+            "start": 9,
+            "end": 2,
+            "type": "能够",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:158",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:2"
+          },
+          "end": {
+            "identity": 2,
+            "labels": [
+              "能力"
+            ],
+            "properties": {
+              "name": "临时更换攻击目标"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:2"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 7,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1D"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+      },
+      "end": {
+        "identity": 4,
+        "labels": [
+          "搜索模式"
+        ],
+        "properties": {
+          "name": "苜蓿叶立体交叉搜索模式"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 7,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1D"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+          },
+          "relationship": {
+            "identity": 159,
+            "start": 7,
+            "end": 4,
+            "type": "增加",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:159",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+          },
+          "end": {
+            "identity": 4,
+            "labels": [
+              "搜索模式"
+            ],
+            "properties": {
+              "name": "苜蓿叶立体交叉搜索模式"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:4"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 20,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "美国"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20"
+      },
+      "end": {
+        "identity": 187,
+        "labels": [
+          "数量"
+        ],
+        "properties": {
+          "name": "约800枚,空射型占40%以上"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:187"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 20,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "美国"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20"
+          },
+          "relationship": {
+            "identity": 160,
+            "start": 20,
+            "end": 187,
+            "type": "数量",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:160",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:20",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:187"
+          },
+          "end": {
+            "identity": 187,
+            "labels": [
+              "数量"
+            ],
+            "properties": {
+              "name": "约800枚,空射型占40%以上"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:187"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "地区"
+        ],
+        "properties": {
+          "name": "台湾地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:183"
+      },
+      "end": {
+        "identity": 189,
+        "labels": [
+          "数量"
+        ],
+        "properties": {
+          "name": "100辆发射车、400枚RGM-84 Block2 ​导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:189"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "地区"
+            ],
+            "properties": {
+              "name": "台湾地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:183"
+          },
+          "relationship": {
+            "identity": 161,
+            "start": 183,
+            "end": 189,
+            "type": "数量",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:161",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:183",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:189"
+          },
+          "end": {
+            "identity": 189,
+            "labels": [
+              "数量"
+            ],
+            "properties": {
+              "name": "100辆发射车、400枚RGM-84 Block2 ​导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:189"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 217,
+        "labels": [
+          "阵地"
+        ],
+        "properties": {
+          "name": "岸置鱼叉导弹阵地"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+      },
+      "end": {
+        "identity": 186,
+        "labels": [
+          "数量"
+        ],
+        "properties": {
+          "name": "6座"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:186"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 217,
+            "labels": [
+              "阵地"
+            ],
+            "properties": {
+              "name": "岸置鱼叉导弹阵地"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+          },
+          "relationship": {
+            "identity": 162,
+            "start": 217,
+            "end": 186,
+            "type": "数量",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:162",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:186"
+          },
+          "end": {
+            "identity": 186,
+            "labels": [
+              "数量"
+            ],
+            "properties": {
+              "name": "6座"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:186"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 177,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "印度"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:177"
+      },
+      "end": {
+        "identity": 185,
+        "labels": [
+          "数量"
+        ],
+        "properties": {
+          "name": "150枚(2023年)"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:185"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 177,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "印度"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:177"
+          },
+          "relationship": {
+            "identity": 163,
+            "start": 177,
+            "end": 185,
+            "type": "数量",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:163",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:177",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:185"
+          },
+          "end": {
+            "identity": 185,
+            "labels": [
+              "数量"
+            ],
+            "properties": {
+              "name": "150枚(2023年)"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:185"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 23,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "韩国"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23"
+      },
+      "end": {
+        "identity": 184,
+        "labels": [
+          "数量"
+        ],
+        "properties": {
+          "name": "48枚常备导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:184"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 23,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "韩国"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23"
+          },
+          "relationship": {
+            "identity": 164,
+            "start": 23,
+            "end": 184,
+            "type": "数量",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:164",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:184"
+          },
+          "end": {
+            "identity": 184,
+            "labels": [
+              "数量"
+            ],
+            "properties": {
+              "name": "48枚常备导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:184"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 24,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "乌克兰"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24"
+      },
+      "end": {
+        "identity": 188,
+        "labels": [
+          "数量"
+        ],
+        "properties": {
+          "name": "约30套发射车及200枚导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:188"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 24,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "乌克兰"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24"
+          },
+          "relationship": {
+            "identity": 165,
+            "start": 24,
+            "end": 188,
+            "type": "数量",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:165",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:188"
+          },
+          "end": {
+            "identity": 188,
+            "labels": [
+              "数量"
+            ],
+            "properties": {
+              "name": "约30套发射车及200枚导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:188"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1C"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+      },
+      "end": {
+        "identity": 176,
+        "labels": [
+          "能力"
+        ],
+        "properties": {
+          "name": "电子反反制能力"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:176"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1C"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+          },
+          "relationship": {
+            "identity": 166,
+            "start": 5,
+            "end": 176,
+            "type": "提升",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:166",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:176"
+          },
+          "end": {
+            "identity": 176,
+            "labels": [
+              "能力"
+            ],
+            "properties": {
+              "name": "电子反反制能力"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:176"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 154,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "AGM-84(具体型号未公开)"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:154"
+      },
+      "end": {
+        "identity": 209,
+        "labels": [
+          "靶船"
+        ],
+        "properties": {
+          "name": "俄罗斯远洋拖船瓦西里-贝克号"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:209"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 154,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "AGM-84(具体型号未公开)"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:154"
+          },
+          "relationship": {
+            "identity": 167,
+            "start": 154,
+            "end": 209,
+            "type": "命中",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:167",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:154",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:209"
+          },
+          "end": {
+            "identity": 209,
+            "labels": [
+              "靶船"
+            ],
+            "properties": {
+              "name": "俄罗斯远洋拖船瓦西里-贝克号"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:209"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 153,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "RGM-84C"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:153"
+      },
+      "end": {
+        "identity": 196,
+        "labels": [
+          "战舰"
+        ],
+        "properties": {
+          "name": "利比亚巡逻舰Ain Zaquit号"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:196"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 153,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "RGM-84C"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:153"
+          },
+          "relationship": {
+            "identity": 168,
+            "start": 153,
+            "end": 196,
+            "type": "命中",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:168",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:153",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:196"
+          },
+          "end": {
+            "identity": 196,
+            "labels": [
+              "战舰"
+            ],
+            "properties": {
+              "name": "利比亚巡逻舰Ain Zaquit号"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:196"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 155,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "RGM-84D"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:155"
+      },
+      "end": {
+        "identity": 195,
+        "labels": [
+          "战舰"
+        ],
+        "properties": {
+          "name": "伊朗护卫舰Sahand号"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:195"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 155,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "RGM-84D"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:155"
+          },
+          "relationship": {
+            "identity": 169,
+            "start": 155,
+            "end": 195,
+            "type": "命中",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:169",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:155",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:195"
+          },
+          "end": {
+            "identity": 195,
+            "labels": [
+              "战舰"
+            ],
+            "properties": {
+              "name": "伊朗护卫舰Sahand号"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:195"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 149,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "AGM-84A"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:149"
+      },
+      "end": {
+        "identity": 197,
+        "labels": [
+          "战舰"
+        ],
+        "properties": {
+          "name": "利比亚导弹快艇Beir Glulud号"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:197"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 149,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "AGM-84A"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:149"
+          },
+          "relationship": {
+            "identity": 170,
+            "start": 149,
+            "end": 197,
+            "type": "命中",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:170",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:149",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:197"
+          },
+          "end": {
+            "identity": 197,
+            "labels": [
+              "战舰"
+            ],
+            "properties": {
+              "name": "利比亚导弹快艇Beir Glulud号"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:197"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 156,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "AGM-84D"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:156"
+      },
+      "end": {
+        "identity": 210,
+        "labels": [
+          "靶船"
+        ],
+        "properties": {
+          "name": "挪威海岸的一艘靶船"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:210"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 156,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "AGM-84D"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:156"
+          },
+          "relationship": {
+            "identity": 171,
+            "start": 156,
+            "end": 210,
+            "type": "命中",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:171",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:156",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:210"
+          },
+          "end": {
+            "identity": 210,
+            "labels": [
+              "靶船"
+            ],
+            "properties": {
+              "name": "挪威海岸的一艘靶船"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:210"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 150,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "RGM-84A"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:150"
+      },
+      "end": {
+        "identity": 194,
+        "labels": [
+          "战舰"
+        ],
+        "properties": {
+          "name": "伊拉克L-78两栖支援舰"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:194"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 150,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "RGM-84A"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:150"
+          },
+          "relationship": {
+            "identity": 172,
+            "start": 150,
+            "end": 194,
+            "type": "命中",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:172",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:150",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:194"
+          },
+          "end": {
+            "identity": 194,
+            "labels": [
+              "战舰"
+            ],
+            "properties": {
+              "name": "伊拉克L-78两栖支援舰"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:194"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 18,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "性能"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+      },
+      "end": {
+        "identity": 198,
+        "labels": [
+          "战斗部重量"
+        ],
+        "properties": {
+          "name": "221千克"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:198"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 18,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "性能"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+          },
+          "relationship": {
+            "identity": 173,
+            "start": 18,
+            "end": 198,
+            "type": "战斗部重量",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:173",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:198"
+          },
+          "end": {
+            "identity": 198,
+            "labels": [
+              "战斗部重量"
+            ],
+            "properties": {
+              "name": "221千克"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:198"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 13,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "动力系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13"
+      },
+      "end": {
+        "identity": 226,
+        "labels": [
+          "助推器"
+        ],
+        "properties": {
+          "name": "固体火箭助推器"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:226"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 13,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "动力系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13"
+          },
+          "relationship": {
+            "identity": 174,
+            "start": 13,
+            "end": 226,
+            "type": "包括",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:174",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:226"
+          },
+          "end": {
+            "identity": 226,
+            "labels": [
+              "助推器"
+            ],
+            "properties": {
+              "name": "固体火箭助推器"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:226"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 219,
+        "labels": [
+          "制导系统"
+        ],
+        "properties": {
+          "name": "惯性导航"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:219"
+      },
+      "end": {
+        "identity": 182,
+        "labels": [
+          "中段制导"
+        ],
+        "properties": {
+          "name": "数字计算机"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:182"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 219,
+            "labels": [
+              "制导系统"
+            ],
+            "properties": {
+              "name": "惯性导航"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:219"
+          },
+          "relationship": {
+            "identity": 175,
+            "start": 219,
+            "end": 182,
+            "type": "包括",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:175",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:219",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:182"
+          },
+          "end": {
+            "identity": 182,
+            "labels": [
+              "中段制导"
+            ],
+            "properties": {
+              "name": "数字计算机"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:182"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 219,
+        "labels": [
+          "制导系统"
+        ],
+        "properties": {
+          "name": "惯性导航"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:219"
+      },
+      "end": {
+        "identity": 181,
+        "labels": [
+          "中段制导"
+        ],
+        "properties": {
+          "name": "捷联式三轴姿态基准设备"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:181"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 219,
+            "labels": [
+              "制导系统"
+            ],
+            "properties": {
+              "name": "惯性导航"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:219"
+          },
+          "relationship": {
+            "identity": 176,
+            "start": 219,
+            "end": 181,
+            "type": "包括",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:176",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:219",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:181"
+          },
+          "end": {
+            "identity": 181,
+            "labels": [
+              "中段制导"
+            ],
+            "properties": {
+              "name": "捷联式三轴姿态基准设备"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:181"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1C"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+      },
+      "end": {
+        "identity": 3,
+        "labels": [
+          "能力"
+        ],
+        "properties": {
+          "name": "终端攻击模式（平飞或拉高俯冲）"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1C"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+          },
+          "relationship": {
+            "identity": 177,
+            "start": 5,
+            "end": 3,
+            "type": "可选",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:177",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+          },
+          "end": {
+            "identity": 3,
+            "labels": [
+              "能力"
+            ],
+            "properties": {
+              "name": "终端攻击模式（平飞或拉高俯冲）"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:3"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "AGM-84E SLAM"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6"
+      },
+      "end": {
+        "identity": 9,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "AGM-84H SLAM-ER"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "AGM-84E SLAM"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6"
+          },
+          "relationship": {
+            "identity": 178,
+            "start": 6,
+            "end": 9,
+            "type": "升级",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:178",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9"
+          },
+          "end": {
+            "identity": 9,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "AGM-84H SLAM-ER"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1C"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+      },
+      "end": {
+        "identity": 7,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1D"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1C"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+          },
+          "relationship": {
+            "identity": 179,
+            "start": 5,
+            "end": 7,
+            "type": "升级",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:179",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+          },
+          "end": {
+            "identity": 7,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1D"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1C"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+      },
+      "end": {
+        "identity": 6,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "AGM-84E SLAM"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1C"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+          },
+          "relationship": {
+            "identity": 180,
+            "start": 5,
+            "end": 6,
+            "type": "升级",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:180",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6"
+          },
+          "end": {
+            "identity": 6,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "AGM-84E SLAM"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1C"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+      },
+      "end": {
+        "identity": 10,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 2"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1C"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+          },
+          "relationship": {
+            "identity": 181,
+            "start": 5,
+            "end": 10,
+            "type": "升级",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:181",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+          },
+          "end": {
+            "identity": 10,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 2"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 11,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1B"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11"
+      },
+      "end": {
+        "identity": 5,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1C"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 11,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1B"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11"
+          },
+          "relationship": {
+            "identity": 182,
+            "start": 11,
+            "end": 5,
+            "type": "升级",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:182",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+          },
+          "end": {
+            "identity": 5,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1C"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1A"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+      },
+      "end": {
+        "identity": 11,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1B"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1A"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          },
+          "relationship": {
+            "identity": 183,
+            "start": 8,
+            "end": 11,
+            "type": "升级",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:183",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11"
+          },
+          "end": {
+            "identity": 11,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1B"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 15,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "延伸升级"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:15"
+      },
+      "end": {
+        "identity": 8,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1A"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 15,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "延伸升级"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:15"
+          },
+          "relationship": {
+            "identity": 184,
+            "start": 15,
+            "end": 8,
+            "type": "第一批",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:184",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:15",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          },
+          "end": {
+            "identity": 8,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1A"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 14,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "分类"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14"
+      },
+      "end": {
+        "identity": 208,
+        "labels": [
+          "鱼叉类型"
+        ],
+        "properties": {
+          "name": "RGM-84"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:208"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 14,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "分类"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14"
+          },
+          "relationship": {
+            "identity": 185,
+            "start": 14,
+            "end": 208,
+            "type": "舰射型",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:185",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:208"
+          },
+          "end": {
+            "identity": 208,
+            "labels": [
+              "鱼叉类型"
+            ],
+            "properties": {
+              "name": "RGM-84"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:208"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 12,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+      },
+      "end": {
+        "identity": 13,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "动力系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+          },
+          "relationship": {
+            "identity": 186,
+            "start": 12,
+            "end": 13,
+            "type": "动力系统",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:186",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13"
+          },
+          "end": {
+            "identity": 13,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "动力系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:13"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 12,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+      },
+      "end": {
+        "identity": 18,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "性能"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+          },
+          "relationship": {
+            "identity": 187,
+            "start": 12,
+            "end": 18,
+            "type": "性能",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:187",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+          },
+          "end": {
+            "identity": 18,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "性能"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 14,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "分类"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14"
+      },
+      "end": {
+        "identity": 207,
+        "labels": [
+          "鱼叉类型"
+        ],
+        "properties": {
+          "name": "UGM-84"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:207"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 14,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "分类"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14"
+          },
+          "relationship": {
+            "identity": 188,
+            "start": 14,
+            "end": 207,
+            "type": "水下潜艇发射型",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:188",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:207"
+          },
+          "end": {
+            "identity": 207,
+            "labels": [
+              "鱼叉类型"
+            ],
+            "properties": {
+              "name": "UGM-84"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:207"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 12,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+      },
+      "end": {
+        "identity": 19,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "部署关系"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+          },
+          "relationship": {
+            "identity": 189,
+            "start": 12,
+            "end": 19,
+            "type": "部署",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:189",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+          },
+          "end": {
+            "identity": 19,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "部署关系"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:19"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 18,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "性能"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+      },
+      "end": {
+        "identity": 180,
+        "labels": [
+          "射程"
+        ],
+        "properties": {
+          "name": "93-315km"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:180"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 18,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "性能"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+          },
+          "relationship": {
+            "identity": 190,
+            "start": 18,
+            "end": 180,
+            "type": "射程",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:190",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:180"
+          },
+          "end": {
+            "identity": 180,
+            "labels": [
+              "射程"
+            ],
+            "properties": {
+              "name": "93-315km"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:180"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1A"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+      },
+      "end": {
+        "identity": 179,
+        "labels": [
+          "射程"
+        ],
+        "properties": {
+          "name": "13-111km"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:179"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1A"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          },
+          "relationship": {
+            "identity": 191,
+            "start": 8,
+            "end": 179,
+            "type": "射程",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:191",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:179"
+          },
+          "end": {
+            "identity": 179,
+            "labels": [
+              "射程"
+            ],
+            "properties": {
+              "name": "13-111km"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:179"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 18,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "性能"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+      },
+      "end": {
+        "identity": 216,
+        "labels": [
+          "全长"
+        ],
+        "properties": {
+          "name": "4.63米"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:216"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 18,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "性能"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+          },
+          "relationship": {
+            "identity": 192,
+            "start": 18,
+            "end": 216,
+            "type": "全长",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:192",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:216"
+          },
+          "end": {
+            "identity": 216,
+            "labels": [
+              "全长"
+            ],
+            "properties": {
+              "name": "4.63米"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:216"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 18,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "性能"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+      },
+      "end": {
+        "identity": 227,
+        "labels": [
+          "总重"
+        ],
+        "properties": {
+          "name": "1110千克"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:227"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 18,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "性能"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+          },
+          "relationship": {
+            "identity": 193,
+            "start": 18,
+            "end": 227,
+            "type": "总重",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:193",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:227"
+          },
+          "end": {
+            "identity": 227,
+            "labels": [
+              "总重"
+            ],
+            "properties": {
+              "name": "1110千克"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:227"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 17,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "战争演习"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+      },
+      "end": {
+        "identity": 142,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "两伊战争_螳螂行动"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 17,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "战争演习"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+          },
+          "relationship": {
+            "identity": 194,
+            "start": 17,
+            "end": 142,
+            "type": "参与",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:194",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142"
+          },
+          "end": {
+            "identity": 142,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "两伊战争_螳螂行动"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:142"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 17,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "战争演习"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+      },
+      "end": {
+        "identity": 143,
+        "labels": [
+          "演习"
+        ],
+        "properties": {
+          "name": "夏威夷海域联合演习"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:143"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 17,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "战争演习"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+          },
+          "relationship": {
+            "identity": 195,
+            "start": 17,
+            "end": 143,
+            "type": "参与",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:195",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:143"
+          },
+          "end": {
+            "identity": 143,
+            "labels": [
+              "演习"
+            ],
+            "properties": {
+              "name": "夏威夷海域联合演习"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:143"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 12,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+      },
+      "end": {
+        "identity": 17,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "战争演习"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+          },
+          "relationship": {
+            "identity": 196,
+            "start": 12,
+            "end": 17,
+            "type": "参与",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:196",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+          },
+          "end": {
+            "identity": 17,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "战争演习"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 17,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "战争演习"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+      },
+      "end": {
+        "identity": 141,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "美利冲突"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:141"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 17,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "战争演习"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+          },
+          "relationship": {
+            "identity": 197,
+            "start": 17,
+            "end": 141,
+            "type": "参与",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:197",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:141"
+          },
+          "end": {
+            "identity": 141,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "美利冲突"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:141"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 17,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "战争演习"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+      },
+      "end": {
+        "identity": 144,
+        "labels": [
+          "演习"
+        ],
+        "properties": {
+          "name": "美军欧洲战场演习"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:144"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 17,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "战争演习"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+          },
+          "relationship": {
+            "identity": 198,
+            "start": 17,
+            "end": 144,
+            "type": "参与",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:198",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:144"
+          },
+          "end": {
+            "identity": 144,
+            "labels": [
+              "演习"
+            ],
+            "properties": {
+              "name": "美军欧洲战场演习"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:144"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 17,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "战争演习"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+      },
+      "end": {
+        "identity": 140,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "俄乌冲突"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:140"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 17,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "战争演习"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+          },
+          "relationship": {
+            "identity": 199,
+            "start": 17,
+            "end": 140,
+            "type": "参与",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:199",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:140"
+          },
+          "end": {
+            "identity": 140,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "俄乌冲突"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:140"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 17,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "战争演习"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+      },
+      "end": {
+        "identity": 139,
+        "labels": [
+          "战争"
+        ],
+        "properties": {
+          "name": "两伊战争"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:139"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 17,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "战争演习"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17"
+          },
+          "relationship": {
+            "identity": 200,
+            "start": 17,
+            "end": 139,
+            "type": "参与",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:200",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:17",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:139"
+          },
+          "end": {
+            "identity": 139,
+            "labels": [
+              "战争"
+            ],
+            "properties": {
+              "name": "两伊战争"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:139"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1A"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+      },
+      "end": {
+        "identity": 213,
+        "labels": [
+          "燃油"
+        ],
+        "properties": {
+          "name": "JP-5涡轮用燃油"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:213"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1A"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          },
+          "relationship": {
+            "identity": 201,
+            "start": 8,
+            "end": 213,
+            "type": "燃油",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:201",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:213"
+          },
+          "end": {
+            "identity": 213,
+            "labels": [
+              "燃油"
+            ],
+            "properties": {
+              "name": "JP-5涡轮用燃油"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:213"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 11,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1B"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11"
+      },
+      "end": {
+        "identity": 212,
+        "labels": [
+          "燃油"
+        ],
+        "properties": {
+          "name": "JP-10燃油"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:212"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 11,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1B"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11"
+          },
+          "relationship": {
+            "identity": 202,
+            "start": 11,
+            "end": 212,
+            "type": "燃油",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:202",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:11",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:212"
+          },
+          "end": {
+            "identity": 212,
+            "labels": [
+              "燃油"
+            ],
+            "properties": {
+              "name": "JP-10燃油"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:212"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1A"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+      },
+      "end": {
+        "identity": 222,
+        "labels": [
+          "攻击模式"
+        ],
+        "properties": {
+          "name": "Pop-Up攻击模式"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:222"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1A"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          },
+          "relationship": {
+            "identity": 203,
+            "start": 8,
+            "end": 222,
+            "type": "攻击模式",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:203",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:222"
+          },
+          "end": {
+            "identity": 222,
+            "labels": [
+              "攻击模式"
+            ],
+            "properties": {
+              "name": "Pop-Up攻击模式"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:222"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 220,
+        "labels": [
+          "制导系统"
+        ],
+        "properties": {
+          "name": "PR-53/DSQ-28主动雷达导引头"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:220"
+      },
+      "end": {
+        "identity": 211,
+        "labels": [
+          "末段制导"
+        ],
+        "properties": {
+          "name": "红外成像导引头"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:211"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 220,
+            "labels": [
+              "制导系统"
+            ],
+            "properties": {
+              "name": "PR-53/DSQ-28主动雷达导引头"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:220"
+          },
+          "relationship": {
+            "identity": 204,
+            "start": 220,
+            "end": 211,
+            "type": "部分型号可选",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:204",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:220",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:211"
+          },
+          "end": {
+            "identity": 211,
+            "labels": [
+              "末段制导"
+            ],
+            "properties": {
+              "name": "红外成像导引头"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:211"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 206,
+        "labels": [
+          "鱼叉类型"
+        ],
+        "properties": {
+          "name": "舰射/潜射型"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:206"
+      },
+      "end": {
+        "identity": 226,
+        "labels": [
+          "助推器"
+        ],
+        "properties": {
+          "name": "固体火箭助推器"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:226"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 206,
+            "labels": [
+              "鱼叉类型"
+            ],
+            "properties": {
+              "name": "舰射/潜射型"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:206"
+          },
+          "relationship": {
+            "identity": 205,
+            "start": 206,
+            "end": 226,
+            "type": "加装",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:205",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:206",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:226"
+          },
+          "end": {
+            "identity": 226,
+            "labels": [
+              "助推器"
+            ],
+            "properties": {
+              "name": "固体火箭助推器"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:226"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 7,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1D"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+      },
+      "end": {
+        "identity": 146,
+        "labels": [
+          "最大射程"
+        ],
+        "properties": {
+          "name": "278km"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:146"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 7,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1D"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+          },
+          "relationship": {
+            "identity": 206,
+            "start": 7,
+            "end": 146,
+            "type": "最大射程",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:206",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:146"
+          },
+          "end": {
+            "identity": 146,
+            "labels": [
+              "最大射程"
+            ],
+            "properties": {
+              "name": "278km"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:146"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1A"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+      },
+      "end": {
+        "identity": 147,
+        "labels": [
+          "最大射程"
+        ],
+        "properties": {
+          "name": "130km"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:147"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1A"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          },
+          "relationship": {
+            "identity": 207,
+            "start": 8,
+            "end": 147,
+            "type": "最大射程",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:207",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:147"
+          },
+          "end": {
+            "identity": 147,
+            "labels": [
+              "最大射程"
+            ],
+            "properties": {
+              "name": "130km"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:147"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 10,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 2"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+      },
+      "end": {
+        "identity": 145,
+        "labels": [
+          "最大射程"
+        ],
+        "properties": {
+          "name": "152km"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:145"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 10,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 2"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+          },
+          "relationship": {
+            "identity": 208,
+            "start": 10,
+            "end": 145,
+            "type": "最大射程",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:208",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:145"
+          },
+          "end": {
+            "identity": 145,
+            "labels": [
+              "最大射程"
+            ],
+            "properties": {
+              "name": "152km"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:145"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 10,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 2"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+      },
+      "end": {
+        "identity": 171,
+        "labels": [
+          "寻标器"
+        ],
+        "properties": {
+          "name": "主动雷达/红外线双寻标器"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:171"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 10,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 2"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+          },
+          "relationship": {
+            "identity": 209,
+            "start": 10,
+            "end": 171,
+            "type": "换装",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:209",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:171"
+          },
+          "end": {
+            "identity": 171,
+            "labels": [
+              "寻标器"
+            ],
+            "properties": {
+              "name": "主动雷达/红外线双寻标器"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:171"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 9,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "AGM-84H SLAM-ER"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9"
+      },
+      "end": {
+        "identity": 172,
+        "labels": [
+          "寻标器"
+        ],
+        "properties": {
+          "name": "高分辨率热成像寻标器"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:172"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 9,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "AGM-84H SLAM-ER"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9"
+          },
+          "relationship": {
+            "identity": 210,
+            "start": 9,
+            "end": 172,
+            "type": "换装",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:210",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:9",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:172"
+          },
+          "end": {
+            "identity": 172,
+            "labels": [
+              "寻标器"
+            ],
+            "properties": {
+              "name": "高分辨率热成像寻标器"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:172"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 226,
+        "labels": [
+          "助推器"
+        ],
+        "properties": {
+          "name": "固体火箭助推器"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:226"
+      },
+      "end": {
+        "identity": 163,
+        "labels": [
+          "推力"
+        ],
+        "properties": {
+          "name": "64.7kN"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:163"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 226,
+            "labels": [
+              "助推器"
+            ],
+            "properties": {
+              "name": "固体火箭助推器"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:226"
+          },
+          "relationship": {
+            "identity": 211,
+            "start": 226,
+            "end": 163,
+            "type": "推力",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:211",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:226",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:163"
+          },
+          "end": {
+            "identity": 163,
+            "labels": [
+              "推力"
+            ],
+            "properties": {
+              "name": "64.7kN"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:163"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 215,
+        "labels": [
+          "主发动机​"
+        ],
+        "properties": {
+          "name": "J402-CA-400单轴涡轮喷气发动机"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:215"
+      },
+      "end": {
+        "identity": 164,
+        "labels": [
+          "推力"
+        ],
+        "properties": {
+          "name": "294dN"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:164"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 215,
+            "labels": [
+              "主发动机​"
+            ],
+            "properties": {
+              "name": "J402-CA-400单轴涡轮喷气发动机"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:215"
+          },
+          "relationship": {
+            "identity": 212,
+            "start": 215,
+            "end": 164,
+            "type": "推力",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:212",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:215",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:164"
+          },
+          "end": {
+            "identity": 164,
+            "labels": [
+              "推力"
+            ],
+            "properties": {
+              "name": "294dN"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:164"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 16,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "制导与控制系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16"
+      },
+      "end": {
+        "identity": 220,
+        "labels": [
+          "制导系统"
+        ],
+        "properties": {
+          "name": "PR-53/DSQ-28主动雷达导引头"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:220"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 16,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "制导与控制系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16"
+          },
+          "relationship": {
+            "identity": 213,
+            "start": 16,
+            "end": 220,
+            "type": "末段",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:213",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:16",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:220"
+          },
+          "end": {
+            "identity": 220,
+            "labels": [
+              "制导系统"
+            ],
+            "properties": {
+              "name": "PR-53/DSQ-28主动雷达导引头"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:220"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 12,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+      },
+      "end": {
+        "identity": 15,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "延伸升级"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:15"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12"
+          },
+          "relationship": {
+            "identity": 214,
+            "start": 12,
+            "end": 15,
+            "type": "延伸升级",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:214",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:12",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:15"
+          },
+          "end": {
+            "identity": 15,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "延伸升级"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:15"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 18,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "性能"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+      },
+      "end": {
+        "identity": 221,
+        "labels": [
+          "最大速度"
+        ],
+        "properties": {
+          "name": "0.85马赫"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:221"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 18,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "性能"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+          },
+          "relationship": {
+            "identity": 215,
+            "start": 18,
+            "end": 221,
+            "type": "最大速度",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:215",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:221"
+          },
+          "end": {
+            "identity": 221,
+            "labels": [
+              "最大速度"
+            ],
+            "properties": {
+              "name": "0.85马赫"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:221"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 183,
+        "labels": [
+          "地区"
+        ],
+        "properties": {
+          "name": "台湾地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:183"
+      },
+      "end": {
+        "identity": 217,
+        "labels": [
+          "阵地"
+        ],
+        "properties": {
+          "name": "岸置鱼叉导弹阵地"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 183,
+            "labels": [
+              "地区"
+            ],
+            "properties": {
+              "name": "台湾地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:183"
+          },
+          "relationship": {
+            "identity": 216,
+            "start": 183,
+            "end": 217,
+            "type": "规划建造",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:216",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:183",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+          },
+          "end": {
+            "identity": 217,
+            "labels": [
+              "阵地"
+            ],
+            "properties": {
+              "name": "岸置鱼叉导弹阵地"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 10,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 2"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+      },
+      "end": {
+        "identity": 193,
+        "labels": [
+          "导引系统"
+        ],
+        "properties": {
+          "name": "GPS/INS"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:193"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 10,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 2"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+          },
+          "relationship": {
+            "identity": 217,
+            "start": 10,
+            "end": 193,
+            "type": "导引系统改用",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:217",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:193"
+          },
+          "end": {
+            "identity": 193,
+            "labels": [
+              "导引系统"
+            ],
+            "properties": {
+              "name": "GPS/INS"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:193"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 7,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1D"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+      },
+      "end": {
+        "identity": 191,
+        "labels": [
+          "导引系统"
+        ],
+        "properties": {
+          "name": "中央处理单元"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:191"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 7,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1D"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+          },
+          "relationship": {
+            "identity": 218,
+            "start": 7,
+            "end": 191,
+            "type": "导引系统改用",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:218",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:191"
+          },
+          "end": {
+            "identity": 191,
+            "labels": [
+              "导引系统"
+            ],
+            "properties": {
+              "name": "中央处理单元"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:191"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "AGM-84E SLAM"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6"
+      },
+      "end": {
+        "identity": 192,
+        "labels": [
+          "导引系统"
+        ],
+        "properties": {
+          "name": "GPS"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:192"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "AGM-84E SLAM"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6"
+          },
+          "relationship": {
+            "identity": 219,
+            "start": 6,
+            "end": 192,
+            "type": "导引系统加装",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:219",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:6",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:192"
+          },
+          "end": {
+            "identity": 192,
+            "labels": [
+              "导引系统"
+            ],
+            "properties": {
+              "name": "GPS"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:192"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 18,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "性能"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+      },
+      "end": {
+        "identity": 225,
+        "labels": [
+          "翼展"
+        ],
+        "properties": {
+          "name": "0.914米"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:225"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 18,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "性能"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+          },
+          "relationship": {
+            "identity": 220,
+            "start": 18,
+            "end": 225,
+            "type": "翼展",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:220",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:225"
+          },
+          "end": {
+            "identity": 225,
+            "labels": [
+              "翼展"
+            ],
+            "properties": {
+              "name": "0.914米"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:225"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 151,
+        "labels": [
+          "鱼叉型号"
+        ],
+        "properties": {
+          "name": "AGM-84(训练弹)"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:151"
+      },
+      "end": {
+        "identity": 218,
+        "labels": [
+          "商船"
+        ],
+        "properties": {
+          "name": "印度商船Jagvivek号"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:218"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 151,
+            "labels": [
+              "鱼叉型号"
+            ],
+            "properties": {
+              "name": "AGM-84(训练弹)"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:151"
+          },
+          "relationship": {
+            "identity": 221,
+            "start": 151,
+            "end": 218,
+            "type": "误击",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:221",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:151",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:218"
+          },
+          "end": {
+            "identity": 218,
+            "labels": [
+              "商船"
+            ],
+            "properties": {
+              "name": "印度商船Jagvivek号"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:218"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 1C"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+      },
+      "end": {
+        "identity": 1,
+        "labels": [
+          "能力"
+        ],
+        "properties": {
+          "name": "三个巡航转折点"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 1C"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5"
+          },
+          "relationship": {
+            "identity": 222,
+            "start": 5,
+            "end": 1,
+            "type": "预设",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:222",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:5",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1"
+          },
+          "end": {
+            "identity": 1,
+            "labels": [
+              "能力"
+            ],
+            "properties": {
+              "name": "三个巡航转折点"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 18,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "性能"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+      },
+      "end": {
+        "identity": 174,
+        "labels": [
+          "直径"
+        ],
+        "properties": {
+          "name": "0.34米"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:174"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 18,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "性能"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18"
+          },
+          "relationship": {
+            "identity": 223,
+            "start": 18,
+            "end": 174,
+            "type": "直径",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:223",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:18",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:174"
+          },
+          "end": {
+            "identity": 174,
+            "labels": [
+              "直径"
+            ],
+            "properties": {
+              "name": "0.34米"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:174"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 10,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "name": "A/R/UGM-84 Block 2"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+      },
+      "end": {
+        "identity": 0,
+        "labels": [
+          "能力"
+        ],
+        "properties": {
+          "name": "反舰与陆攻"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 10,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "name": "A/R/UGM-84 Block 2"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10"
+          },
+          "relationship": {
+            "identity": 224,
+            "start": 10,
+            "end": 0,
+            "type": "兼具",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:224",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:10",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          },
+          "end": {
+            "identity": 0,
+            "labels": [
+              "能力"
+            ],
+            "properties": {
+              "name": "反舰与陆攻"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 14,
+        "labels": [
+          "大类"
+        ],
+        "properties": {
+          "name": "分类"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14"
+      },
+      "end": {
+        "identity": 205,
+        "labels": [
+          "鱼叉类型"
+        ],
+        "properties": {
+          "name": "AGM-84"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:205"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 14,
+            "labels": [
+              "大类"
+            ],
+            "properties": {
+              "name": "分类"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14"
+          },
+          "relationship": {
+            "identity": 225,
+            "start": 14,
+            "end": 205,
+            "type": "空射型",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:225",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:14",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:205"
+          },
+          "end": {
+            "identity": 205,
+            "labels": [
+              "鱼叉类型"
+            ],
+            "properties": {
+              "name": "AGM-84"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:205"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

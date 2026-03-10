@@ -1,0 +1,82 @@
+[
+    {
+        "type": "Detection",
+        "timestamp": "2025-03-03T09:15:00Z",
+        "scene_id": "sat_scene_001",
+        "img_source": "./event_7/FARAD_7.jpg",
+        "coordinates": {
+            "longitude": 45.1234,
+            "latitude": -12.3456
+        },
+        "detections": [
+            {
+                "object_type": "truck",
+                "confidence": 0.87,
+                "bounding_box": [
+                    45.1,
+                    46.2,
+                    47.3,
+                    48.4
+                ]
+            },
+            {
+                "object_type": "HJP",
+                "confidence": 0.87,
+                "bounding_box": [
+                    45.1,
+                    46.2,
+                    47.3,
+                    48.4
+                ]
+            },
+            {
+                "object_type": "Tank",
+                "confidence": 0.87,
+                "bounding_box": [
+                    45.1,
+                    46.2,
+                    47.3,
+                    48.4
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Intelligence",
+        "source": "social_media_post",
+        "timestamp": "2025-03-02T11:00:00Z",
+        "text_content": "最近在XX山区出现一批可疑车辆...",
+        "entities_extracted": {
+            "location": "XX山区",
+            "event_time": "recent_days",
+            "activity": "suspected arms trade"
+        }
+    },
+    {
+        "type": "Decision from LLM",
+        "decision": "Increase border patrol",
+        "confidence_score": 0.92,
+        "rationale": {
+            "key_images": [
+                {
+                    "image_id": "sat_scene_001",
+                    "marked_objects": [
+                        "truck",
+                        "temporary_shelter"
+                    ]
+                }
+            ],
+            "key_intelligence": [
+                {
+                    "source": "social_media_post",
+                    "quote": "最近在XX山区出现一批可疑车辆...",
+                    "analysis": "Matches location/time with newly detected trucks"
+                }
+            ]
+        },
+        "recommendations": [
+            "Deploy UAV recon in the next 24 hours",
+            "Coordinate with local authorities for checkpoint setup"
+        ]
+    }
+]

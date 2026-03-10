@@ -1,0 +1,73 @@
+[
+    {
+        "type": "Detection",
+        "timestamp": "2025-03-03T09:15:00Z",
+        "scene_id": "sat_scene_001",
+        "img_source": "./event_3/FARAD_3.jpg",
+        "text_content": "2025年3月3日09:15，卫星在坐标(121.56, 25.03)区域识别出HIMARS高机动火箭炮系统。目标轮廓与HIMARS特征高度匹配，置信度0.87，表明该区域可能存在高机动性火力单元活动。",
+        "coordinates": {
+            "longitude": 121.56,
+            "latitude": 25.03
+        },
+        "detections": [
+            {
+                "object_type": "HIMARS",
+                "confidence": 0.87,
+                "bounding_box": [
+                    45.1,
+                    46.2,
+                    47.3,
+                    48.4
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Intelligence",
+        "source": "social_media_post",
+        "timestamp": "2025-03-02T11:00:00Z",
+        "text_content": "据可靠情报显示，在边境高原地区的某处临时营地内，出现了一款高机动性轮式发射车。该车辆底盘紧凑，具备极强的越野能力，其搭载的发射箱结构特征指向美制HIMARS（海马斯）高机动火箭炮系统。目击者称，该车辆在短时间内完成了从行军状态到战斗状态的转换，并进行了模拟发射操作。随行车队中包含有雷达侦测车辆及电子对抗设备，显示出该作战单元具备独立作战及快速反应能力，这一异常部署情况已引起相关部门的高度关注。",
+        "coordinates": {
+            "longitude": 121.56,
+            "latitude": 25.03
+        },
+        "entities_extracted": {
+            "location": "XX山区",
+            "event_time": "recent_days",
+            "activity": "suspected arms trade"
+        }
+    },
+    {
+        "type": "Decision from LLM",
+        "timestamp": "2025-04-02T11:00:00Z",
+        "decision": "Increase border patrol",
+        "confidence_score": 0.92,
+        "coordinates": {
+            "longitude": 121.56,
+            "latitude": 25.03
+        },
+        "text_content": "综合卫星侦察到的HIMARS系统及情报分析，建议立即提升警戒级别。应在24小时内派遣无人机进行深入侦察，同时加强与地方当局的沟通，设立检查站以监控可疑车辆流动。",
+        "rationale": {
+            "key_images": [
+                {
+                    "image_id": "sat_scene_001",
+                    "marked_objects": [
+                        "HIMARS",
+                        "temporary_shelter"
+                    ]
+                }
+            ],
+            "key_intelligence": [
+                {
+                    "source": "social_media_post",
+                    "quote": "最近在XX山区出现一批可疑车辆...",
+                    "analysis": "Matches location/time with newly detected trucks"
+                }
+            ]
+        },
+        "recommendations": [
+            "Deploy UAV recon in the next 24 hours",
+            "Coordinate with local authorities for checkpoint setup"
+        ]
+    }
+]

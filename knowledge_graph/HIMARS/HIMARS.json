@@ -1,0 +1,841 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "地区"
+        ],
+        "properties": {
+          "name": "台湾地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+      },
+      "end": {
+        "identity": 34,
+        "labels": [
+          "批次"
+        ],
+        "properties": {
+          "年份": 2026,
+          "数量": 18,
+          "name": "二期"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "地区"
+            ],
+            "properties": {
+              "name": "台湾地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          },
+          "relationship": {
+            "identity": 23,
+            "start": 8,
+            "end": 34,
+            "type": "部署批次",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34"
+          },
+          "end": {
+            "identity": 34,
+            "labels": [
+              "批次"
+            ],
+            "properties": {
+              "年份": 2026,
+              "数量": 18,
+              "name": "二期"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "地区"
+        ],
+        "properties": {
+          "name": "台湾地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+      },
+      "end": {
+        "identity": 35,
+        "labels": [
+          "批次"
+        ],
+        "properties": {
+          "年份": 2024,
+          "数量": 11,
+          "name": "首批"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:35"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "地区"
+            ],
+            "properties": {
+              "name": "台湾地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          },
+          "relationship": {
+            "identity": 24,
+            "start": 8,
+            "end": 35,
+            "type": "部署批次",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:35"
+          },
+          "end": {
+            "identity": 35,
+            "labels": [
+              "批次"
+            ],
+            "properties": {
+              "年份": 2024,
+              "数量": 11,
+              "name": "首批"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:35"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 37,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "重量": "10.89吨",
+          "装填时间": "5分钟",
+          "机动速度": "86公里/小时",
+          "瞄准时间": "16秒",
+          "name": "HIMARS",
+          "覆盖面积": "6万平方米",
+          "操作人员": 3,
+          "运输方式": "C-130运输机",
+          "类型": "多管火箭系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+      },
+      "end": {
+        "identity": 33,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "美国"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 37,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "重量": "10.89吨",
+              "装填时间": "5分钟",
+              "机动速度": "86公里/小时",
+              "瞄准时间": "16秒",
+              "name": "HIMARS",
+              "覆盖面积": "6万平方米",
+              "操作人员": 3,
+              "运输方式": "C-130运输机",
+              "类型": "多管火箭系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+          },
+          "relationship": {
+            "identity": 25,
+            "start": 37,
+            "end": 33,
+            "type": "部署于",
+            "properties": {
+              "年份": 2024,
+              "数量": 600
+            },
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          },
+          "end": {
+            "identity": 33,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "美国"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 37,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "重量": "10.89吨",
+          "装填时间": "5分钟",
+          "机动速度": "86公里/小时",
+          "瞄准时间": "16秒",
+          "name": "HIMARS",
+          "覆盖面积": "6万平方米",
+          "操作人员": 3,
+          "运输方式": "C-130运输机",
+          "类型": "多管火箭系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+      },
+      "end": {
+        "identity": 32,
+        "labels": [
+          "国家"
+        ],
+        "properties": {
+          "name": "乌克兰"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:32"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 37,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "重量": "10.89吨",
+              "装填时间": "5分钟",
+              "机动速度": "86公里/小时",
+              "瞄准时间": "16秒",
+              "name": "HIMARS",
+              "覆盖面积": "6万平方米",
+              "操作人员": 3,
+              "运输方式": "C-130运输机",
+              "类型": "多管火箭系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+          },
+          "relationship": {
+            "identity": 26,
+            "start": 37,
+            "end": 32,
+            "type": "部署于",
+            "properties": {
+              "数量": 20,
+              "已发射": 12000
+            },
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:32"
+          },
+          "end": {
+            "identity": 32,
+            "labels": [
+              "国家"
+            ],
+            "properties": {
+              "name": "乌克兰"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:32"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 37,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "重量": "10.89吨",
+          "装填时间": "5分钟",
+          "机动速度": "86公里/小时",
+          "瞄准时间": "16秒",
+          "name": "HIMARS",
+          "覆盖面积": "6万平方米",
+          "操作人员": 3,
+          "运输方式": "C-130运输机",
+          "类型": "多管火箭系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+      },
+      "end": {
+        "identity": 8,
+        "labels": [
+          "地区"
+        ],
+        "properties": {
+          "name": "台湾地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 37,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "重量": "10.89吨",
+              "装填时间": "5分钟",
+              "机动速度": "86公里/小时",
+              "瞄准时间": "16秒",
+              "name": "HIMARS",
+              "覆盖面积": "6万平方米",
+              "操作人员": 3,
+              "运输方式": "C-130运输机",
+              "类型": "多管火箭系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+          },
+          "relationship": {
+            "identity": 27,
+            "start": 37,
+            "end": 8,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:27",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          },
+          "end": {
+            "identity": 8,
+            "labels": [
+              "地区"
+            ],
+            "properties": {
+              "name": "台湾地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 8,
+        "labels": [
+          "地区"
+        ],
+        "properties": {
+          "name": "台湾地区"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+      },
+      "end": {
+        "identity": 36,
+        "labels": [
+          "部队"
+        ],
+        "properties": {
+          "name": "台中第58炮兵指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 8,
+            "labels": [
+              "地区"
+            ],
+            "properties": {
+              "name": "台湾地区"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8"
+          },
+          "relationship": {
+            "identity": 28,
+            "start": 8,
+            "end": 36,
+            "type": "优先部署",
+            "properties": {
+              "意图": "覆盖大陆沿海目标"
+            },
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:8",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+          },
+          "end": {
+            "identity": 36,
+            "labels": [
+              "部队"
+            ],
+            "properties": {
+              "name": "台中第58炮兵指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 37,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "重量": "10.89吨",
+          "装填时间": "5分钟",
+          "机动速度": "86公里/小时",
+          "瞄准时间": "16秒",
+          "name": "HIMARS",
+          "覆盖面积": "6万平方米",
+          "操作人员": 3,
+          "运输方式": "C-130运输机",
+          "类型": "多管火箭系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+      },
+      "end": {
+        "identity": 30,
+        "labels": [
+          "弹药"
+        ],
+        "properties": {
+          "能力": "打击移动目标",
+          "状态": "2024年服役",
+          "name": "PrSM",
+          "射程": "500公里",
+          "类型": "精确打击导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:30"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 37,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "重量": "10.89吨",
+              "装填时间": "5分钟",
+              "机动速度": "86公里/小时",
+              "瞄准时间": "16秒",
+              "name": "HIMARS",
+              "覆盖面积": "6万平方米",
+              "操作人员": 3,
+              "运输方式": "C-130运输机",
+              "类型": "多管火箭系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+          },
+          "relationship": {
+            "identity": 29,
+            "start": 37,
+            "end": 30,
+            "type": "可装载",
+            "properties": {
+              "数量": 2
+            },
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:30"
+          },
+          "end": {
+            "identity": 30,
+            "labels": [
+              "弹药"
+            ],
+            "properties": {
+              "能力": "打击移动目标",
+              "状态": "2024年服役",
+              "name": "PrSM",
+              "射程": "500公里",
+              "类型": "精确打击导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:30"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 37,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "重量": "10.89吨",
+          "装填时间": "5分钟",
+          "机动速度": "86公里/小时",
+          "瞄准时间": "16秒",
+          "name": "HIMARS",
+          "覆盖面积": "6万平方米",
+          "操作人员": 3,
+          "运输方式": "C-130运输机",
+          "类型": "多管火箭系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+      },
+      "end": {
+        "identity": 31,
+        "labels": [
+          "弹药"
+        ],
+        "properties": {
+          "弹头": [
+            "反装甲子弹药(950枚)",
+            "轻量级子炸弹(300枚)"
+          ],
+          "name": "ATACMS",
+          "射程": "300公里",
+          "类型": "战术导弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:31"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 37,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "重量": "10.89吨",
+              "装填时间": "5分钟",
+              "机动速度": "86公里/小时",
+              "瞄准时间": "16秒",
+              "name": "HIMARS",
+              "覆盖面积": "6万平方米",
+              "操作人员": 3,
+              "运输方式": "C-130运输机",
+              "类型": "多管火箭系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+          },
+          "relationship": {
+            "identity": 30,
+            "start": 37,
+            "end": 31,
+            "type": "可装载",
+            "properties": {
+              "数量": 1
+            },
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:30",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:31"
+          },
+          "end": {
+            "identity": 31,
+            "labels": [
+              "弹药"
+            ],
+            "properties": {
+              "弹头": [
+                "反装甲子弹药(950枚)",
+                "轻量级子炸弹(300枚)"
+              ],
+              "name": "ATACMS",
+              "射程": "300公里",
+              "类型": "战术导弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:31"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 37,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "重量": "10.89吨",
+          "装填时间": "5分钟",
+          "机动速度": "86公里/小时",
+          "瞄准时间": "16秒",
+          "name": "HIMARS",
+          "覆盖面积": "6万平方米",
+          "操作人员": 3,
+          "运输方式": "C-130运输机",
+          "类型": "多管火箭系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+      },
+      "end": {
+        "identity": 29,
+        "labels": [
+          "弹药"
+        ],
+        "properties": {
+          "弹头": [
+            "高爆弹头(82kg)",
+            "子母弹(644枚M77)"
+          ],
+          "name": "GMLRS",
+          "口径": "227毫米",
+          "射程": "80公里",
+          "类型": "制导火箭弹"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 37,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "重量": "10.89吨",
+              "装填时间": "5分钟",
+              "机动速度": "86公里/小时",
+              "瞄准时间": "16秒",
+              "name": "HIMARS",
+              "覆盖面积": "6万平方米",
+              "操作人员": 3,
+              "运输方式": "C-130运输机",
+              "类型": "多管火箭系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+          },
+          "relationship": {
+            "identity": 31,
+            "start": 37,
+            "end": 29,
+            "type": "可装载",
+            "properties": {
+              "数量": 6
+            },
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:31",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+          },
+          "end": {
+            "identity": 29,
+            "labels": [
+              "弹药"
+            ],
+            "properties": {
+              "弹头": [
+                "高爆弹头(82kg)",
+                "子母弹(644枚M77)"
+              ],
+              "name": "GMLRS",
+              "口径": "227毫米",
+              "射程": "80公里",
+              "类型": "制导火箭弹"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 37,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "重量": "10.89吨",
+          "装填时间": "5分钟",
+          "机动速度": "86公里/小时",
+          "瞄准时间": "16秒",
+          "name": "HIMARS",
+          "覆盖面积": "6万平方米",
+          "操作人员": 3,
+          "运输方式": "C-130运输机",
+          "类型": "多管火箭系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+      },
+      "end": {
+        "identity": 38,
+        "labels": [
+          "企业"
+        ],
+        "properties": {
+          "name": "洛克希德·马丁公司",
+          "国籍": "美国"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:38"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 37,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "重量": "10.89吨",
+              "装填时间": "5分钟",
+              "机动速度": "86公里/小时",
+              "瞄准时间": "16秒",
+              "name": "HIMARS",
+              "覆盖面积": "6万平方米",
+              "操作人员": 3,
+              "运输方式": "C-130运输机",
+              "类型": "多管火箭系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+          },
+          "relationship": {
+            "identity": 32,
+            "start": 37,
+            "end": 38,
+            "type": "由_研发",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:32",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:38"
+          },
+          "end": {
+            "identity": 38,
+            "labels": [
+              "企业"
+            ],
+            "properties": {
+              "name": "洛克希德·马丁公司",
+              "国籍": "美国"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:38"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 37,
+        "labels": [
+          "武器系统"
+        ],
+        "properties": {
+          "重量": "10.89吨",
+          "装填时间": "5分钟",
+          "机动速度": "86公里/小时",
+          "瞄准时间": "16秒",
+          "name": "HIMARS",
+          "覆盖面积": "6万平方米",
+          "操作人员": 3,
+          "运输方式": "C-130运输机",
+          "类型": "多管火箭系统"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+      },
+      "end": {
+        "identity": 7,
+        "labels": [
+          "制导技术"
+        ],
+        "properties": {
+          "末端修正": "弹翼姿态调整",
+          "精度": "CEP<10米",
+          "name": "GPS+惯性导航"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 37,
+            "labels": [
+              "武器系统"
+            ],
+            "properties": {
+              "重量": "10.89吨",
+              "装填时间": "5分钟",
+              "机动速度": "86公里/小时",
+              "瞄准时间": "16秒",
+              "name": "HIMARS",
+              "覆盖面积": "6万平方米",
+              "操作人员": 3,
+              "运输方式": "C-130运输机",
+              "类型": "多管火箭系统"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37"
+          },
+          "relationship": {
+            "identity": 33,
+            "start": 37,
+            "end": 7,
+            "type": "配备_制导系统",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+          },
+          "end": {
+            "identity": 7,
+            "labels": [
+              "制导技术"
+            ],
+            "properties": {
+              "末端修正": "弹翼姿态调整",
+              "精度": "CEP<10米",
+              "name": "GPS+惯性导航"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:7"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

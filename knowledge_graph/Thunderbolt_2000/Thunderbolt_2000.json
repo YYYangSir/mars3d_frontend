@@ -1,0 +1,1370 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 28,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "营",
+          "name": "58炮兵营"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+      },
+      "end": {
+        "identity": 25,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "指挥部",
+          "name": "陆军第六军团炮兵指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 28,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "营",
+              "name": "58炮兵营"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+          },
+          "relationship": {
+            "identity": 0,
+            "start": 28,
+            "end": 25,
+            "type": "所属指挥部",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25"
+          },
+          "end": {
+            "identity": 25,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "指挥部",
+              "name": "陆军第六军团炮兵指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 26,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "营",
+          "name": "43炮兵营"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+      },
+      "end": {
+        "identity": 25,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "指挥部",
+          "name": "陆军第六军团炮兵指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 26,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "营",
+              "name": "43炮兵营"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+          },
+          "relationship": {
+            "identity": 1,
+            "start": 26,
+            "end": 25,
+            "type": "所属指挥部",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25"
+          },
+          "end": {
+            "identity": 25,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "指挥部",
+              "name": "陆军第六军团炮兵指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 22,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "营",
+          "name": "21炮兵营"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+      },
+      "end": {
+        "identity": 25,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "指挥部",
+          "name": "陆军第六军团炮兵指挥部"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 22,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "营",
+              "name": "21炮兵营"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+          },
+          "relationship": {
+            "identity": 2,
+            "start": 22,
+            "end": 25,
+            "type": "所属指挥部",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:2",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25"
+          },
+          "end": {
+            "identity": 25,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "指挥部",
+              "name": "陆军第六军团炮兵指挥部"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 33,
+        "labels": [
+          "火箭系统"
+        ],
+        "properties": {
+          "研发开始年份": 1993,
+          "name": "雷霆2000火箭炮系统",
+          "首次公开年份": 1997,
+          "服役日期": "2012-09-01",
+          "研发周期": "近20年"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+      },
+      "end": {
+        "identity": 28,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "营",
+          "name": "58炮兵营"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 33,
+            "labels": [
+              "火箭系统"
+            ],
+            "properties": {
+              "研发开始年份": 1993,
+              "name": "雷霆2000火箭炮系统",
+              "首次公开年份": 1997,
+              "服役日期": "2012-09-01",
+              "研发周期": "近20年"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          },
+          "relationship": {
+            "identity": 23,
+            "start": 33,
+            "end": 28,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+          },
+          "end": {
+            "identity": 28,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "营",
+              "name": "58炮兵营"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 33,
+        "labels": [
+          "火箭系统"
+        ],
+        "properties": {
+          "研发开始年份": 1993,
+          "name": "雷霆2000火箭炮系统",
+          "首次公开年份": 1997,
+          "服役日期": "2012-09-01",
+          "研发周期": "近20年"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+      },
+      "end": {
+        "identity": 26,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "营",
+          "name": "43炮兵营"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 33,
+            "labels": [
+              "火箭系统"
+            ],
+            "properties": {
+              "研发开始年份": 1993,
+              "name": "雷霆2000火箭炮系统",
+              "首次公开年份": 1997,
+              "服役日期": "2012-09-01",
+              "研发周期": "近20年"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          },
+          "relationship": {
+            "identity": 24,
+            "start": 33,
+            "end": 26,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+          },
+          "end": {
+            "identity": 26,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "营",
+              "name": "43炮兵营"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 33,
+        "labels": [
+          "火箭系统"
+        ],
+        "properties": {
+          "研发开始年份": 1993,
+          "name": "雷霆2000火箭炮系统",
+          "首次公开年份": 1997,
+          "服役日期": "2012-09-01",
+          "研发周期": "近20年"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+      },
+      "end": {
+        "identity": 22,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "营",
+          "name": "21炮兵营"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 33,
+            "labels": [
+              "火箭系统"
+            ],
+            "properties": {
+              "研发开始年份": 1993,
+              "name": "雷霆2000火箭炮系统",
+              "首次公开年份": 1997,
+              "服役日期": "2012-09-01",
+              "研发周期": "近20年"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          },
+          "relationship": {
+            "identity": 25,
+            "start": 33,
+            "end": 22,
+            "type": "部署于",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:25",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+          },
+          "end": {
+            "identity": 22,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "营",
+              "name": "21炮兵营"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 29,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "连",
+          "name": "43炮兵营第2连",
+          "发射车数量": 9
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+      },
+      "end": {
+        "identity": 26,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "营",
+          "name": "43炮兵营"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 29,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "连",
+              "name": "43炮兵营第2连",
+              "发射车数量": 9
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29"
+          },
+          "relationship": {
+            "identity": 26,
+            "start": 29,
+            "end": 26,
+            "type": "所属营",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+          },
+          "end": {
+            "identity": 26,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "营",
+              "name": "43炮兵营"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 23,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "连",
+          "name": "58炮兵营第2连",
+          "发射车数量": 9
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23"
+      },
+      "end": {
+        "identity": 28,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "营",
+          "name": "58炮兵营"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 23,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "连",
+              "name": "58炮兵营第2连",
+              "发射车数量": 9
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23"
+          },
+          "relationship": {
+            "identity": 27,
+            "start": 23,
+            "end": 28,
+            "type": "所属营",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:27",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:23",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+          },
+          "end": {
+            "identity": 28,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "营",
+              "name": "58炮兵营"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 31,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "连",
+          "name": "58炮兵营第1连",
+          "发射车数量": 9
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:31"
+      },
+      "end": {
+        "identity": 28,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "营",
+          "name": "58炮兵营"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 31,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "连",
+              "name": "58炮兵营第1连",
+              "发射车数量": 9
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:31"
+          },
+          "relationship": {
+            "identity": 28,
+            "start": 31,
+            "end": 28,
+            "type": "所属营",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:31",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+          },
+          "end": {
+            "identity": 28,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "营",
+              "name": "58炮兵营"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:28"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 30,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "连",
+          "name": "21炮兵营第1连",
+          "发射车数量": 9
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:30"
+      },
+      "end": {
+        "identity": 22,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "营",
+          "name": "21炮兵营"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 30,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "连",
+              "name": "21炮兵营第1连",
+              "发射车数量": 9
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:30"
+          },
+          "relationship": {
+            "identity": 29,
+            "start": 30,
+            "end": 22,
+            "type": "所属营",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:29",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:30",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+          },
+          "end": {
+            "identity": 22,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "营",
+              "name": "21炮兵营"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 24,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "连",
+          "name": "21炮兵营第2连",
+          "发射车数量": 9
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24"
+      },
+      "end": {
+        "identity": 22,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "营",
+          "name": "21炮兵营"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 24,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "连",
+              "name": "21炮兵营第2连",
+              "发射车数量": 9
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24"
+          },
+          "relationship": {
+            "identity": 30,
+            "start": 24,
+            "end": 22,
+            "type": "所属营",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:30",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:24",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+          },
+          "end": {
+            "identity": 22,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "营",
+              "name": "21炮兵营"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:22"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 27,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "连",
+          "name": "43炮兵营第1连",
+          "发射车数量": 9
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:27"
+      },
+      "end": {
+        "identity": 26,
+        "labels": [
+          "军事单位"
+        ],
+        "properties": {
+          "单位类型": "营",
+          "name": "43炮兵营"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 27,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "连",
+              "name": "43炮兵营第1连",
+              "发射车数量": 9
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:27"
+          },
+          "relationship": {
+            "identity": 31,
+            "start": 27,
+            "end": 26,
+            "type": "所属营",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:31",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:27",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+          },
+          "end": {
+            "identity": 26,
+            "labels": [
+              "军事单位"
+            ],
+            "properties": {
+              "单位类型": "营",
+              "name": "43炮兵营"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:26"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 33,
+        "labels": [
+          "火箭系统"
+        ],
+        "properties": {
+          "研发开始年份": 1993,
+          "name": "雷霆2000火箭炮系统",
+          "首次公开年份": 1997,
+          "服役日期": "2012-09-01",
+          "研发周期": "近20年"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+      },
+      "end": {
+        "identity": 36,
+        "labels": [
+          "底盘型号"
+        ],
+        "properties": {
+          "name": "美制M977HEMTT卡车",
+          "是否采用": false,
+          "原因": "成本过高"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 33,
+            "labels": [
+              "火箭系统"
+            ],
+            "properties": {
+              "研发开始年份": 1993,
+              "name": "雷霆2000火箭炮系统",
+              "首次公开年份": 1997,
+              "服役日期": "2012-09-01",
+              "研发周期": "近20年"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          },
+          "relationship": {
+            "identity": 32,
+            "start": 33,
+            "end": 36,
+            "type": "候选底盘",
+            "properties": {
+              "原因": "成本过高"
+            },
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:32",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+          },
+          "end": {
+            "identity": 36,
+            "labels": [
+              "底盘型号"
+            ],
+            "properties": {
+              "name": "美制M977HEMTT卡车",
+              "是否采用": false,
+              "原因": "成本过高"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 33,
+        "labels": [
+          "火箭系统"
+        ],
+        "properties": {
+          "研发开始年份": 1993,
+          "name": "雷霆2000火箭炮系统",
+          "首次公开年份": 1997,
+          "服役日期": "2012-09-01",
+          "研发周期": "近20年"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+      },
+      "end": {
+        "identity": 0,
+        "labels": [
+          "弹药类型"
+        ],
+        "properties": {
+          "弹径": "117毫米",
+          "单箱数量": 20,
+          "name": "MK-15",
+          "射程": "7-15公里",
+          "钢珠数量": 6400
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 33,
+            "labels": [
+              "火箭系统"
+            ],
+            "properties": {
+              "研发开始年份": 1993,
+              "name": "雷霆2000火箭炮系统",
+              "首次公开年份": 1997,
+              "服役日期": "2012-09-01",
+              "研发周期": "近20年"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          },
+          "relationship": {
+            "identity": 33,
+            "start": 33,
+            "end": 0,
+            "type": "配备弹药",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          },
+          "end": {
+            "identity": 0,
+            "labels": [
+              "弹药类型"
+            ],
+            "properties": {
+              "弹径": "117毫米",
+              "单箱数量": 20,
+              "name": "MK-15",
+              "射程": "7-15公里",
+              "钢珠数量": 6400
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:0"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 33,
+        "labels": [
+          "火箭系统"
+        ],
+        "properties": {
+          "研发开始年份": 1993,
+          "name": "雷霆2000火箭炮系统",
+          "首次公开年份": 1997,
+          "服役日期": "2012-09-01",
+          "研发周期": "近20年"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+      },
+      "end": {
+        "identity": 1,
+        "labels": [
+          "弹药类型"
+        ],
+        "properties": {
+          "弹径": "180毫米",
+          "单箱数量": 9,
+          "弹重": "187公斤",
+          "name": "MK-30",
+          "射程": "15-30公里",
+          "钢珠数量": 18300
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 33,
+            "labels": [
+              "火箭系统"
+            ],
+            "properties": {
+              "研发开始年份": 1993,
+              "name": "雷霆2000火箭炮系统",
+              "首次公开年份": 1997,
+              "服役日期": "2012-09-01",
+              "研发周期": "近20年"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          },
+          "relationship": {
+            "identity": 34,
+            "start": 33,
+            "end": 1,
+            "type": "配备弹药",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1"
+          },
+          "end": {
+            "identity": 1,
+            "labels": [
+              "弹药类型"
+            ],
+            "properties": {
+              "弹径": "180毫米",
+              "单箱数量": 9,
+              "弹重": "187公斤",
+              "name": "MK-30",
+              "射程": "15-30公里",
+              "钢珠数量": 18300
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:1"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 33,
+        "labels": [
+          "火箭系统"
+        ],
+        "properties": {
+          "研发开始年份": 1993,
+          "name": "雷霆2000火箭炮系统",
+          "首次公开年份": 1997,
+          "服役日期": "2012-09-01",
+          "研发周期": "近20年"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+      },
+      "end": {
+        "identity": 2,
+        "labels": [
+          "弹药类型"
+        ],
+        "properties": {
+          "弹径": "227毫米",
+          "单箱数量": 6,
+          "弹重": "305公斤",
+          "name": "MK-45",
+          "射程": "20-45公里",
+          "钢珠数量": 25000
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:2"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 33,
+            "labels": [
+              "火箭系统"
+            ],
+            "properties": {
+              "研发开始年份": 1993,
+              "name": "雷霆2000火箭炮系统",
+              "首次公开年份": 1997,
+              "服役日期": "2012-09-01",
+              "研发周期": "近20年"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          },
+          "relationship": {
+            "identity": 35,
+            "start": 33,
+            "end": 2,
+            "type": "配备弹药",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:35",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:2"
+          },
+          "end": {
+            "identity": 2,
+            "labels": [
+              "弹药类型"
+            ],
+            "properties": {
+              "弹径": "227毫米",
+              "单箱数量": 6,
+              "弹重": "305公斤",
+              "name": "MK-45",
+              "射程": "20-45公里",
+              "钢珠数量": 25000
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:2"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 33,
+        "labels": [
+          "火箭系统"
+        ],
+        "properties": {
+          "研发开始年份": 1993,
+          "name": "雷霆2000火箭炮系统",
+          "首次公开年份": 1997,
+          "服役日期": "2012-09-01",
+          "研发周期": "近20年"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+      },
+      "end": {
+        "identity": 35,
+        "labels": [
+          "研发机构"
+        ],
+        "properties": {
+          "name": "台湾中山科学研究院"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:35"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 33,
+            "labels": [
+              "火箭系统"
+            ],
+            "properties": {
+              "研发开始年份": 1993,
+              "name": "雷霆2000火箭炮系统",
+              "首次公开年份": 1997,
+              "服役日期": "2012-09-01",
+              "研发周期": "近20年"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          },
+          "relationship": {
+            "identity": 36,
+            "start": 33,
+            "end": 35,
+            "type": "研发单位",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:36",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:35"
+          },
+          "end": {
+            "identity": 35,
+            "labels": [
+              "研发机构"
+            ],
+            "properties": {
+              "name": "台湾中山科学研究院"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:35"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 33,
+        "labels": [
+          "火箭系统"
+        ],
+        "properties": {
+          "研发开始年份": 1993,
+          "name": "雷霆2000火箭炮系统",
+          "首次公开年份": 1997,
+          "服役日期": "2012-09-01",
+          "研发周期": "近20年"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+      },
+      "end": {
+        "identity": 32,
+        "labels": [
+          "军事演习"
+        ],
+        "properties": {
+          "波次": 6,
+          "日期": "2025-05-12",
+          "name": "2025年雷霆实弹演习",
+          "发射弹药量": 837
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:32"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 33,
+            "labels": [
+              "火箭系统"
+            ],
+            "properties": {
+              "研发开始年份": 1993,
+              "name": "雷霆2000火箭炮系统",
+              "首次公开年份": 1997,
+              "服役日期": "2012-09-01",
+              "研发周期": "近20年"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          },
+          "relationship": {
+            "identity": 37,
+            "start": 33,
+            "end": 32,
+            "type": "参与演习",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:37",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:32"
+          },
+          "end": {
+            "identity": 32,
+            "labels": [
+              "军事演习"
+            ],
+            "properties": {
+              "波次": 6,
+              "日期": "2025-05-12",
+              "name": "2025年雷霆实弹演习",
+              "发射弹药量": 837
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:32"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 33,
+        "labels": [
+          "火箭系统"
+        ],
+        "properties": {
+          "研发开始年份": 1993,
+          "name": "雷霆2000火箭炮系统",
+          "首次公开年份": 1997,
+          "服役日期": "2012-09-01",
+          "研发周期": "近20年"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+      },
+      "end": {
+        "identity": 34,
+        "labels": [
+          "火箭系统"
+        ],
+        "properties": {
+          "name": "工蜂六型117毫米火箭炮"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 33,
+            "labels": [
+              "火箭系统"
+            ],
+            "properties": {
+              "研发开始年份": 1993,
+              "name": "雷霆2000火箭炮系统",
+              "首次公开年份": 1997,
+              "服役日期": "2012-09-01",
+              "研发周期": "近20年"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          },
+          "relationship": {
+            "identity": 38,
+            "start": 33,
+            "end": 34,
+            "type": "替代型号",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:38",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34"
+          },
+          "end": {
+            "identity": 34,
+            "labels": [
+              "火箭系统"
+            ],
+            "properties": {
+              "name": "工蜂六型117毫米火箭炮"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:34"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 33,
+        "labels": [
+          "火箭系统"
+        ],
+        "properties": {
+          "研发开始年份": 1993,
+          "name": "雷霆2000火箭炮系统",
+          "首次公开年份": 1997,
+          "服役日期": "2012-09-01",
+          "研发周期": "近20年"
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+      },
+      "end": {
+        "identity": 38,
+        "labels": [
+          "底盘型号"
+        ],
+        "properties": {
+          "续航里程": 750,
+          "name": "德国MAN商规88底盘",
+          "公路时速": 90,
+          "是否采用": true
+        },
+        "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:38"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 33,
+            "labels": [
+              "火箭系统"
+            ],
+            "properties": {
+              "研发开始年份": 1993,
+              "name": "雷霆2000火箭炮系统",
+              "首次公开年份": 1997,
+              "服役日期": "2012-09-01",
+              "研发周期": "近20年"
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33"
+          },
+          "relationship": {
+            "identity": 40,
+            "start": 33,
+            "end": 38,
+            "type": "使用底盘",
+            "properties": {},
+            "elementId": "5:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:40",
+            "startNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:33",
+            "endNodeElementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:38"
+          },
+          "end": {
+            "identity": 38,
+            "labels": [
+              "底盘型号"
+            ],
+            "properties": {
+              "续航里程": 750,
+              "name": "德国MAN商规88底盘",
+              "公路时速": 90,
+              "是否采用": true
+            },
+            "elementId": "4:f42ae0cf-4bf2-42e7-adb1-8cc1b50eb134:38"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

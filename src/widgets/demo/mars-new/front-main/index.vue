@@ -4,7 +4,7 @@
       <my-title></my-title>
     </div>
   </div>
-  <div class="left-box" >
+  <div class="left-box">
     <!-- 在左侧盒子顶部位置添加事件概要标题 -->
     <div class="left-top-content">
       <part-title title="事件概要"></part-title>
@@ -17,13 +17,13 @@
           v-for="event in events"
           :key="event.id"
           class="event-item"
-          :class="{ 'selected': selectedEvent && selectedEvent.id === event.id }"
+          :class="{ selected: selectedEvent && selectedEvent.id === event.id }"
           @click="selectEvent(event)"
         >
           <div class="event-header">
             <div class="event-tags">
               <span class="event-type-tag">{{ event.label }}</span>
-              <span class="event-source-tag">{{ event.source || '未知来源' }}</span>
+              <span class="event-source-tag">{{ event.source || "未知来源" }}</span>
             </div>
             <span class="event-time-tag">{{ formatTime(event.time) }}</span>
           </div>
@@ -49,28 +49,21 @@
           </div>
           <div v-for="(message, index) in chatMessages" :key="index" class="chat-message" :class="message.role">
             <div class="message-header">
-              <span class="role-badge">{{ message.role === 'user' ? '我' : selectedModel }}</span>
+              <span class="role-badge">{{ message.role === "user" ? "用户" : selectedModel }}</span>
               <span class="message-time">{{ message.time }}</span>
             </div>
             <div class="message-content" v-html="formatMessage(message.content)"></div>
             <div class="message-footer">
               <span v-if="message.processingTime">处理时间: {{ message.processingTime }}</span>
               <!-- 添加复制按钮 -->
-              <button
-                v-if="!message.isError"
-                class="copy-button"
-                @click="copyMessageContent(message.content)"
-                title="复制内容"
-              >
+              <button v-if="!message.isError" class="copy-button" @click="copyMessageContent(message.content)" title="复制内容">
                 <span class="copy-icon">📋</span>
                 <span class="copy-text">复制</span>
               </button>
             </div>
           </div>
           <div v-if="isLoading" class="loading-indicator">
-            <div class="loading-dots">
-              <span></span><span></span><span></span>
-            </div>
+            <div class="loading-dots"><span></span><span></span><span></span></div>
           </div>
         </div>
 
@@ -91,20 +84,18 @@
                 <span>发送</span>
               </button>
               <div class="model-selector">
-                <button class="model-select-button" @click="toggleModelDropdown">
-                  {{ selectedModel }} <span class="dropdown-arrow">▼</span>
-                </button>
+                <button class="model-select-button" @click="toggleModelDropdown">{{ selectedModel }} <span class="dropdown-arrow">▼</span></button>
                 <div class="model-dropdown" v-if="showModelDropdown">
                   <div
                     v-for="model in availableModels"
                     :key="model.id"
                     class="model-option"
-                    :class="{ 'selected': selectedModel === model.id }"
+                    :class="{ selected: selectedModel === model.id }"
                     @click="selectModel(model)"
                   >
                     <div class="model-name">{{ model.name }}</div>
-                    <div class="model-description">{{ model.description || '本地模型' }}</div>
-                    <div class="model-status" :class="{ 'loaded': model.isLoaded }"></div>
+                    <div class="model-description">{{ model.description || "本地模型" }}</div>
+                    <div class="model-status" :class="{ loaded: model.isLoaded }"></div>
                   </div>
                 </div>
               </div>
@@ -121,7 +112,6 @@
 
       <!-- 事件详情展示区域 -->
       <div v-if="selectedEvent" class="event-details-container">
-
         <!-- 事件描述区域 -->
         <div class="event-description-section">
           <div class="section-header">
@@ -153,28 +143,66 @@
           <div class="section-header">
             <h4>事件图像</h4>
           </div>
-          <div class="section-content">
-            <div v-if="selectedEvent.imagePaths && selectedEvent.imagePaths.length > 0" class="grid-image-wrapper">
-              <div class="image-grid">
+          <div class="section-content scrollable-content" style="overflow-y: auto; max-height: 400px">
+            <div
+              v-if="selectedEvent.imagePaths && selectedEvent.imagePaths.length > 0"
+              class="grid-image-wrapper"
+              style="display: flex; flex-direction: column; gap: 15px"
+            >
+              <div v-for="(group, groupIndex) in getDisplayImages()" :key="groupIndex" class="image-group-container">
                 <div
-                  v-for="(imagePath, index) in getDisplayImages()"
-                  :key="index"
-                  class="grid-image-item"
-                  @click="openFullImage('grid', index)"
+                  class="group-title"
+                  style="margin-bottom: 5px; font-weight: bold; border-bottom: 1px solid #333; padding-bottom: 3px; color: #40a9ff; font-size: 14px"
                 >
-                  <img
-                    :src="getImageUrl(imagePath)"
-                    class="grid-image"
-                    :alt="`事件图像 ${index + 1}`"
-                  />
-                  <div class="image-overlay">
-                    <span class="image-number">{{ index + 1 }}</span>
+                  图像组 {{ groupIndex + 1 }}
+                </div>
+                <div class="image-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px">
+                  <div class="grid-image-item" @click="openFullImage('grid', groupIndex * 4 + 0)" title="VIS (可见光)">
+                    <img v-if="group.VIS" :src="getImageUrl(group.VIS)" class="grid-image" alt="VIS" />
+                    <div
+                      v-else
+                      class="no-image-placeholder"
+                      style="display: flex; align-items: center; justify-content: center; height: 100%; background: #1a1a1a; color: #666"
+                    >
+                      无 VIS
+                    </div>
+                    <div class="image-overlay"><span class="image-number" style="font-size: 12px; padding: 2px 4px">VIS</span></div>
+                  </div>
+                  <div class="grid-image-item" @click="openFullImage('grid', groupIndex * 4 + 1)" title="SAR (合成孔径雷达)">
+                    <img v-if="group.SAR" :src="getImageUrl(group.SAR)" class="grid-image" alt="SAR" />
+                    <div
+                      v-else
+                      class="no-image-placeholder"
+                      style="display: flex; align-items: center; justify-content: center; height: 100%; background: #1a1a1a; color: #666"
+                    >
+                      无 SAR
+                    </div>
+                    <div class="image-overlay"><span class="image-number" style="font-size: 12px; padding: 2px 4px">SAR</span></div>
+                  </div>
+                  <div class="grid-image-item" @click="openFullImage('grid', groupIndex * 4 + 2)" title="VIS 目标检测">
+                    <img v-if="group.VIS_DET" :src="getImageUrl(group.VIS_DET)" class="grid-image" alt="VIS_DET" />
+                    <div
+                      v-else
+                      class="no-image-placeholder"
+                      style="display: flex; align-items: center; justify-content: center; height: 100%; background: #1a1a1a; color: #666"
+                    >
+                      无 VIS检测
+                    </div>
+                    <div class="image-overlay"><span class="image-number" style="font-size: 12px; padding: 2px 4px">VIS DET</span></div>
+                  </div>
+                  <div class="grid-image-item" @click="openFullImage('grid', groupIndex * 4 + 3)" title="SAR 目标检测">
+                    <img v-if="group.SAR_DET" :src="getImageUrl(group.SAR_DET)" class="grid-image" alt="SAR_DET" />
+                    <div
+                      v-else
+                      class="no-image-placeholder"
+                      style="display: flex; align-items: center; justify-content: center; height: 100%; background: #1a1a1a; color: #666"
+                    >
+                      无 SAR检测
+                    </div>
+                    <div class="image-overlay"><span class="image-number" style="font-size: 12px; padding: 2px 4px">SAR DET</span></div>
                   </div>
                 </div>
               </div>
-              <button class="zoom-button grid-zoom-button" @click="openFullImage('grid', 0)">
-                <i class="zoom-icon">🔍</i>
-              </button>
             </div>
             <div v-else class="no-image">
               <p>暂无图像数据</p>
@@ -197,23 +225,28 @@
                 :class="{ active: selectedTarget && selectedTarget.object_type === target.object_type }"
               >
                 <div class="target-header">
-                  <span class="target-name">{{ target.object_type }}</span>
+                  <div class="target-name-container" style="display: flex; align-items: center; gap: 8px">
+                    <span class="target-name">{{ target.object_type }}</span>
+                    <span
+                      class="target-source-badge"
+                      :style="{
+                        fontSize: '12px',
+                        padding: '2px 6px',
+                        borderRadius: '4px',
+                        color: '#fff',
+                        backgroundColor: getTargetSource(target) === 'SAR' ? '#ff9800' : '#4caf50'
+                      }"
+                      >{{ getTargetSource(target) }}</span
+                    >
+                  </div>
                   <div class="target-actions">
                     <span class="target-confidence">置信度: {{ (target.confidence * 100).toFixed(1) }}%</span>
                     <!-- 添加三合一展示按钮 -->
-                    <button
-                      class="target-combined-view-button"
-                      @click.stop="openCombinedTargetView(target)"
-                      title="查看目标综合信息"
-                    >
-                      详情
-                    </button>
+                    <button class="target-combined-view-button" @click.stop="openCombinedTargetView(target)" title="查看目标综合信息">详情</button>
                   </div>
                 </div>
                 <div class="target-details">
-                  <span class="target-position">
-                    位置: [{{ target.bounding_box.map(v => v.toFixed(1)).join(", ") }}]
-                  </span>
+                  <span class="target-position"> 位置: [{{ target.bounding_box.map((v) => v.toFixed(1)).join(", ") }}] </span>
                 </div>
               </div>
             </div>
@@ -222,9 +255,6 @@
             </div>
           </div>
         </div>
-
-
-
       </div>
 
       <!-- 未选择事件时的提示 -->
@@ -259,20 +289,54 @@
 
       <!-- 四宫格显示模式 -->
       <div v-else class="fullscreen-grid-view">
-        <div class="fullscreen-image-grid">
-          <div
-            v-for="(imagePath, index) in getDisplayImages()"
-            :key="index"
-            class="fullscreen-grid-item"
-            @click="switchToSingleView(index)"
-          >
-            <img
-              :src="getImageUrl(imagePath)"
-              class="fullscreen-grid-image"
-              :alt="`事件图像 ${index + 1}`"
-            />
-            <div class="fullscreen-image-overlay">
-              <span class="fullscreen-image-number">{{ index + 1 }}</span>
+        <div class="fullscreen-image-grid" style="overflow-y: auto; display: flex; flex-direction: column; gap: 20px">
+          <div v-for="(group, groupIndex) in getDisplayImages()" :key="groupIndex" class="fullscreen-group">
+            <div class="group-title" style="margin-bottom: 10px; color: #fff; text-align: center; font-size: 16px">图像组 {{ groupIndex + 1 }}</div>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; max-width: 80vw; margin: 0 auto">
+              <div class="fullscreen-grid-item" @click="switchToSingleView(groupIndex * 4 + 0)">
+                <img v-if="group.VIS" :src="getImageUrl(group.VIS)" class="fullscreen-grid-image" alt="VIS" />
+                <div
+                  v-else
+                  class="no-image-placeholder"
+                  style="display: flex; align-items: center; justify-content: center; height: 100%; background: #1a1a1a; color: #fff"
+                >
+                  无 VIS
+                </div>
+                <div class="fullscreen-image-overlay"><span class="fullscreen-image-number">VIS</span></div>
+              </div>
+              <div class="fullscreen-grid-item" @click="switchToSingleView(groupIndex * 4 + 1)">
+                <img v-if="group.SAR" :src="getImageUrl(group.SAR)" class="fullscreen-grid-image" alt="SAR" />
+                <div
+                  v-else
+                  class="no-image-placeholder"
+                  style="display: flex; align-items: center; justify-content: center; height: 100%; background: #1a1a1a; color: #fff"
+                >
+                  无 SAR
+                </div>
+                <div class="fullscreen-image-overlay"><span class="fullscreen-image-number">SAR</span></div>
+              </div>
+              <div class="fullscreen-grid-item" @click="switchToSingleView(groupIndex * 4 + 2)">
+                <img v-if="group.VIS_DET" :src="getImageUrl(group.VIS_DET)" class="fullscreen-grid-image" alt="VIS_DET" />
+                <div
+                  v-else
+                  class="no-image-placeholder"
+                  style="display: flex; align-items: center; justify-content: center; height: 100%; background: #1a1a1a; color: #fff"
+                >
+                  无 VIS检测
+                </div>
+                <div class="fullscreen-image-overlay"><span class="fullscreen-image-number">VIS_DET</span></div>
+              </div>
+              <div class="fullscreen-grid-item" @click="switchToSingleView(groupIndex * 4 + 3)">
+                <img v-if="group.SAR_DET" :src="getImageUrl(group.SAR_DET)" class="fullscreen-grid-image" alt="SAR_DET" />
+                <div
+                  v-else
+                  class="no-image-placeholder"
+                  style="display: flex; align-items: center; justify-content: center; height: 100%; background: #1a1a1a; color: #fff"
+                >
+                  无 SAR检测
+                </div>
+                <div class="fullscreen-image-overlay"><span class="fullscreen-image-number">SAR_DET</span></div>
+              </div>
             </div>
           </div>
         </div>
@@ -286,22 +350,9 @@
 
       <!-- 视图切换按钮 -->
       <div class="view-mode-controls">
-        <button
-          v-if="fullScreenViewMode === 'grid'"
-          class="view-mode-button"
-          @click="switchToSingleView(0)"
-        >
-          单张查看
-        </button>
-        <button
-          v-else
-          class="view-mode-button"
-          @click="switchToGridView"
-        >
-          四宫格查看
-        </button>
+        <button v-if="fullScreenViewMode === 'grid'" class="view-mode-button" @click="switchToSingleView(0)">单张查看</button>
+        <button v-else class="view-mode-button" @click="switchToGridView">四宫格查看</button>
       </div>
-
     </div>
   </div>
 
@@ -312,20 +363,8 @@
 
       <!-- 添加图像切换按钮 -->
       <div class="target-image-switch">
-        <button
-          class="target-switch-button"
-          :class="{ 'active': !showTargetGraphImage }"
-          @click="switchTargetImageType(false)"
-        >
-          真实影像
-        </button>
-        <button
-          class="target-switch-button"
-          :class="{ 'active': showTargetGraphImage }"
-          @click="switchTargetImageType(true)"
-        >
-          知识图谱
-        </button>
+        <button class="target-switch-button" :class="{ active: !showTargetGraphImage }" @click="switchTargetImageType(false)">真实影像</button>
+        <button class="target-switch-button" :class="{ active: showTargetGraphImage }" @click="switchTargetImageType(true)">知识图谱</button>
       </div>
 
       <img
@@ -358,10 +397,7 @@
       </div>
 
       <div class="fullscreen-graph-content">
-        <KnowledgeGraph
-          :graphData="targetKnowledgeGraph"
-          :isFullscreen="true"
-        />
+        <KnowledgeGraph :graphData="targetKnowledgeGraph" :isFullscreen="true" />
       </div>
     </div>
   </div>
@@ -496,8 +532,8 @@ import axios from "axios"
 import qs from "qs"
 declare global {
   interface Window {
-    mars3d?: any;
-    map?: any; // Explicitly declare the 'map' property
+    mars3d?: any
+    map?: any // Explicitly declare the 'map' property
   }
 }
 
@@ -511,6 +547,7 @@ export default defineComponent({
   data() {
     return {
       refreshInterval: null, // 定时器引用
+      removeWatermarkInterval: null, // 用于存储水印移除定时器
       events: [], // 存储事件数据
       showtext: "", // 用于显示后端消息
       selectedEvent: null, // 当前选中的事件
@@ -530,9 +567,7 @@ export default defineComponent({
       isLoading: false,
       selectedModel: "DeepSeek-R1-Distill-Qwen-7b", // 默认选择的模型
       showModelDropdown: false,
-      availableModels: [
-        { id: "DeepSeek-R1-Distill-Qwen-7b", name: "DeepSeek-R1-Distill-Qwen-7b", isLoaded: false, description: "正在加载..." }
-      ],
+      availableModels: [{ id: "DeepSeek-R1-Distill-Qwen-7b", name: "DeepSeek-R1-Distill-Qwen-7b", isLoaded: false, description: "正在加载..." }],
       modelStatus: {
         loading: false,
         error: null
@@ -601,6 +636,31 @@ export default defineComponent({
     }
   },
   mounted() {
+    // 隐藏由于免费版引发的“火星科技”水印以及相关标识
+    this.removeWatermarkInterval = setInterval(() => {
+      // 优化查询，只检查可能作为水印的悬浮容器节点
+      const rootNodes = [
+        ...document.querySelectorAll("body > div"),
+        ...document.querySelectorAll(".mars3d-container > div"),
+        ...document.querySelectorAll(".cesium-viewer > div")
+      ]
+      rootNodes.forEach((el) => {
+        const htmlEl = el as HTMLElement
+        if (htmlEl && htmlEl.innerText && htmlEl.innerText.includes("火星科技") && htmlEl.innerText.length < 30) {
+          htmlEl.style.display = "none"
+          htmlEl.style.opacity = "0"
+          htmlEl.style.visibility = "hidden"
+          // 防止某些动画又把它显示出来
+          htmlEl.style.setProperty("display", "none", "important")
+        }
+      })
+      // 隐藏cesium底部版权等已知固定的logo
+      const credits = document.querySelectorAll(".cesium-widget-credits, .mars3d-logo")
+      credits.forEach((logo) => {
+        ;(logo as HTMLElement).style.display = "none"
+      })
+    }, 1500)
+
     // 组件挂载时自动获取事件数据
     this.getEvents()
 
@@ -623,47 +683,53 @@ export default defineComponent({
     if (this.refreshInterval) {
       clearInterval(this.refreshInterval)
     }
+    if (this.removeWatermarkInterval) {
+      clearInterval(this.removeWatermarkInterval)
+    }
 
     // 清除地图上的标记
     this.clearEventMarkers()
   },
   methods: {
-      // 获取当前显示的图像URL
-      getCurrentImageUrl() {
-        if (!this.selectedEvent) {
-          return ""
-        }
-
-        // 根据showDetectionImage状态决定显示哪张图片
-        if (this.showDetectionImage && this.selectedEvent.detectionImagePath) {
-          return `/RZtest/${this.selectedEvent.detectionImagePath}`
-        } else if (this.selectedEvent.imagePaths && this.selectedEvent.imagePaths.length > 0) {
-          // 为了兼容性，返回第一张图像
-          return `/RZtest/${this.selectedEvent.imagePaths[0]}`
-        }
-
+    // 获取当前显示的图像URL
+    getCurrentImageUrl() {
+      if (!this.selectedEvent) {
         return ""
-      },
+      }
 
-      // 原有getImageUrl方法保留用于兼容性
-      getImageUrl(imagePath) {
-        if (!imagePath) {
-          return ""
-        }
-        return `/RZtest/${imagePath}`
-      },
+      // 根据showDetectionImage状态决定显示哪张图片
+      if (this.showDetectionImage && this.selectedEvent.detectionImagePath) {
+        return `/RZtest/${this.selectedEvent.detectionImagePath}`
+      } else if (this.selectedEvent.imagePaths && this.selectedEvent.imagePaths.length > 0) {
+        // 为了兼容性，返回第一张图像
+        return `/RZtest/${this.selectedEvent.imagePaths[0]}`
+      }
 
-      getEvents() {
+      return ""
+    },
+
+    // 原有getImageUrl方法保留用于兼容性
+    getImageUrl(imagePath) {
+      if (!imagePath) {
+        return ""
+      }
+      return `/RZtest/${imagePath}`
+    },
+
+    getEvents() {
       console.log("开始获取事件数据")
       // 向后端API发送GET请求
-      axios.get("event-add/")
-        .then(response => {
+      axios
+        .get("event-add/")
+        .then((response) => {
           console.log("事件数据响应：", response.data)
 
           if (response.data.events) {
             // 数据获取成功，更新组件状态
             this.events = response.data.events
             this.showtext = response.data.message || "获取事件数据成功"
+            // 数据获取完毕后，在地图上渲染所有事件标记
+            this.renderAllEventsToMap()
           } else {
             // 响应格式不符合预期
             this.events = []
@@ -671,7 +737,7 @@ export default defineComponent({
             console.error("事件数据格式错误：", response.data)
           }
         })
-        .catch(error => {
+        .catch((error) => {
           // 请求失败处理
           console.error("获取事件数据失败：", error)
           this.showtext = "请求失败，请检查网络或后端服务"
@@ -681,22 +747,26 @@ export default defineComponent({
 
     // 刷新事件数据（检查新事件）
     refreshEvents() {
-      axios.get("event-add/")
-        .then(response => {
+      axios
+        .get("event-add/")
+        .then((response) => {
           if (response.data.events && response.data.events.length > this.events.length) {
             console.log("发现新事件，更新事件列表")
             // 只有当事件数量增加时才更新
             this.events = response.data.events
+            this.renderAllEventsToMap()
           }
         })
-        .catch(error => {
+        .catch((error) => {
           console.error("刷新事件数据失败:", error)
         })
     },
 
     // 格式化时间显示
     formatTime(timeStr) {
-      if (!timeStr || timeStr === "当前" || timeStr === "未知时间") { return timeStr }
+      if (!timeStr || timeStr === "当前" || timeStr === "未知时间") {
+        return timeStr
+      }
       try {
         const date = new Date(timeStr)
         return date.toLocaleString("zh-CN", {
@@ -710,7 +780,6 @@ export default defineComponent({
         return timeStr
       }
     },
-
 
     // 新增加载目标详细信息方法
     async loadTargetDetailInfo(targetName) {
@@ -733,7 +802,6 @@ export default defineComponent({
           console.warn("目标详情加载失败:", response.data)
           this.targetDetailInfo = null
         }
-
       } catch (error) {
         console.error("加载目标详情时出错:", error)
         this.targetDetailInfo = null
@@ -806,7 +874,9 @@ export default defineComponent({
     },
 
     onTargetDrag(event) {
-      if (!this.isTargetDragging) { return }
+      if (!this.isTargetDragging) {
+        return
+      }
 
       const deltaX = (event.clientX - this.targetDragStartX) / this.targetZoomLevel
       const deltaY = (event.clientY - this.targetDragStartY) / this.targetZoomLevel
@@ -872,7 +942,6 @@ export default defineComponent({
           console.warn("知识图谱加载失败:", response.data)
           this.targetKnowledgeGraph = []
         }
-
       } catch (error) {
         console.error("加载知识图谱时出错:", error)
         this.targetKnowledgeGraph = []
@@ -900,6 +969,11 @@ export default defineComponent({
           // 创建用于存放事件标记的图层
           this.createEventMarkerLayer()
 
+          // 若事件已加载完，渲染标记
+          if (this.events.length > 0) {
+            this.renderAllEventsToMap()
+          }
+
           console.log("获取到地图实例")
         } else {
           // 如果地图实例还未创建，等待100ms后再次尝试
@@ -910,13 +984,12 @@ export default defineComponent({
       setTimeout(checkMapInstance, 500)
     },
 
-
     // 选择事件
     selectEvent(event) {
       this.selectedEvent = event
 
-      // 清除之前的标记和目标信息
-      this.clearEventMarkers()
+      // 重新渲染全部事件标记以更新高亮状态，不再调用 clearEventMarkers()
+      this.renderAllEventsToMap()
       this.resetTargetSelection()
 
       // 如果选择了事件，获取事件详细信息
@@ -925,6 +998,11 @@ export default defineComponent({
 
         // 获取事件详细信息，包括检测目标
         this.getEventDetails(event)
+
+        // 确保如果有经纬度，进行跳转（作为从左侧或者标记点点击后的定位保障）
+        if (event.longitude && event.latitude) {
+          this.flyToEventLocation(event.longitude, event.latitude)
+        }
       }
     },
 
@@ -955,17 +1033,18 @@ export default defineComponent({
         return
       }
 
-      axios.get("event-detail/", {
-        params: {
-          eventDir: event.eventDir
-        }
-      })
-        .then(response => {
+      axios
+        .get("event-detail/", {
+          params: {
+            eventDir: event.eventDir
+          }
+        })
+        .then((response) => {
           if (response.data.status === "OK" && response.data.eventData) {
             const eventData = response.data.eventData
 
             // 查找检测事件并提取目标信息
-            const detectionEvent = eventData.find(item => item.type === "Detection")
+            const detectionEvent = eventData.find((item) => item.type === "Detection")
 
             if (detectionEvent) {
               // 提取检测目标
@@ -980,11 +1059,9 @@ export default defineComponent({
               if (detectionEvent.coordinates) {
                 const { longitude, latitude } = detectionEvent.coordinates
                 if (longitude !== undefined && latitude !== undefined) {
-                  this.flyToEventLocation(longitude, latitude)
-                  try {
-                    this.addEventMarker(longitude, latitude, event.label, event.summary)
-                  } catch (error) {
-                    console.error("添加事件标记失败:", error)
+                  // 如果在外层没有附带经纬度，就在这里进行补偿定位
+                  if (!event.longitude && !event.latitude) {
+                    this.flyToEventLocation(longitude, latitude)
                   }
                 }
               }
@@ -996,14 +1073,16 @@ export default defineComponent({
             console.error("获取事件详情失败:", response.data.message)
           }
         })
-        .catch(error => {
+        .catch((error) => {
           console.error("获取事件详细信息失败:", error)
         })
     },
 
     // 创建事件标记图层
     createEventMarkerLayer() {
-      if (!this.mapInstance) { return }
+      if (!this.mapInstance) {
+        return
+      }
 
       try {
         if (this.eventMarkerLayer) {
@@ -1022,24 +1101,24 @@ export default defineComponent({
       }
     },
 
-
-    // 修改飞行定位方法，增加更平滑的动画效果
+    // 修改飞行定位方法，增加更平滑的动画效果，并将定位目标置于正中心
     flyToEventLocation(longitude, latitude) {
-      if (!this.mapInstance) { return }
+      if (!this.mapInstance) {
+        return
+      }
 
       console.log(`飞行定位到坐标: ${longitude}, ${latitude}`)
 
       // 定义增强版飞行参数
       const options = {
         duration: 3.5, // 略微增加飞行时间，使动画更流畅
-        radius: 8000, // 视距高度
+        radius: 4000, // 缩短视距高度，实现放大效果
         heading: 0,
-        pitch: -50, // 倾斜视角
+        pitch: -90, // 垂直俯视，确保目标位置在屏幕正中心
         roll: 0,
         complete: () => {
-          // 飞行结束后的回调，可以添加额外效果
+          // 飞行结束后的回调
           console.log("飞行定位完成")
-
           // 让位置短暂闪烁以突出显示
           this.highlightLocation(longitude, latitude)
         }
@@ -1079,7 +1158,9 @@ export default defineComponent({
 
     // 添加位置高亮效果
     highlightLocation(longitude, latitude) {
-      if (!this.mapInstance || !this.eventMarkerLayer) { return }
+      if (!this.mapInstance || !this.eventMarkerLayer) {
+        return
+      }
 
       try {
         // 创建一个短暂的闪烁效果
@@ -1094,7 +1175,7 @@ export default defineComponent({
             color: "#ff0000",
             opacity: 0.6,
             outline: true,
-            outlineWidth: 2,
+            outlineWidh: 2,
             outlineColor: "#ffffff"
           }
         })
@@ -1126,7 +1207,104 @@ export default defineComponent({
       }
     },
 
-    // 在地图上添加事件标记
+    // 渲染所有事件标记
+    renderAllEventsToMap() {
+      if (!this.mapInstance || !this.eventMarkerLayer) {
+        return
+      }
+
+      // 清空现有图层内容
+      this.eventMarkerLayer.clear()
+      const mars3dInstance = window.mars3d || mars3d
+
+      this.events.forEach((event) => {
+        // 如果事件没有经纬度信息，跳过不渲染
+        if (!event.longitude || !event.latitude) {
+          return
+        }
+
+        const isSelected = this.selectedEvent && this.selectedEvent.id === event.id
+
+        // 创建高亮的倒三角符号，选中事件点用绿色，未选为红色
+        const svgColor = isSelected ? "%2300ff00" : "%23ff0000"
+
+        // 我们改用更为兼容可靠的 DivGraphic 渲染出精美倒三角交互 UI，防止部分 Entity 图层对 svg 解析失败
+        try {
+          const marker = new mars3dInstance.graphic.DivGraphic({
+            position: [event.longitude, event.latitude],
+            style: {
+              html: `
+                  <div style="cursor: pointer; transform: translate(-50%, -100%); display: flex; flex-direction: column; align-items: center; filter: drop-shadow(0 0 8px ${isSelected ? "rgba(0,255,0,0.8)" : "rgba(255,0,0,0.8)"});">
+                    <div style="background: rgba(0,0,0,0.6); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 14px; margin-bottom: 5px; white-space: nowrap; border: 1px solid ${isSelected ? "#00ff00" : "#ff0000"};">
+                      ${event.label || "事件位置"}
+                    </div>
+                    <svg width="${isSelected ? 40 : 32}" height="${isSelected ? 40 : 32}" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                      <polygon points="16,32 0,0 32,0" fill="${isSelected ? "#00ff00" : "#ff0000"}" stroke="#ffffff" stroke-width="2"/>
+                    </svg>
+                  </div>
+                `,
+              horizontalOrigin: Cesium.HorizontalOrigin?.CENTER,
+              verticalOrigin: Cesium.VerticalOrigin?.BOTTOM,
+              clampToGround: true
+            },
+            attr: { ...event } // 绑定事件数据供点击使用
+          })
+
+          // 添加点击事件和弹窗
+          marker.bindPopup(
+            "<div class='mars3d-template-titile'>" +
+              (event.label || "事件详情") +
+              "</div>" +
+              "<div class='mars3d-template-content'>" +
+              "<div>" +
+              (event.summary || "暂无详细说明") +
+              "</div>" +
+              "<div>经度: " +
+              parseFloat(event.longitude).toFixed(6) +
+              "</div>" +
+              "<div>纬度: " +
+              parseFloat(event.latitude).toFixed(6) +
+              "</div>" +
+              "</div>",
+            {
+              offsetY: -60,
+              closeButton: true
+            }
+          )
+
+          marker.on(mars3dInstance.EventType.click, (e) => {
+            this.selectEvent(event)
+          })
+
+          this.eventMarkerLayer.addGraphic(marker)
+
+          // 对选中的事件添加向下的显眼指示箭头
+          if (isSelected) {
+            const arrow = new mars3dInstance.graphic.GeoEntity({
+              name: "事件箭头",
+              position: [event.longitude, event.latitude, 1000],
+              style: {
+                shape: "cylinder",
+                color: "#1aff00",
+                opacity: 0.6,
+                heightReference: mars3dInstance.HeightReference.NONE,
+                length: 1000, // 箭头高度
+                topRadius: 0, // 顶部尖
+                bottomRadius: 200, // 底部宽
+                heading: 0,
+                pitch: 180, // 倒置圆锥形状
+                roll: 0
+              }
+            })
+            this.eventMarkerLayer.addGraphic(arrow)
+          }
+        } catch (e) {
+          console.error("渲染标记时出错", e)
+        }
+      })
+    },
+
+    // 在地图上添加单个事件标记（保留作降级或特殊调用兼容使用）
     addEventMarker(longitude, latitude, title, description) {
       if (!this.mapInstance || !this.eventMarkerLayer) {
         console.error("地图实例或事件图层未初始化")
@@ -1218,7 +1396,9 @@ export default defineComponent({
 
     // 添加简单标记 (降级方案)
     addSimpleMarker(longitude, latitude, title, description) {
-      if (!this.mapInstance || !this.eventMarkerLayer) { return }
+      if (!this.mapInstance || !this.eventMarkerLayer) {
+        return
+      }
 
       const mars3dInstance = window.mars3d || mars3d
 
@@ -1268,7 +1448,33 @@ export default defineComponent({
     // 关闭图像
     closeImage() {
       this.selectedEvent = null
-      this.clearEventMarkers()
+      this.renderAllEventsToMap()
+    },
+
+    getTargetSource(target) {
+      if (!target) {
+        return "UNKNOWN"
+      }
+      // If target has a source field, return it:
+      if (target.source) {
+        if (target.source.toUpperCase().includes("SAR")) {
+          return "SAR"
+        }
+        if (target.source.toUpperCase().includes("VIS")) {
+          return "VIS"
+        }
+      }
+      // If there's an image path in the target, or associated file info, try parsing it:
+      if (target.imagePath) {
+        if (target.imagePath.includes("SAR")) {
+          return "SAR"
+        }
+        if (target.imagePath.includes("VIS")) {
+          return "VIS"
+        }
+      }
+      // If we can get event images length logic or just default to VIS.
+      return "VIS" // Default fallback
     },
 
     // 打开全屏图像
@@ -1285,26 +1491,51 @@ export default defineComponent({
       this.fullScreenViewMode = "grid"
     },
 
-    // 新增获取显示图像的方法，确保总是返回4张图像
-    getDisplayImages() {
+    // 获取展开的图像列表用于单张全屏展示
+    getFlattenedImages(): any[] {
+      const groups = this.getDisplayImages()
+      const flat = []
+      groups.forEach((group) => {
+        flat.push(group.VIS || "")
+        flat.push(group.SAR || "")
+        flat.push(group.VIS_DET || "")
+        flat.push(group.SAR_DET || "")
+      })
+      return flat
+    },
+
+    // 新增获取显示图像的方法，返回分组对象数组 (VIS, SAR, VIS_DET, SAR_DET)
+    getDisplayImages(): any[] {
       if (!this.selectedEvent || !this.selectedEvent.imagePaths) {
         return []
       }
 
       const images = this.selectedEvent.imagePaths
-      const displayImages = []
+      const groupsMap = {}
 
-      // 确保有4张图像显示，不足的用第一张图像填充
-      for (let i = 0; i < 4; i++) {
-        if (i < images.length) {
-          displayImages.push(images[i])
-        } else if (images.length > 0) {
-          // 如果图像数量不足4张，重复使用已有图像
-          displayImages.push(images[i % images.length])
+      images.forEach((imgPath) => {
+        let type = "OTHER"
+        if (imgPath.includes("VIS_DET")) {
+          type = "VIS_DET"
+        } else if (imgPath.includes("SAR_DET")) {
+          type = "SAR_DET"
+        } else if (imgPath.includes("VIS")) {
+          type = "VIS"
+        } else if (imgPath.includes("SAR")) {
+          type = "SAR"
         }
-      }
 
-      return displayImages
+        // 提取基础名称，例如移除后半部分
+        const baseNameMatch = imgPath.match(/^(.*?)_?(VIS_DET|SAR_DET|VIS|SAR)(.*)$/)
+        const baseName = baseNameMatch ? baseNameMatch[1] : imgPath.split(".")[0]
+
+        if (!groupsMap[baseName]) {
+          groupsMap[baseName] = { VIS: "", SAR: "", VIS_DET: "", SAR_DET: "" }
+        }
+        groupsMap[baseName][type] = imgPath
+      })
+
+      return Object.values(groupsMap)
     },
 
     // 修改获取当前全屏图像URL方法
@@ -1313,15 +1544,16 @@ export default defineComponent({
         return ""
       }
 
-      const displayImages = this.getDisplayImages()
-      const imagePath = displayImages[this.currentGridImageIndex]
+      const flatImages = this.getFlattenedImages()
+      const imagePath = flatImages[this.currentGridImageIndex]
       return imagePath ? `/RZtest/${imagePath}` : ""
     },
 
-
     // 修改发送消息方法，增强错误处理
     sendMessage() {
-      if (!this.userInput.trim() || this.isLoading) { return }
+      if (!this.userInput.trim() || this.isLoading) {
+        return
+      }
 
       const userMessage = this.userInput.trim()
       const currentTime = new Date().toLocaleTimeString()
@@ -1356,11 +1588,12 @@ export default defineComponent({
       }
 
       // 发送请求到后端
-      axios.post("llm-dialogue/", {
-        message: userMessage,
-        model: this.selectedModel
-      })
-        .then(response => {
+      axios
+        .post("llm-dialogue/", {
+          message: userMessage,
+          model: this.selectedModel
+        })
+        .then((response) => {
           if (response.data && response.data.status === "OK") {
             // 添加AI回复到对话历史
             this.chatMessages.push({
@@ -1379,7 +1612,7 @@ export default defineComponent({
             this.scrollToBottom()
           })
         })
-        .catch(error => {
+        .catch((error) => {
           console.error("大模型请求失败:", error)
 
           // 获取详细错误信息
@@ -1456,15 +1689,16 @@ export default defineComponent({
         }
       }, 10000) // 10秒超时
 
-      axios.post("llm-preload/", {
-        model: modelId
-      })
-        .then(response => {
+      axios
+        .post("llm-preload/", {
+          model: modelId
+        })
+        .then((response) => {
           clearTimeout(timeoutId)
           console.log("模型预加载请求成功:", response.data.message)
 
           // 更新模型状态 - 修改为使用Vue3兼容方式
-          const modelIndex = this.availableModels.findIndex(m => m.id === modelId)
+          const modelIndex = this.availableModels.findIndex((m) => m.id === modelId)
           if (modelIndex >= 0) {
             // 创建新对象来更新模型的isLoaded状态
             const updatedModel = { ...this.availableModels[modelIndex], isLoaded: true }
@@ -1472,7 +1706,7 @@ export default defineComponent({
             this.availableModels.splice(modelIndex, 1, updatedModel)
           }
         })
-        .catch(error => {
+        .catch((error) => {
           clearTimeout(timeoutId)
           console.error("模型预加载失败:", error)
           this.modelStatus.error = error.response?.data?.message || "模型加载失败，请稍后再试"
@@ -1509,25 +1743,28 @@ export default defineComponent({
 
     // 获取可用模型列表
     fetchAvailableModels() {
-      axios.get("llm-models/")
-        .then(response => {
+      axios
+        .get("llm-models/")
+        .then((response) => {
           if (response.data.status === "OK" && response.data.models) {
             this.availableModels = response.data.models
 
             // 如果默认选择的模型不在列表中，选择第一个可用的模型
-            if (!this.availableModels.some(model => model.id === this.selectedModel) && this.availableModels.length > 0) {
+            if (!this.availableModels.some((model) => model.id === this.selectedModel) && this.availableModels.length > 0) {
               this.selectedModel = this.availableModels[0].id
             }
           }
         })
-        .catch(error => {
+        .catch((error) => {
           console.error("获取模型列表失败:", error)
         })
     },
 
     // 修改formatMessage方法以支持错误消息的HTML格式
     formatMessage(content) {
-      if (!content) { return "" }
+      if (!content) {
+        return ""
+      }
 
       // 如果内容包含HTML标记(通常是错误消息)，则直接返回
       if (content.startsWith('<div class="error-message">')) {
@@ -1535,12 +1772,7 @@ export default defineComponent({
       }
 
       // 否则执行通常的转义处理
-      const sanitized = content
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;")
+      const sanitized = content.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;")
       return sanitized.replace(/\n/g, "<br>")
     },
 
@@ -1578,7 +1810,8 @@ export default defineComponent({
         }
 
         // 使用现代异步剪贴板API
-        navigator.clipboard.writeText(textToCopy)
+        navigator.clipboard
+          .writeText(textToCopy)
           .then(() => {
             this.showCopyNotification("已复制到剪贴板")
           })
@@ -1674,7 +1907,9 @@ export default defineComponent({
 
     // 拖动图像过程中
     onDrag(event) {
-      if (!this.isDragging) { return }
+      if (!this.isDragging) {
+        return
+      }
 
       const deltaX = (event.clientX - this.dragStartX) / this.zoomLevel
       const deltaY = (event.clientY - this.dragStartY) / this.zoomLevel
@@ -1772,23 +2007,22 @@ export default defineComponent({
         // 2. 获取动态知识图谱数据
         const eventId = this.selectedEvent ? this.selectedEvent.id : null
         if (eventId) {
-             try {
-                console.log(`正在加载动态图谱: target=${targetName}, event=${eventId}`)
-                const graphResponse = await axios.get("knowledge-graph/generate/", {
-                    params: {
-                        target_name: targetName,
-                        event_id: eventId
-                    }
-                })
-                if (graphResponse.data && !graphResponse.data.error) {
-                    this.combinedTargetData.graphData = graphResponse.data
-                    console.log("动态图谱加载成功", this.combinedTargetData.graphData)
-                }
-             } catch (e) {
-                 console.error("加载动态图谱失败:", e)
-             }
+          try {
+            console.log(`正在加载动态图谱: target=${targetName}, event=${eventId}`)
+            const graphResponse = await axios.get("knowledge-graph/generate/", {
+              params: {
+                target_name: targetName,
+                event_id: eventId
+              }
+            })
+            if (graphResponse.data && !graphResponse.data.error) {
+              this.combinedTargetData.graphData = graphResponse.data
+              console.log("动态图谱加载成功", this.combinedTargetData.graphData)
+            }
+          } catch (e) {
+            console.error("加载动态图谱失败:", e)
+          }
         }
-
       } catch (error) {
         console.error("加载目标综合数据时出错:", error)
         throw error
@@ -1817,15 +2051,15 @@ export default defineComponent({
 
       // 特殊处理知识图谱全屏
       if (imageType === "graph") {
-          if (this.combinedTargetData.graphData) {
-              // 如果有动态数据，使用 KnowledgeGraph 全屏模式
-              this.targetKnowledgeGraph = this.combinedTargetData.graphData
-              this.fullScreenGraph = true
-              return
-          } else if (!this.combinedTargetData.graphImage) {
-              console.warn("知识图谱数据不存在")
-              return
-          }
+        if (this.combinedTargetData.graphData) {
+          // 如果有动态数据，使用 KnowledgeGraph 全屏模式
+          this.targetKnowledgeGraph = this.combinedTargetData.graphData
+          this.fullScreenGraph = true
+          return
+        } else if (!this.combinedTargetData.graphImage) {
+          console.warn("知识图谱数据不存在")
+          return
+        }
       }
 
       this.currentCombinedImageType = imageType
@@ -1837,7 +2071,6 @@ export default defineComponent({
       } else if (imageType === "graph") {
         this.currentCombinedImageUrl = this.combinedTargetData.graphImage
       }
-
 
       console.log("设置图像URL:", this.currentCombinedImageUrl) // 添加调试日志
       console.log("全屏状态:", this.fullScreenCombinedImage) // 查看全屏状态
@@ -1871,7 +2104,9 @@ export default defineComponent({
 
     // 新增：拖动综合展示图像过程中
     onCombinedImageDrag(event) {
-      if (!this.isCombinedImageDragging) { return }
+      if (!this.isCombinedImageDragging) {
+        return
+      }
 
       const deltaX = (event.clientX - this.combinedImageDragStartX) / this.combinedImageZoomLevel
       const deltaY = (event.clientY - this.combinedImageDragStartY) / this.combinedImageZoomLevel
@@ -1928,23 +2163,14 @@ export default defineComponent({
   left: 0;
   width: 100%;
   height: 8%;
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.9),
-      rgba(0, 0, 0, 0.3)
-    ), /* 上到下渐变 */
-    linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.9),
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.9)
-    ); /* 左右渐变 */
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
+    /* 上到下渐变 */ linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)); /* 左右渐变 */
   background-blend-mode: overlay; /* 混合模式 */
   color: white;
   z-index: 1;
   display: flex; /* 使用flex布局使子元素居中 */
   align-items: center;
-
 }
 
 /* 顶部标题容器 */
@@ -2272,7 +2498,7 @@ export default defineComponent({
 .left-top-content {
   position: relative;
   width: 100%;
-  top:0%;
+  top: 0%;
   padding: 5px;
   margin-bottom: 0; /* 确保没有底部边距 */
 }
@@ -2293,7 +2519,7 @@ export default defineComponent({
   position: relative;
   width: 100%;
   padding: 5px;
-  }
+}
 
 /* 优化大模型对话相关样式 */
 .llm-chat-container {
@@ -2568,7 +2794,7 @@ export default defineComponent({
   user-select: text; /* 允许文本选择 */
   -webkit-user-select: text;
   -moz-user-select: text;
- -ms-user-select: text;
+  -ms-user-select: text;
   cursor: text;
 }
 
@@ -2637,7 +2863,7 @@ export default defineComponent({
   position: absolute;
   top: 10px;
   right: 10px;
-  padding:  3px 6px;
+  padding: 3px 6px;
   border-radius: 10px;
   font-size: 0.75rem;
   opacity: 0;
@@ -3221,12 +3447,17 @@ export default defineComponent({
   overflow-y: auto;
   min-height: 0;
   /* 添加渐变滚动指示器 */
-  background: linear-gradient(rgba(30, 30, 35, 0.6) 30%, transparent),
-             linear-gradient(transparent, rgba(30, 30, 35, 0.6) 70%) 0 100%,
-             radial-gradient(farthest-side at 50% 0, rgba(0,0,0,.2), transparent),
-             radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,.2), transparent) 0 100%;
+  background:
+    linear-gradient(rgba(30, 30, 35, 0.6) 30%, transparent),
+    linear-gradient(transparent, rgba(30, 30, 35, 0.6) 70%) 0 100%,
+    radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, 0.2), transparent),
+    radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, 0.2), transparent) 0 100%;
   background-repeat: no-repeat;
-  background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+  background-size:
+    100% 40px,
+    100% 40px,
+    100% 14px,
+    100% 14px;
   background-attachment: local, local, scroll, scroll;
 }
 
@@ -3489,4 +3720,47 @@ export default defineComponent({
 }
 </style>
 
+<style>
+/* 强制覆盖 Mars3D底层控件组及其7个原生按钮的左边距，避开宽度为25%的左侧面板并稍微留空，同时进行缩小 */
+.cesium-viewer-toolbar {
+  left: 25.5vw !important;
+  transform: scale(0.6);
+  transform-origin: left bottom; /* 从左下角作为缩小锚点以免位置偏移 */
+}
+.mars3d-compass {
+  left: 25.5vw !important;
+  /* 增加负边距：因为下方的toolbar缩小了40%（大约空出75~85px），通过负下方距把罗盘强行往下拉，让它们紧挨着 */
+  margin-bottom: -80px !important;
+  transform: scale(0.6);
+  transform-origin: left bottom;
+}
+.mars3d-locationbar {
+  left: 25.5vw !important;
+  transform: scale(0.6);
+  transform-origin: left bottom;
+}
+.mars3d-distance-legend {
+  left: 25.5vw !important;
+  transform: scale(0.6);
+  transform-origin: left bottom;
+}
+</style>
 
+<style>
+/* 强制隐藏默认附带的拖拽视角鼠标提示按键 */
+.cesium-viewer-toolbar .cesium-navigation-help-button-wrapper {
+  display: none !important;
+}
+.mars3d-mousedown-view {
+  display: none !important;
+}
+/* 隐藏Cesium的基础版权信息及Mars3D可能自带的各类水印Logo */
+.cesium-widget-credits,
+.mars3d-logo,
+[class*="mars3d-watermark"] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+</style>

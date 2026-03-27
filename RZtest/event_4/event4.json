@@ -1,73 +1,62 @@
 [
-    {
-        "type": "Detection",
-        "timestamp": "2025-03-03T09:15:00Z",
-        "scene_id": "sat_scene_001",
-        "img_source": "./event_4/FARAD_4.jpg",
-        "text_content": "2025年3月3日09:15，卫星在坐标(121.56, 25.03)区域发现MIM-104（爱国者）防空导弹系统。系统组件识别清晰，置信度0.87，显示该区域正在构建或加强防空防御体系。",
-        "coordinates": {
-            "longitude": 121.56,
-            "latitude": 25.03
-        },
-        "detections": [
-            {
-                "object_type": "MIM_104",
-                "confidence": 0.87,
-                "bounding_box": [
-                    45.1,
-                    46.2,
-                    47.3,
-                    48.4
-                ]
-            }
-        ]
+  {
+    "type": "Detection",
+    "timestamp": "2025-03-03T09:15:00Z",
+    "scene_id": "sat_scene_001",
+    "img_source": "./event_4/SAR_FARAD_4.jpg",
+    "text_content": "2025年3月3日09:15，卫星在坐标(121.56, 25.03)区域发现MIM-104（爱国者）防空导弹系统。系统组件识别清晰，置信度0.87，显示该区域正在构建或加强防空防御体系。",
+    "coordinates": {
+      "longitude": 121.56,
+      "latitude": 25.03
     },
-    {
-        "type": "Intelligence",
-        "source": "social_media_post",
-        "timestamp": "2025-03-02T11:00:00Z",
-        "text_content": "近期监测数据显示，在某重要战略设施周边的开阔地带，突然部署了一套大型防空反导系统。通过高分辨率卫星图像分析，该系统包含相控阵雷达车、指挥控制站及多辆四联装导弹发射车，其外观轮廓与MIM-104（爱国者）防空导弹系统特征一致。雷达天线处于工作状态，发射架已调整至作战角度，周边区域已设立警戒线并有武装人员巡逻。此次部署行动迅速且隐蔽，明显是为了增强该区域的防空反导防御能力，应对可能出现的空中威胁。",
-        "coordinates": {
-            "longitude": 121.56,
-            "latitude": 25.03
-        },
-        "entities_extracted": {
-            "location": "XX山区",
-            "event_time": "recent_days",
-            "activity": "suspected arms trade"
-        }
+    "detections": [
+      {
+        "object_type": "MIM_104",
+        "confidence": 0.87,
+        "bounding_box": [45.1, 46.2, 47.3, 48.4]
+      }
+    ]
+  },
+  {
+    "type": "Intelligence",
+    "source": "social_media_post",
+    "timestamp": "2025-03-02T11:00:00Z",
+    "text_content": "近期监测数据显示，在某重要战略设施周边的开阔地带，突然部署了一套大型防空反导系统。通过高分辨率卫星图像分析，该系统包含相控阵雷达车、指挥控制站及多辆四联装导弹发射车，其外观轮廓与MIM-104（爱国者）防空导弹系统特征一致。雷达天线处于工作状态，发射架已调整至作战角度，周边区域已设立警戒线并有武装人员巡逻。此次部署行动迅速且隐蔽，明显是为了增强该区域的防空反导防御能力，应对可能出现的空中威胁。",
+    "coordinates": {
+      "longitude": 121.56,
+      "latitude": 25.03
     },
-    {
-        "type": "Decision from LLM",
-        "timestamp": "2025-02-02T11:00:00Z",
-        "decision": "Increase border patrol",
-        "confidence_score": 0.92,
-        "coordinates": {
-            "longitude": 121.56,
-            "latitude": 25.03
-        },
-        "text_content": "针对MIM-104防空系统的部署情况，结合情报分析，建议加强边境巡逻并密切关注该区域空域动态。建议部署无人机进行持续监视，并协同地方力量设立检查站，确保周边区域安全。",
-        "rationale": {
-            "key_images": [
-                {
-                    "image_id": "sat_scene_001",
-                    "marked_objects": [
-                        "MIM_104",
-                        "temporary_shelter"
-                    ]
-                }
-            ],
-            "key_intelligence": [
-                {
-                    "source": "social_media_post",
-                    "quote": "最近在XX山区出现一批可疑车辆...",
-                    "analysis": "Matches location/time with newly detected trucks"
-                }
-            ]
-        },
-        "recommendations": [
-            "Deploy UAV recon in the next 24 hours",
-            "Coordinate with local authorities for checkpoint setup"
-        ]
+    "entities_extracted": {
+      "location": "XX山区",
+      "event_time": "recent_days",
+      "activity": "suspected arms trade"
     }
+  },
+  {
+    "type": "Decision from LLM",
+    "timestamp": "2025-02-02T11:00:00Z",
+    "decision": "Increase border patrol",
+    "confidence_score": 0.92,
+    "coordinates": {
+      "longitude": 121.56,
+      "latitude": 25.03
+    },
+    "text_content": "针对MIM-104防空系统的部署情况，结合情报分析，建议加强边境巡逻并密切关注该区域空域动态。建议部署无人机进行持续监视，并协同地方力量设立检查站，确保周边区域安全。",
+    "rationale": {
+      "key_images": [
+        {
+          "image_id": "sat_scene_001",
+          "marked_objects": ["MIM_104", "temporary_shelter"]
+        }
+      ],
+      "key_intelligence": [
+        {
+          "source": "social_media_post",
+          "quote": "最近在XX山区出现一批可疑车辆...",
+          "analysis": "Matches location/time with newly detected trucks"
+        }
+      ]
+    },
+    "recommendations": ["Deploy UAV recon in the next 24 hours", "Coordinate with local authorities for checkpoint setup"]
+  }
 ]

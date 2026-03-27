@@ -1,73 +1,62 @@
 [
-    {
-        "type": "Detection",
-        "timestamp": "2025-03-03T09:15:00Z",
-        "scene_id": "sat_scene_001",
-        "img_source": "./event_2/FARAD_2.jpg",
-        "text_content": "2025年3月3日09:15，卫星在坐标(121.56, 25.03)区域侦测到雷霆-2000（Thunderbolt-2000）多管火箭系统。目标特征清晰，置信度0.87，显示该区域可能正在进行火力部署或演习。",
-        "coordinates": {
-            "longitude": 121.56,
-            "latitude": 25.03
-        },
-        "detections": [
-            {
-                "object_type": "Thunderbolt_2000",
-                "confidence": 0.87,
-                "bounding_box": [
-                    45.1,
-                    46.2,
-                    47.3,
-                    48.4
-                ]
-            }
-        ]
+  {
+    "type": "Detection",
+    "timestamp": "2025-03-03T09:15:00Z",
+    "scene_id": "sat_scene_001",
+    "img_source": "./event_2/SAR_FARAD_2.jpg",
+    "text_content": "2025年3月3日09:15，卫星在坐标(121.56, 25.03)区域侦测到雷霆-2000（Thunderbolt-2000）多管火箭系统。目标特征清晰，置信度0.87，显示该区域可能正在进行火力部署或演习。",
+    "coordinates": {
+      "longitude": 121.56,
+      "latitude": 25.03
     },
-    {
-        "type": "Intelligence",
-        "source": "social_media_post",
-        "timestamp": "2025-03-02T11:00:00Z",
-        "text_content": "近日，在沿海某隐蔽阵地附近，侦察人员发现数辆重型轮式车辆进行机动部署。这些车辆搭载有多管发射装置，外形特征与雷霆-2000（Thunderbolt-2000）多管火箭系统高度吻合。车辆在夜间进行快速展开与撤收演练，周围伴随有通讯指挥车及弹药补给车。现场人员身着迷彩作训服，操作动作娴熟，疑似正在进行针对性的火力打击演习，其部署位置具有明显的战术意图，对周边区域安全构成潜在威胁。",
-        "coordinates": {
-            "longitude": 121.56,
-            "latitude": 25.03
-        },
-        "entities_extracted": {
-            "location": "XX山区",
-            "event_time": "recent_days",
-            "activity": "suspected arms trade"
-        }
+    "detections": [
+      {
+        "object_type": "Thunderbolt_2000",
+        "confidence": 0.87,
+        "bounding_box": [45.1, 46.2, 47.3, 48.4]
+      }
+    ]
+  },
+  {
+    "type": "Intelligence",
+    "source": "social_media_post",
+    "timestamp": "2025-03-02T11:00:00Z",
+    "text_content": "近日，在沿海某隐蔽阵地附近，侦察人员发现数辆重型轮式车辆进行机动部署。这些车辆搭载有多管发射装置，外形特征与雷霆-2000（Thunderbolt-2000）多管火箭系统高度吻合。车辆在夜间进行快速展开与撤收演练，周围伴随有通讯指挥车及弹药补给车。现场人员身着迷彩作训服，操作动作娴熟，疑似正在进行针对性的火力打击演习，其部署位置具有明显的战术意图，对周边区域安全构成潜在威胁。",
+    "coordinates": {
+      "longitude": 121.56,
+      "latitude": 25.03
     },
-    {
-        "type": "Decision from LLM",
-        "timestamp": "2025-05-02T11:00:00Z",
-        "decision": "Increase border patrol",
-        "confidence_score": 0.92,
-        "coordinates": {
-            "longitude": 121.56,
-            "latitude": 25.03
-        },
-        "text_content": "鉴于雷霆-2000系统的出现及相关情报印证，系统判定该区域存在较高军事风险。建议立即加强边境巡逻力度，部署无人机进行全天候监视，并与相关部门协调建立临时检查点。",
-        "rationale": {
-            "key_images": [
-                {
-                    "image_id": "sat_scene_001",
-                    "marked_objects": [
-                        "Thunderbolt_2000",
-                        "temporary_shelter"
-                    ]
-                }
-            ],
-            "key_intelligence": [
-                {
-                    "source": "social_media_post",
-                    "quote": "最近在XX山区出现一批可疑车辆...",
-                    "analysis": "Matches location/time with newly detected trucks"
-                }
-            ]
-        },
-        "recommendations": [
-            "Deploy UAV recon in the next 24 hours",
-            "Coordinate with local authorities for checkpoint setup"
-        ]
+    "entities_extracted": {
+      "location": "XX山区",
+      "event_time": "recent_days",
+      "activity": "suspected arms trade"
     }
+  },
+  {
+    "type": "Decision from LLM",
+    "timestamp": "2025-05-02T11:00:00Z",
+    "decision": "Increase border patrol",
+    "confidence_score": 0.92,
+    "coordinates": {
+      "longitude": 121.56,
+      "latitude": 25.03
+    },
+    "text_content": "鉴于雷霆-2000系统的出现及相关情报印证，系统判定该区域存在较高军事风险。建议立即加强边境巡逻力度，部署无人机进行全天候监视，并与相关部门协调建立临时检查点。",
+    "rationale": {
+      "key_images": [
+        {
+          "image_id": "sat_scene_001",
+          "marked_objects": ["Thunderbolt_2000", "temporary_shelter"]
+        }
+      ],
+      "key_intelligence": [
+        {
+          "source": "social_media_post",
+          "quote": "最近在XX山区出现一批可疑车辆...",
+          "analysis": "Matches location/time with newly detected trucks"
+        }
+      ]
+    },
+    "recommendations": ["Deploy UAV recon in the next 24 hours", "Coordinate with local authorities for checkpoint setup"]
+  }
 ]

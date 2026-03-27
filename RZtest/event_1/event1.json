@@ -1,155 +1,104 @@
 [
-    {
-        "type": "Detection",
-        "timestamp": "2025-03-03T09:15:00Z",
-        "scene_id": "sat_scene_001",
-        "img_source": "./event_1/FARAD_1.jpg",
-        "text_content": "2025年3月3日09:15，卫星在坐标(121.56, 25.03)区域捕获到多辆疑似HF_2E型特种车辆。图像显示车辆呈编队排列，置信度高达0.87，初步判断为一次有组织的运输或部署行动。",
-        "coordinates": {
-            "longitude": 121.56,
-            "latitude": 25.03
-        },
-        "detections": [
-            {
-                "object_type": "HF_2E",
-                "confidence": 0.87,
-                "bounding_box": [
-                    45.1,
-                    46.2,
-                    47.3,
-                    48.4
-                ]
-            },
-            {
-                "object_type": "HF_2E",
-                "confidence": 0.87,
-                "bounding_box": [
-                    45.1,
-                    46.2,
-                    47.3,
-                    48.4
-                ]
-            },
-            {
-                "object_type": "HF_2E",
-                "confidence": 0.87,
-                "bounding_box": [
-                    45.1,
-                    46.2,
-                    47.3,
-                    48.4
-                ]
-            },
-            {
-                "object_type": "HF_2E",
-                "confidence": 0.87,
-                "bounding_box": [
-                    45.1,
-                    46.2,
-                    47.3,
-                    48.4
-                ]
-            },
-            {
-                "object_type": "HF_2E",
-                "confidence": 0.87,
-                "bounding_box": [
-                    45.1,
-                    46.2,
-                    47.3,
-                    48.4
-                ]
-            },
-            {
-                "object_type": "HF_2E",
-                "confidence": 0.87,
-                "bounding_box": [
-                    45.1,
-                    46.2,
-                    47.3,
-                    48.4
-                ]
-            },
-            {
-                "object_type": "HF_2E",
-                "confidence": 0.87,
-                "bounding_box": [
-                    45.1,
-                    46.2,
-                    47.3,
-                    48.4
-                ]
-            },
-            {
-                "object_type": "HF_2E",
-                "confidence": 0.87,
-                "bounding_box": [
-                    45.1,
-                    46.2,
-                    47.3,
-                    48.4
-                ]
-            },
-            {
-                "object_type": "HF_2E",
-                "confidence": 0.87,
-                "bounding_box": [
-                    45.1,
-                    46.2,
-                    47.3,
-                    48.4
-                ]
-            }
-        ]
+  {
+    "type": "Detection",
+    "timestamp": "2025-03-03T09:15:00Z",
+    "scene_id": "sat_scene_001",
+    "img_source": "./event_1/SAR_FARAD_1.jpg",
+    "text_content": "2025年3月3日09:15，卫星在坐标(121.56, 25.03)区域捕获到多辆疑似HF_2E型特种车辆。图像显示车辆呈编队排列，置信度高达0.87，初步判断为一次有组织的运输或部署行动。",
+    "coordinates": {
+      "longitude": 121.56,
+      "latitude": 25.03
     },
+    "detections": [
+      {
+        "object_type": "HF_2E",
+        "confidence": 0.87,
+        "bounding_box": [45.1, 46.2, 47.3, 48.4]
+      },
+      {
+        "object_type": "HF_2E",
+        "confidence": 0.87,
+        "bounding_box": [45.1, 46.2, 47.3, 48.4]
+      },
+      {
+        "object_type": "HF_2E",
+        "confidence": 0.87,
+        "bounding_box": [45.1, 46.2, 47.3, 48.4]
+      },
+      {
+        "object_type": "HF_2E",
+        "confidence": 0.87,
+        "bounding_box": [45.1, 46.2, 47.3, 48.4]
+      },
+      {
+        "object_type": "HF_2E",
+        "confidence": 0.87,
+        "bounding_box": [45.1, 46.2, 47.3, 48.4]
+      },
+      {
+        "object_type": "HF_2E",
+        "confidence": 0.87,
+        "bounding_box": [45.1, 46.2, 47.3, 48.4]
+      },
+      {
+        "object_type": "HF_2E",
+        "confidence": 0.87,
+        "bounding_box": [45.1, 46.2, 47.3, 48.4]
+      },
+      {
+        "object_type": "HF_2E",
+        "confidence": 0.87,
+        "bounding_box": [45.1, 46.2, 47.3, 48.4]
+      },
+      {
+        "object_type": "HF_2E",
+        "confidence": 0.87,
+        "bounding_box": [45.1, 46.2, 47.3, 48.4]
+      }
+    ]
+  },
 
-    {
-        "type": "Intelligence",
-        "source": "social_media_post",
-        "timestamp": "2025-03-02T11:00:00Z",
-        "text_content": "近段时间，在XX山区深处的蜿蜒公路与密林交界处，陆续出现一批行踪诡秘的车辆。这些车辆车身多覆盖深色帆布，部分车型轮廓疑似HF_2E型特种运输车辆，车轮带有明显的山地越野改装痕迹，且每日凌晨至拂晓间频繁往返于无人区山谷，其行驶路线避开常规监控区域，车身上模糊的标识隐约透出非民用装备特征，种种异常动向引发周边巡逻人员高度警惕。",
-        "coordinates": {
-            "longitude": 121.56,
-            "latitude": 25.03
-        },
-        "entities_extracted": {
-            "location": "XX山区",
-            "event_time": "recent_days",
-            "activity": "suspected arms trade"
-        }
+  {
+    "type": "Intelligence",
+    "source": "social_media_post",
+    "timestamp": "2025-03-02T11:00:00Z",
+    "text_content": "近段时间，在XX山区深处的蜿蜒公路与密林交界处，陆续出现一批行踪诡秘的车辆。这些车辆车身多覆盖深色帆布，部分车型轮廓疑似HF_2E型特种运输车辆，车轮带有明显的山地越野改装痕迹，且每日凌晨至拂晓间频繁往返于无人区山谷，其行驶路线避开常规监控区域，车身上模糊的标识隐约透出非民用装备特征，种种异常动向引发周边巡逻人员高度警惕。",
+    "coordinates": {
+      "longitude": 121.56,
+      "latitude": 25.03
     },
-
-    {
-        "type": "Decision from LLM",
-        "timestamp": "2025-05-12T11:00:00Z",
-        "decision": "Increase border patrol",
-        "confidence_score": 0.92,
-        "coordinates": {
-            "longitude": 121.56,
-            "latitude": 25.03
-        },
-        "text_content": "基于卫星图像确认的HF_2E车辆部署及相关情报，系统建议立即提升边境巡逻等级。建议在未来24小时内部署无人机进行持续侦察，并协同地方当局设立检查站，以遏制潜在的非法活动。",
-        "rationale": {
-            "key_images": [
-                {
-                    "image_id": "sat_scene_001",
-                    "marked_objects": [
-                        "truck",
-                        "temporary_shelter"
-                    ]
-                }
-            ],
-            "key_intelligence": [
-                {
-                    "source": "social_media_post",
-                    "quote": "最近在XX山区出现一批可疑车辆...",
-                    "analysis": "Matches location/time with newly detected trucks"
-                }
-            ]
-        },
-        "recommendations": [
-            "Deploy UAV recon in the next 24 hours",
-            "Coordinate with local authorities for checkpoint setup"
-        ]
+    "entities_extracted": {
+      "location": "XX山区",
+      "event_time": "recent_days",
+      "activity": "suspected arms trade"
     }
+  },
+
+  {
+    "type": "Decision from LLM",
+    "timestamp": "2025-05-12T11:00:00Z",
+    "decision": "Increase border patrol",
+    "confidence_score": 0.92,
+    "coordinates": {
+      "longitude": 121.56,
+      "latitude": 25.03
+    },
+    "text_content": "基于卫星图像确认的HF_2E车辆部署及相关情报，系统建议立即提升边境巡逻等级。建议在未来24小时内部署无人机进行持续侦察，并协同地方当局设立检查站，以遏制潜在的非法活动。",
+    "rationale": {
+      "key_images": [
+        {
+          "image_id": "sat_scene_001",
+          "marked_objects": ["truck", "temporary_shelter"]
+        }
+      ],
+      "key_intelligence": [
+        {
+          "source": "social_media_post",
+          "quote": "最近在XX山区出现一批可疑车辆...",
+          "analysis": "Matches location/time with newly detected trucks"
+        }
+      ]
+    },
+    "recommendations": ["Deploy UAV recon in the next 24 hours", "Coordinate with local authorities for checkpoint setup"]
+  }
 ]

@@ -54,3 +54,12 @@ package-lock.json
 
 # 本地测试
 src/example/a-test
+
+# Temporary local maintenance scripts
+fix.py
+fix_type.py
+fix_index.js
+fix_index.cjs
+fix_index2.cjs
+test_script.js
+test_style.sh
